@@ -1,5 +1,7 @@
 {% include mathjax.html %}
-# Quantum Mechanics Using Linear Algebra
+
+# Key Quantum Ideas
+
 ## Quantum Mechanics Using Linear Algebra
 
-hey hi $\theta$
+hey hi $\psi$
