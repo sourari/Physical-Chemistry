@@ -16,4 +16,4 @@ $$<i,j>=\begin{cases} 1 \ for \ i=j \\ 0 \ for \ i\neq j \end{cases} = \delta_{i
 
 ### 1.2 Time Independent Schroedinger Equation (TISE)
 The single most important piece of quantum mechanics is the TISE defined as\\
-$$\hat{H}\psi=E\psi$$, where 
+$$\hat{H}\psi=E\psi$$, where $\psi$ is the eigenfunction of the system, $E$ is the value of the energy energy of the system and $\hat{H}=-\frac{\hbar^2}{2m}\frac{d^2}{dx^2}$ is the Hamiltonian operator for a one-dimensional system.
