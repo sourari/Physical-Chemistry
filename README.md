@@ -1,7 +1,7 @@
 {% include mathjax.html %}
 
-# Key Quantum Ideas
+#  Key Quantum Ideas
 
-## Quantum Mechanics Using Linear Algebra
+## $1)$ Quantum Mechanics Using Linear Algebra
 
 hey hi $\psi$
