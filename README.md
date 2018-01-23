@@ -18,4 +18,4 @@ $$<i,j>=\begin{cases} 1 \ for \ i=j \\ 0 \ for \ i\neq j \end{cases} = \delta_{i
 The single most important piece of quantum mechanics is the TISE defined as\\
 $$\hat{H}\psi=E\psi$$, where $\psi$ is the eigenfunction of the system, $E$ is the value of the energy energy of the system and $\hat{H}=\hat{T}+\hat{V}$ is the Hamiltonian operator for a one-dimensional system. Here $\hat{T}=-\frac{\hbar^2}{2m}\frac{d^2}{dx^2}$ and $\hat{V}$ will be defined by the given quantum system studied.
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of Yaktocat](https://creen Shot 2018-01-22 at 7.23.32 PM.png)
