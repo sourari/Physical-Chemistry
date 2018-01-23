@@ -9,4 +9,5 @@ We can also write $|v>$ and $|w>$ in a more formal and concise way as\\
 $|v>= \sum_{n=1}^{n}v_i |i>$ and $|w>= \sum_{n=1}^{n}w_i |i> $$\\
 
 ### 1.1 Inner Product
-
+The inner product of $|v>$ and $|w>$ is defined as
+$$<v,w>=\sum_{n=1}^{n}v_i ^*w_i={\begin{bmatrix} v_{1} & v_{2} & ... & v_{n} \end{bmatrix}}^* \begin{bmatrix} w_{1} \\\ w_{2} \\\ \vdots \\\ w_{n} \end{bmatrix}$$
