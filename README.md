@@ -20,5 +20,5 @@ $$\hat{H}\psi=E\psi$$, where $\psi$ is the eigenfunction of the system, $E$ is t
 
 ![Image of Yaktocat](https://Physical-Chemistry/_includes/eq.png)
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](Physical-Chemistry/_includes/eq.png)
 Format: ![Alt Text](url)
