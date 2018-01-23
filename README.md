@@ -19,5 +19,11 @@ The single most important piece of quantum mechanics is the TISE defined as\\
 $$\hat{H}\psi=E\psi$$, where $\psi$ is the eigenfunction of the system, $E$ is the value of the energy energy of the system and $\hat{H}=\hat{T}+\hat{V}$ is the Hamiltonian operator for a one-dimensional system. Here $\hat{T}=-\frac{\hbar^2}{2m}\frac{d^2}{dx^2}$ and $\hat{V}$ will be defined by the given quantum system studied.
 
 ### 1.2 Constructing Potential Energy Matrix
-<img src="https://user-images.githubusercontent.com/35305574/35256754-4f4343e6-ffc3-11e7-9027-26fe1c8dd879.jpg" width="200">
-
+From the TISE, we know that the potential energy operator, $\hat{V}$ should be a matrix operating of the wavefunction vector $\psi$. So $\hat{V}$ should be a square matrix of size $n$, where $n$ is the number of entries in the column vector representing the wavefunction. Therefore $\hat{V}$ must be of the form\\
+$\begin{bmatrix}
+ v_{11} & 0 & & \cdots & & 0&  0 \\
+ 0 & v_{22} & & \cdots & & 0&  0 \\
+ \vdots &  \vdots &   & \ddots &  \vdots & \vdots & \vdots\\
+ 0 & 0 & & \cdots & & v_{(n-1)(n-1)}&  0 \\
+0 & 0 & & \cdots & & 0&  v_{nn}
+\end{bmatrix}$
