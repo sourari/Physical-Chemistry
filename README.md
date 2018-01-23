@@ -28,4 +28,9 @@ $\begin{bmatrix}
 0 & 0 & & \cdots & & 0&  v_{nn}
 \end{bmatrix}$
 
+Example:
+Let's consider 
+
 <img src="https://user-images.githubusercontent.com/35305574/35256754-4f4343e6-ffc3-11e7-9027-26fe1c8dd879.jpg" width="200">
+|:--:| 
+| *Space* |
