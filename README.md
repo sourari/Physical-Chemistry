@@ -33,7 +33,7 @@ Let's consider a 1-dimensional potential represented in the figure below.
 <img src="https://user-images.githubusercontent.com/35305574/35256754-4f4343e6-ffc3-11e7-9027-26fe1c8dd879.jpg" width="400">
 
 The potential matrix for this potential is:
-$\hat{v}= \begin{bmatrix}
+$\hat{V}= \begin{bmatrix}
 4& 0& 0& 0& 0&0 & 0\\\
 0& 0& 0& 0& 0&0 & 0\\\
 0& 0& 0& 0& 0&0 & 0\\\
