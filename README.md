@@ -29,8 +29,15 @@ $\begin{bmatrix}
 \end{bmatrix}$
 
 Example:
-Let's consider 
-
+Let's consider a 1-dimensional potential represented in the figure below. 
 <img src="https://user-images.githubusercontent.com/35305574/35256754-4f4343e6-ffc3-11e7-9027-26fe1c8dd879.jpg" width="200">
-|:--:| 
-| *Space* |
+The potential matrix for this potential is:
+$\hat{v}= \begin{bmatrix}
+4& 0& 0& 0& 0&0 & 0\\\
+0& 0& 0& 0& 0&0 & 0\\\
+0& 0& 0& 0& 0&0 & 0\\\
+0& 0& 0& 3& 0&0 & 0\\\
+0& 0& 0& 0& 2&0 & 0\\\
+0& 0& 0& 0& 0&0 & 0\\\
+0& 0& 0& 0& 0&0 & 0
+\end{bmatrix}$
