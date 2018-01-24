@@ -1,7 +1,7 @@
 {% include mathjax.html %}
 
 #  Physical Chemistry 
---
+-
 ## Salim Ourari
 ### Bates College, Lewsiton, Maine
 
