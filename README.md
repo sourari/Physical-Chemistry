@@ -43,4 +43,4 @@ $\hat{V}= \begin{bmatrix}
 0& 0& 0& 0& 0&0 & 0
 \end{bmatrix}$
 
-[Introduction](/Introduction.md)
+[Introduction to Quantum Mechanics Concepts Using Linear Algebra](/Introduction.md)
