@@ -22,7 +22,7 @@ From the TISE, we know that the potential energy operator, $\hat{V}$ should be a
 $\begin{bmatrix}
  v_{11} & 0 & & \cdots & & 0&  0 \\\
  0 & v_{22} & & \cdots & & 0&  0 \\\
- \vdots &  \vdots &  & \ddots  & \vdots & \vdots\\\
+ \vdots &  \vdots &  & \ddots & & \vdots & \vdots\\\
  0 & 0 & & \cdots & & v_{(n-1)(n-1)}&  0 \\\
 0 & 0 & & \cdots & & 0&  v_{nn}
 \end{bmatrix}$
