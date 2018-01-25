@@ -1,7 +1,7 @@
 {% include mathjax.html %}
 
-<p align="center">
-  #  Physical Chemistry 
+# <p align="center">
+  Physical Chemistry 
 </p>
 
 ### Salim Ourari
