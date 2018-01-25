@@ -4,4 +4,4 @@
 ### Salim Ourari
 ### Bates College, Lewsiton, Maine
 
-## $1)$ [Introduction to Quantum Mechanics Concepts Using Linear Algebra](/Introduction.md)
+## $1)$ [Introduction to Quantum Mechanical Concepts Using Linear Algebra](/Introduction.md)
