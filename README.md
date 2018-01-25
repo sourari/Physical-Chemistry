@@ -1,6 +1,6 @@
 {% include mathjax.html %}
 
-# **Physical Chemistry** 
+#     **Physical Chemistry** 
 
 ### Salim Ourari
 
