@@ -1,3 +1,5 @@
+{% include mathjax.html %}
+
 # Particle in a Box
 
 The first quantum system we explore is the particle in a box (PIB) system. 
