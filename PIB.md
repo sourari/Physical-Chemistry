@@ -11,6 +11,6 @@ $V=\begin{cases} 0, & \mbox{if } 0<x<a \\\ 10^{-5}j, & \mbox{otherwise} \end{cas
 
 The potential in represented in the following figure.
 
-<img src="https://user-images.githubusercontent.com/35305574/35600148-72b520aa-05fa-11e8-88bf-b6bf9e10ba02.jpg" width="600">
+<img src="https://user-images.githubusercontent.com/35305574/35600148-72b520aa-05fa-11e8-88bf-b6bf9e10ba02.jpg" width="300">
 
 <img src="https://user-images.githubusercontent.com/35305574/35598882-f4f224e8-05f3-11e8-893f-34fd8c86dd72.jpg" width="600">
