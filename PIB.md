@@ -16,4 +16,6 @@ The potential in represented in the following figure.
 </p>
 <p align="center">Figure2.1: Potential energy</p>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/35305574/35598882-f4f224e8-05f3-11e8-893f-34fd8c86dd72.jpg" width="600"></p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/35305574/35598882-f4f224e8-05f3-11e8-893f-34fd8c86dd72.jpg" width="600">
+</p>
