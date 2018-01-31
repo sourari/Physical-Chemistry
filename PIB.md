@@ -7,7 +7,7 @@ We restrict our study to a single particle (an electron) in a 1-dimentional box 
 The potential energy inside the box is set to 0. At the boundary, we set the potential energy to a value that we know will be higher than the particle’s total energy, but also small enough to make the computation work.
 The potential energy is then given by:
 
-$V=\begin{cases} 0, & \mbox{if } 0<x<a \\\ 10^{-5}J, & \mbox{otherwise} \end{cases}$
+$V=\begin{cases} 0, & \mbox{if } 0<x<a \\\ 10^{-5}j, & \mbox{otherwise} \end{cases}$
 
 The potential in represented in the following figure.
 
