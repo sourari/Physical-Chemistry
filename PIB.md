@@ -19,7 +19,9 @@ To create the potential energy matrix in Matlab we first need to create a square
 
 v=zeros(pts,1); 
 v([1:barrier_width, (end-(barrier_width-1):end)])=barht;
-V=diag(v);                   
+V=diag(v);  
+
+The next step is to construct the potential energy matrix. The challenging part of this step is to create a matrix that take the second derivative of the eavefunction.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/35598882-f4f224e8-05f3-11e8-893f-34fd8c86dd72.jpg" width="600">
