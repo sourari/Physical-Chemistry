@@ -15,7 +15,11 @@ $V=\begin{cases} 0, & \mbox{if } 0<x<a \\\ 10^{-5}j, & \mbox{otherwise} \end{cas
 <p align="center">Figure2.1: Potential energy</p>
 
 The potential energy is given by a matrix in the position basis. The potential matrix has the values of the potential energy for reach position (x) along its diagonal. The number of position points is discrete and we can vary it easily in our Matlab code depending the degree of precision we need in our calculation of eigenvectors.
+To create the potential energy matrix in Matlab we first need to create a square matrix of the desired size. The matrix originally has zeros in all its entries then we add the potential energy values of its diagonal using the following code:
 
+v=zeros(pts,1);    
+v([1:barrier_width, (end-(barrier_width-1):end)])=barht; 
+V=diag(v);                   
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/35598882-f4f224e8-05f3-11e8-893f-34fd8c86dd72.jpg" width="600">
