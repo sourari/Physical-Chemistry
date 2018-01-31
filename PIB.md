@@ -27,6 +27,11 @@ The next step is to construct the potential energy matrix. The challenging part 
 
 The two expressions give slightly different values of the derivative, the first expression is labeled right-derivative and the second one is labeled left-derivative. Knowing that the right-derivative is obtained by subtracting the value of the $x_0$ element of the function from the subsequent element, we can then guess the entries of the elements of the right-derivative matrix, $R$. The diagonal elements $R_{i,i}$ of the matrix must have a values of $-1$ and off diagonal elements $R_{i+1,i}$ must have a values of $1$ to create the $f(x_0+1)-f(x_0)$ operation. All other elements must be zeros. We should also not forget to multiply the matrix by $\frac{1}{\Delta x}$ to complete the right-derivation operation.
 Similarly, we construct the left-derivative matrix, $L$. This time, the diagonal elements must have values of $1$, while off diagonal elements $R_{i-1,i}$ have values of $-1$.
+$\begin{bmatrix}
+-2& -1 &      & \text{\Huge0} \\\
+-1 & -2  & -1 \\\
+\text{\Huge0} &   \ddots  & \ddots & \ddots                      
+\end{bmatrix}$
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/35598882-f4f224e8-05f3-11e8-893f-34fd8c86dd72.jpg" width="600">
