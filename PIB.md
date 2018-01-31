@@ -21,7 +21,8 @@ v=zeros(pts,1);
 v([1:barrier_width, (end-(barrier_width-1):end)])=barht;
 V=diag(v);  
 
-The next step is to construct the potential energy matrix. The challenging part of this step is to create a matrix that take the second derivative of the eavefunction.
+The next step is to construct the potential energy matrix. The challenging part of this step is to create a matrix that take the second derivative of the wavefunction. We know that the first derivate of a function $f(x)$ at a point $x_0$ can be approximated as:\\
+<p align="center"> $\frac{f(x_0+1)-f(x_0)}{\Delta x}$ or $\frac{f(x_0-1)-f(x_0)}{\Delta x}$ </p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/35598882-f4f224e8-05f3-11e8-893f-34fd8c86dd72.jpg" width="600">
