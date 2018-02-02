@@ -14,5 +14,11 @@ The main idea of the position basis in 1-D is that a vector $\vec{X_i}$  represe
 <p align="center"> Graphical representation of some basis vectors </p>
 
 We can now write the energy eigenvector in the position space $(\psi_n)_x$ in vector form as:
+
+<p align="center">
 $(\psi_n)_x=c_1\begin{pmatrix} 1\\\ 0\\\ 0\\\ \vdots \end{pmatrix}+c_2\begin{pmatrix} 0\\\ 1\\\ 0\\\ \vdots \end{pmatrix}+c_3\begin{pmatrix} 0\\\ 0\\\ 1\\\ \vdots \end{pmatrix}...=\begin{pmatrix} c_1\\\ 0\\\ 0\\\ \vdots \end{pmatrix}+\begin{pmatrix} 0\\\ c_2\\\ 0\\\ \vdots \end{pmatrix}+\begin{pmatrix} 0\\\ 0\\\ c_3\\\ \vdots \end{pmatrix}...$
+</p>
+
+
+
 
