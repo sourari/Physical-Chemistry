@@ -19,6 +19,11 @@ We can now write the energy eigenvector in the position space $(\psi_n)_x$ in ve
 $(\psi_n)_x=c_1\begin{pmatrix} 1\\\ 0\\\ 0\\\ \vdots \end{pmatrix}+c_2\begin{pmatrix} 0\\\ 1\\\ 0\\\ \vdots \end{pmatrix}+c_3\begin{pmatrix} 0\\\ 0\\\ 1\\\ \vdots \end{pmatrix}...=\begin{pmatrix} c_1\\\ 0\\\ 0\\\ \vdots \end{pmatrix}+\begin{pmatrix} 0\\\ c_2\\\ 0\\\ \vdots \end{pmatrix}+\begin{pmatrix} 0\\\ 0\\\ c_3\\\ \vdots \end{pmatrix}...$
 </p>
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/35305574/35717939-1858fdcc-07b0-11e8-98bc-e2bc38839000.jpg" width="500">
+</p>
+<p align="center"> Genergy eigenvectors in position basis</p>
+
 
 
 
