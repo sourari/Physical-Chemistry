@@ -12,6 +12,6 @@ Our work is destined to physics and chemistry students equally and is helpful in
 ## Table of contents
 
 # $1)$ [Introduction to Quantum Mechanical Concepts Using Linear Algebra](/Introduction.md)
-     1. [Change of Basis.md](/Change of Basis.md)
+     1. [Change of Basis.md](/ChangeofBasis.md)
 # $2)$ [Partical in a box](/PIB.md)
 
