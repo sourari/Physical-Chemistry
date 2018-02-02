@@ -1,1 +1,7 @@
 
+## Change of basis:
+
+There are some subtle yet very fundamental concepts in quantum mechanics that, we as students, tend to overlook when we first learn quantum mechanics. The concept of changing the basis for the Hamiltonian and eigenvectors is probably the epitome of these overlooked concepts. When solving a quantum system It is to be overwhelmed by the math we are solving and forget what basis we are working on. 
+This page is designed to show the importance of paying attention to the basis we are working on and how to change between bases to simplify the math of solving quantum problems as well as extracting the needed information from the quantum system.
+
+We know that an eigenvector in position space $\psi_n(x)=c_1\vec{x_1}+c_2\vec{x_2}+c_3\vec{x_3}+...$ can be represented as a linear combination of the orthonormal basis vectors ${\vec{x_1},\vec{x_2},\vec{x_3}...}$
