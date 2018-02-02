@@ -12,7 +12,6 @@ The potential energy (presented in Figure2.1) is then given by:
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/35600148-72b520aa-05fa-11e8-88bf-b6bf9e10ba02.jpg" width="500">
 </p>
-
 <p align="center">Figure2.1: Potential energy</p>
 
 The potential energy is given by a matrix in the position basis. The potential matrix has the values of the potential energy for reach position (x) along its diagonal. The number of position points is discrete and we can vary it easily in our Matlab code depending the degree of precision we need in our calculation of eigenvectors.
