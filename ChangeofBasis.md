@@ -11,6 +11,5 @@ The main idea of the position basis in 1-D is that a vector $\vec{X_i}$  represe
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/35716147-d57ce0c8-07a4-11e8-95c0-6e951cf81814.jpg" width="500">
 </p>
-
 <p align="center"> Graphical representation of some basis vectors </p>
 
