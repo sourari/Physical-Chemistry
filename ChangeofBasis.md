@@ -1,3 +1,4 @@
+{% include mathjax.html %}
 
 ## Change of basis:
 
