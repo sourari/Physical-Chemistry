@@ -24,7 +24,7 @@ we can visualize this by plotting any of the eigenvectors, for example the groun
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/35718208-73a73ae4-07b1-11e8-9bf4-a139ccc8a928.jpg" width="500">
 </p>
-<p align="center"> Genergy eigenvectors in position basis</p>
+<p align="center"> Energy eigenvectors in position basis</p>
 
 
 
