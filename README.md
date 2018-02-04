@@ -13,7 +13,7 @@ Our work is destined to physics and chemistry students equally and is helpful in
 
 # $1)$ [Introduction to Quantum Mechanical Concepts Using Linear Algebra](/Introduction.md)
 
-1. [Change of basis](/ChangeofBasis.md)
+# 1.[Change of basis](/ChangeofBasis.md)
      
 # $2)$ [Partical in a box](/PIB.md)
 
