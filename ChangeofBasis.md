@@ -22,7 +22,7 @@ $(\psi_n)_x=c_1{\begin{pmatrix} 1\\\ 0\\\ 0\\\ \vdots \end{pmatrix}}_x+c_2{\begi
 we can visualize this by plotting any of the eigenvectors, for example the ground state $(\psi_1)_x$, and the basis vectors on the same graph. This is shown in the figure bellow, where we discretized space to 10 distinct points. The intersect of the eigenvector and each of the basis vectors $\vec{x_i}$ represents the coefficient $c_n$.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/35305574/35718208-73a73ae4-07b1-11e8-9bf4-a139ccc8a928.jpg" width="500">
+  <img src="https://user-images.githubusercontent.com/35305574/35780329-9942a2b4-09a7-11e8-97b1-aeb6267c8684.jpg" width="500">
 </p>
 <p align="center"> Energy eigenvectors in position basis</p>
 
