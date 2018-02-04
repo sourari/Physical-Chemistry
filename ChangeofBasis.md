@@ -43,6 +43,14 @@ E_1& 0 &0&0\\\
 0&0&0&\ddots
 \end{pmatrix}$.
 
+Notice that Vals is exactly the Hamiltonian in the energy basis, $H_E$. To visualize that it is indeed $H_E$, we write the TISE in the energy basis as follow:
+$H_E {\psi_n}_E=E_n{\psi_n}_E$, which can be rewritten in matrix form (we will only consider 3-D for simplicity) as:
+$\begin{pmatrix}
+E_{11}& E_{12} &E_{13}\\\
+E_{21}& E_{22} &E_{23}\\\
+E_{31}& E_{32} &E_{33}
+\end{pmatrix} {\begin{pmatrix} x\\\ y\\\ z \end{pmatrix}}_E=E_n {\begin{pmatrix} x\\\ y\\\ z \end{pmatrix}}_E$.
+
 
 
 
