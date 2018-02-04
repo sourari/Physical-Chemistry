@@ -36,12 +36,12 @@ Vecs= $\begin{pmatrix}
 \cdots
 \end{pmatrix}$.
 
-And Vals= $\begin{bmatrix}
+And Vals= $\begin{pmatrix}
 E_1& 0 &0&0\\\
 0& E_2&0&0\\\
 0&0&E_3&0\\\ 
 0&0&0&\ddots
-\end{bmatrix}$.
+\end{pmatrix}$.
 
 
 
