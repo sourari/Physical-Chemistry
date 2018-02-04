@@ -46,7 +46,7 @@ E_1& 0 &0&0\\\
 ### Hamilonian in Energy Basis:
 
 Notice that Vals is exactly the Hamiltonian in the energy basis, $H_E$. To visualize that it is indeed $ H_E $, we write the TISE in the energy basis as follow:
-$H_E {\psi_n}_E = E_n {\psi_n}_E $, which can be rewritten in matrix form (we will only show it for 3x3 matrix for simplicity, the math is same for any nxn matrix) as:
+$H_E {(\psi_n)}_E = E_n {(\psi_n)}_E $, which can be rewritten in matrix form (we will only show it for 3x3 matrix for simplicity, the math is same for any nxn matrix) as:
 
 $ \begin{pmatrix}
 E_{11}& E_{12} &E_{13}\\\
@@ -60,7 +60,7 @@ x E_{21}+ y E_{22} +z E_{23}\\\
 x E_{31}+ y E_{32} +z E_{33}
 \end{pmatrix} = E_n {\begin{pmatrix} x\\\ y\\\ z \end{pmatrix}}_E$.
 
-Applying the above equation for ${\psi_1}_E = {\begin{pmatrix} 1\\\ 0\\\ 0 \end{pmatrix}}_E $, ${\psi_2}_E = {\begin{pmatrix} 0\\\ 1\\\ 0 \end{pmatrix}}_E $ and ${\psi_3}_E = {\begin{pmatrix} 0\\\ 0\\\ 1 \end{pmatrix}}_E $. It is obvious that all off-diagonal terms will go to zero and we are left with:
+Applying the above equation for ${(\psi_1)}_E = {\begin{pmatrix} 1\\\ 0\\\ 0 \end{pmatrix}}_E $, ${(\psi_2)}_E = {\begin{pmatrix} 0\\\ 1\\\ 0 \end{pmatrix}}_E $ and ${(\psi_3)}_E = {\begin{pmatrix} 0\\\ 0\\\ 1 \end{pmatrix}}_E $. We can easily see that all the off-diagonal terms will go to zero and we are left with:
 
 $H_E=  \begin{pmatrix}
 E_1& 0 &0\\\
