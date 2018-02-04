@@ -26,7 +26,8 @@ we can visualize this by plotting any of the eigenvectors, for example the groun
 </p>
 <p align="center"> Energy eigenvectors in position basis</p>
 
-In general, if we want to find the energy eigenvectors in the position basis, we can use the Matlab commend [Vecs, Vals] = eig( $H_x$ ). This will solve the time-independent Schrodinger equation in position basis. Vecs will be a matrix with the eigenvectors (in position basis) as its columns and Vals will be a matrix with the eigenvalues on its diagonal.
+In general, if we want to find the energy eigenvectors in the position basis, we can use the Matlab commend [Vecs, Vals] = eig( $H_x$ ). This will solve the time-independent Schrodinger equation in position basis. 
+Vecs will be a matrix with the eigenvectors (in position basis) as its columns and Vals will be a matrix with the eigenvalues on its diagonal:
 
 Vecs= $\begin{pmatrix}
 {\begin{bmatrix} \psi_1 \end{bmatrix}}_x &
