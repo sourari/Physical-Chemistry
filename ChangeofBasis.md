@@ -60,13 +60,14 @@ x E_{21}+ y E_{22} +z E_{23}\\\
 x E_{31}+ y E_{32} +z E_{33}
 \end{pmatrix} = E_n {\begin{pmatrix} x\\\ y\\\ z \end{pmatrix}}_E$.
 
-Applying the above equation for ${(\psi_1)}_E = {\begin{pmatrix} 1\\\ 0\\\ 0 \end{pmatrix}}_E $, ${(\psi_2)}_E = {\begin{pmatrix} 0\\\ 1\\\ 0 \end{pmatrix}}_E $ and ${(\psi_3)}_E = {\begin{pmatrix} 0\\\ 0\\\ 1 \end{pmatrix}}_E $. We can easily see that all the off-diagonal terms will go to zero and we are left with:
+Applying the above equation for ${(\psi_1)}_E = {\begin{pmatrix} 1\\\ 0\\\ 0 \end{pmatrix}}_E $, ${(\psi_2)}_E = {\begin{pmatrix} 0\\\ 1\\\ 0 \end{pmatrix}}_E $ and ${(\psi_3)}_E = {\begin{pmatrix} 0\\\ 0\\\ 1 \end{pmatrix}}_E $. 
+We can easily see that all the off-diagonal terms will go to zero and we are left with:
 
 $H_E=  \begin{pmatrix}
 E_1& 0 &0\\\
 0& E_2&0\\\
 0&0&E_3
-\end{pmatrix}$= Vals
+\end{pmatrix}$= Vals.
 
 
 
