@@ -1,9 +1,5 @@
 {% include mathjax.html %}
-\usepackage[english]{babel}
-\usepackage[utf8x]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{amssymb}
-\usepackage{float}
+
 
 # Particle in a Box
 
@@ -34,9 +30,9 @@ The two expressions give slightly different values of the derivative, the first 
 Similarly, we construct the left-derivative matrix, $L$. This time, the diagonal elements must have values of $1$, while off diagonal elements $R_{i-1,i}$ have values of $-1$.
 
 $\begin{bmatrix}
--2& -1 &      & \text{\Huge0} \\\
+-2& -1 &      & 0 \\\
 -1 & -2  & -1 \\\
-\text{\Huge0} &   \ddots  & \ddots & \ddots                      
+0 &   \ddots  & \ddots & \ddots                      
 \end{bmatrix}$
 
 <p align="center">
