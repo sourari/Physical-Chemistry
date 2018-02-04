@@ -54,6 +54,19 @@ E_{21}& E_{22} &E_{23}\\\
 E_{31}& E_{32} &E_{33}
 \end{pmatrix} {\begin{pmatrix} x\\\ y\\\ z \end{pmatrix}}_E = E_n {\begin{pmatrix} x\\\ y\\\ z \end{pmatrix}}_E $.
 
+So that $\begin{pmatrix}
+x E_{11}+ y E_{12} +z E_{13}\\\
+x E_{21}+ y E_{22} +z E_{23}\\\
+x E_{31}+ y E_{32} +z E_{33}
+\end{pmatrix} = E_n {\begin{pmatrix} x\\\ y\\\ z \end{pmatrix}}_E$.
+
+Applying the above equation for ${\psi_1}_E = {\begin{pmatrix} 1\\\ 0\\\ 0 \end{pmatrix}}_E $, ${\psi_2}_E = {\begin{pmatrix} 0\\\ 1\\\ 0 \end{pmatrix}}_E $ and ${\psi_3}_E = {\begin{pmatrix} 0\\\ 0\\\ 1 \end{pmatrix}}_E $. It is obvious that all off-diagonal terms will go to zero and we are left with:
+
+$H_E=  \begin{pmatrix}
+E_1& 0 &0\\\
+0& E_2&0\\\
+0&0&E_3
+\end{pmatrix}$= Vals in 3-D.
 
 
 
