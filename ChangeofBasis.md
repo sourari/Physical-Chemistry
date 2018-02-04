@@ -34,14 +34,14 @@ Vecs= $\begin{pmatrix}
 {\begin{bmatrix} \psi_1 \end{bmatrix}}_x &
 {\begin{bmatrix} \psi_1 \end{bmatrix}}_x &
 \cdots
-\end{pmatrix}$
+\end{pmatrix}$.
 
 And Vals= $\begin{bmatrix}
 E_1& 0 &0&0\\\
 0& E_2&0&0\\\
 0&0&E_3&0\\\ 
 0&0&0&\ddots
-\end{bmatrix}$
+\end{bmatrix}$.
 
 
 
