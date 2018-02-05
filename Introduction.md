@@ -29,7 +29,7 @@ $\begin{bmatrix}
 
 Example:
 Let's consider a 1-dimensional potential represented in the figure below. 
-<img src="https://user-images.githubusercontent.com/35305574/35256754-4f4343e6-ffc3-11e7-9027-26fe1c8dd879.jpg" width="400">
+<img src="https://user-images.githubusercontent.com/35305574/35784820-b0dd9018-09e9-11e8-8597-b341a167d9eb.jpg" width="600">
 
 The potential matrix for this potential is:
 $\hat{V}= \begin{bmatrix}
