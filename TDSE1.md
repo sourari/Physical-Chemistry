@@ -25,3 +25,19 @@ Now we can divide both sides by $\Psi(x,t)$, this cancels a few terms and are le
 Looking at the above equation, we can see that the left-hand side is only x-dependent while the right-hand side is only time-dependent. Mathematically, this is only possible if both sides are equal to one (the same) constant. We can already notice by looking at the left side of the equation that the constant has to be the energy $E$. Doing so, we get back our TISE
 
 <p align="center">  $H \psi(x)_n=E \psi(x)_n$ and a second equation $\frac{\partial}{\partial t} T(t)= \frac{-i E_n}{\hbar} T(t)$. </p>
+
+We know how to deal with the TISE. So will not say more about that part in this page, instead we will try to focus on solving the time dependent part. 
+
+First, lets rewrite it in a form ready to integrate as follow:
+
+<p align="center">  $\frac{dT}{T(t)}= (\frac{-i E_n}{\hbar}) dt $. </p>
+
+Then taking integrating both sides we obtain
+
+<p align="center">  $\int_{0}^{T(t)}\frac{1}{T(t)}dT= \int_{o}^{t} (\frac{-i E_n}{\hbar}) dt $. </p>
+
+<p align="center">  So $ln(T(t))=(\frac{-i E_n}{\hbar})t$. </p>
+
+finally, 
+
+<p align="center">  $T(t)= e^{(\frac{-i E_n}{\hbar})t}$. </p>
