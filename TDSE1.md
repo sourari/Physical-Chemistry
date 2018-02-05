@@ -42,4 +42,17 @@ finally,
 
 <p align="center">  $T(t)= e^{(\frac{-i E_n}{\hbar})t}$. </p>
 
-Putting everything together, we have $\Psi(x,t)=\psi(x)e^{(\frac{-i E_n}{\hbar})t}$. But we should not forget that this can only be achieved if the time and space dependence of the wavefunction are separable. So w good question to ask is when are they separable and does that mean physically to have them separable?
+Putting everything together, we have $\Psi(x,t)=\psi(x)e^{(\frac{-i E_n}{\hbar})t}$. But we should not forget that this can only be achieved if the time and space dependence of the wavefunction are separable. So a good question to ask is when are they separable and does that mean physically to have them separable?
+
+It is important to notice that all physically realizable states are solutions to the TDSE but not all of them can be separated into a spacial and a time dependent functions. Only energy eigenfunction, in other words only the $\Psi(x,t)$ that satisfy the TISE, can be separated and therefore our derivations can only work for energy eigenfunctions. 
+
+Now to understand the physical meaning of our derived separable function let's look at what the time-dependent part does.
+We can use Euler formula to  obtain 
+
+<p align="center"> $e^{\frac{-i E_n}{\hbar}t}= $ cos$ (\frac{ E_n}{\hbar}t) - i$ sin$ (\frac{ E_n}{\hbar}t)$. </p>
+
+This represents a rotation in the complex plane with a frequency $\frac{E_n}{\hbar}$ as shown in figure bellow:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/35305574/35788659-b433fafc-0a04-11e8-8652-6405e03fd2cb.jpg" width="500">
+</p>
