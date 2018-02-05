@@ -36,7 +36,8 @@ Then taking integrating both sides we obtain
 
 <p align="center">  $\int_{0}^{T(t)}\frac{1}{T(t)}dT= \int_{o}^{t} (\frac{-i E_n}{\hbar}) dt $. </p>
 
-So, <p align="center">   $ln(T(t))=(\frac{-i E_n}{\hbar})t$. </p>
+So,
+<p align="center">   $ln(T(t))=(\frac{-i E_n}{\hbar})t$. </p>
 
 finally, 
 
