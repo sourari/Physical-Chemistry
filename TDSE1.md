@@ -41,3 +41,5 @@ Then taking integrating both sides we obtain
 finally, 
 
 <p align="center">  $T(t)= e^{(\frac{-i E_n}{\hbar})t}$. </p>
+
+Putting everything together, we have $\Psi(x,t)=\psi(x)e^{(\frac{-i E_n}{\hbar})t}$. But we should not forget that this can only be achieved if the time and space dependence of the wavefunction are separable. So w good question to ask is when are they separable and does that mean physically to have them separable?
