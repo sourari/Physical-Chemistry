@@ -72,7 +72,7 @@ E_1& 0 &0\\\
 
 ### Change of Basis:
 
-Using our Vecs matrix we can go from energy eigenvectors in energy basis ${\psi_n}_E$ to energy eigenvectors in position basis ${\psi_n}_x$. This can be achieved as follow:
+Using our Vecs matrix we can go from energy eigenvectors in energy basis ${(\psi_n)}_E$ to energy eigenvectors in position basis ${\psi_n}_x$. This can be achieved as follow:
 If we "operate" the Vecs matrix on ${\psi_1}_E$ we have:
 $\begin{pmatrix}
 {\begin{bmatrix} \psi_1 \end{bmatrix}}_x &
