@@ -6,7 +6,7 @@ There are some subtle yet very fundamental concepts in quantum mechanics that, w
 This page is designed to show the importance of paying attention to the basis we are working on and how to change between bases to simplify the math of solving quantum problems as well as extracting the needed information from the quantum system. In this work, we will be using examples from the paticle in a box system (see PIB), but our derivations can be applied to any quantum system.
 
 We know that an energy eigenvector in the position space $(\psi_n)_x$ can be represented as a linear combination of the orthonormal basis vectors ${\vec{x_1},\vec{x_2},\vec{x_3}...}$ as: $(\psi_n)_x=c_1\vec{x_1}+c_2\vec{x_2}+c_3\vec{x_3}+...$.
-The main idea of the position basis in 1-D is that a vector $\vec{X_i}$  represents a delta function with a values of $1$ at $i$ and has a values of $0$ everywhere else. In vector form, this is represented as $\vec{X_1}={\begin{pmatrix} 1\\\ 0\\\ 0\\\ \vdots \end{pmatrix}}_x$ and $\vec{X_2}={\begin{pmatrix} 0\\\ 1\\\ 0\\\ \vdots \end{pmatrix}}_x$ etc... as shown in the following figure.
+The main idea of the position basis in 1-D is that a vector $\vec{X_i}$  represents a delta function with a values of $1$ at $i$ and has a values of $0$ everywhere else. In vector form, this is represented as $\vec{X_1}={\begin{pmatrix} 1\\\ 0\\\ 0\\\ \vdots \end{pmatrix}}_x$ and $\vec{X_2}={\begin{pmatrix} 0\\\ 1\\\ 0\\\ \vdots \end{pmatrix}}_x$ etc... This can be visualized in the following figure.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/35716147-d57ce0c8-07a4-11e8-95c0-6e951cf81814.jpg" width="500">
