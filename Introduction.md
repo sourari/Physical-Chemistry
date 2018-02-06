@@ -37,7 +37,7 @@ From the TISE, we know that the potential energy operator, $\hat{V}$ should be a
 
 Example:
 Let's consider a 1-dimensional potential represented in the figure below. 
-<img src="https://user-images.githubusercontent.com/35305574/35784820-b0dd9018-09e9-11e8-8597-b341a167d9eb.jpg" width="600">
+<p align="center"> <img src="https://user-images.githubusercontent.com/35305574/35784820-b0dd9018-09e9-11e8-8597-b341a167d9eb.jpg" width="600"> </p>
 
 The potential matrix for this potential is:
 <p align="center"> $\hat{V}= \begin{bmatrix}
