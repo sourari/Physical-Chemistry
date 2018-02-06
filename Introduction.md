@@ -22,24 +22,25 @@ In quantum mechanics, the basis vectors $|1>, |2>... |n>$ represent the eigenvec
 The single most important piece of quantum mechanics is the TISE defined as:
 
 <p align="center"> $\hat{H}\psi=E\psi$, </p>
-where $\psi$ is the eigenfunction of the system, $E$ is the value of the energy of the system and $\hat{H}=\hat{T}+\hat{V}$ is the Hamiltonian operator. $\hat{T}=-\frac{\hbar^2}{2m}\frac{d^2}{dx^2}$ for a on-dimentional system and $\hat{V}$ will be described by the pareticular quantum system studied.
+where $\psi$ is the eigenfunction of the system, $E$ is the value of the energy of the system and $\hat{H}=\hat{T}+\hat{V}$ is the Hamiltonian operator. $\hat{T}=-\frac{\hbar^2}{2m}\frac{d^2}{dx^2}$ for a on-dimentional system and $\hat{V}$ will be described by the particular quantum system studied.
 
 ### 1.2 Constructing Potential Energy Matrix
-From the TISE, we know that the potential energy operator, $\hat{V}$ should be a matrix operating of the wavefunction vector $\psi$. So $\hat{V}$ should be a square matrix of size $n$, where $n$ is the number of entries in the column vector representing the wavefunction. Therefore $\hat{V}$ must be of the form\\
-$\begin{bmatrix}
+From the TISE, we know that the potential energy operator, $\hat{V}$ should be a matrix operating on the wavefunction represented by a vector $\psi$. So $\hat{V}$ should be a square matrix of size $n$, where $n$ is the number of entries in the column vector representing the wavefunction. Therefore $\hat{V}$ must be of the form
+
+<p align="center"> $\begin{bmatrix}
  v_{11} & 0 & & \cdots & & 0&  0 \\\
  0 & v_{22} & & \cdots & & 0&  0 \\\
  \vdots &  \vdots &  & \ddots & & \vdots & \vdots\\\
  0 & 0 & & \cdots & & v_{(n-1)(n-1)}&  0 \\\
 0 & 0 & & \cdots & & 0&  v_{nn}
-\end{bmatrix}$
+\end{bmatrix}$ </p>
 
 Example:
 Let's consider a 1-dimensional potential represented in the figure below. 
 <img src="https://user-images.githubusercontent.com/35305574/35784820-b0dd9018-09e9-11e8-8597-b341a167d9eb.jpg" width="600">
 
 The potential matrix for this potential is:
-$\hat{V}= \begin{bmatrix}
+<p align="center"> $\hat{V}= \begin{bmatrix}
 4& 0& 0& 0& 0&0 & 0\\\
 0& 0& 0& 0& 0&0 & 0\\\
 0& 0& 0& 0& 0&0 & 0\\\
@@ -47,4 +48,4 @@ $\hat{V}= \begin{bmatrix}
 0& 0& 0& 0& 2&0 & 0\\\
 0& 0& 0& 0& 0&0 & 0\\\
 0& 0& 0& 0& 0&0 & 0
-\end{bmatrix}$
+\end{bmatrix}$ </p>
