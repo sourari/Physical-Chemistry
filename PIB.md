@@ -40,11 +40,11 @@ Now the second derivative matrix can then be obtained by multiplying the left an
 
 Therefore, the kinetic energy can be expressed in matrix form as:
 
-$ T= -(\frac{{\hbar}^2}{2 m}) \begin{bmatrix}
+<p align="center"> $D=LR= \begin{bmatrix}
 -2& -1 &      & 0 \\\
 -1 & -2  & -1 \\\
 0 &   \ddots  & \ddots & \ddots                      
-\end{bmatrix}$ 
+\end{bmatrix}$ </p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/35598882-f4f224e8-05f3-11e8-893f-34fd8c86dd72.jpg" width="600">
