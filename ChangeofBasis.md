@@ -24,7 +24,7 @@ we can visualize this by plotting any of the eigenvectors, for example the groun
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/35780329-9942a2b4-09a7-11e8-97b1-aeb6267c8684.jpg" width="500">
 </p>
-<p align="center"> Energy eigenvectors in position basis</p>
+<p align="center"> Energy eigenvectors in position basis </p>
 
 In general, if we want to find the energy eigenvectors in the position basis, we can use the Matlab commend [Vecs, Vals] = eig( $H_x$ ). This will solve the time-independent Schrodinger equation in position basis. 
 Vecs will be a matrix with the eigenvectors (in position basis) as its columns and Vals will be a matrix with the eigenvalues on its diagonal:
@@ -48,26 +48,27 @@ E_1& 0 &0&0\\\
 Notice that Vals is exactly the Hamiltonian in the energy basis, $H_E$. To visualize that it is indeed $ H_E $, we write the TISE in the energy basis as follow:
 $H_E {(\psi_n)}_E = E_n {(\psi_n)}_E $, which can be rewritten in matrix form (we will only show it for 3x3 matrix for simplicity, the math would be the same for any nxn matrix) as:
 
-$ \begin{pmatrix}
+<p align="center"> $ \begin{pmatrix}
 E_{11}& E_{12} &E_{13}\\\
 E_{21}& E_{22} &E_{23}\\\
 E_{31}& E_{32} &E_{33}
-\end{pmatrix} {\begin{pmatrix} x\\\ y\\\ z \end{pmatrix}}_E = E_n {\begin{pmatrix} x\\\ y\\\ z \end{pmatrix}}_E $.
+\end{pmatrix} {\begin{pmatrix} x\\\ y\\\ z \end{pmatrix}}_E = E_n {\begin{pmatrix} x\\\ y\\\ z \end{pmatrix}}_E $. </p>
 
-So that $\begin{pmatrix}
+So,
+<p align="center"> $\begin{pmatrix}
 x E_{11}+ y E_{12} +z E_{13}\\\
 x E_{21}+ y E_{22} +z E_{23}\\\
 x E_{31}+ y E_{32} +z E_{33}
-\end{pmatrix} = E_n {\begin{pmatrix} x\\\ y\\\ z \end{pmatrix}}_E$.
+\end{pmatrix} = E_n {\begin{pmatrix} x\\\ y\\\ z \end{pmatrix}}_E$. </p>
 
 Applying the above equation for ${(\psi_1)}_E = {\begin{pmatrix} 1\\\ 0\\\ 0 \end{pmatrix}}_E $, ${(\psi_2)}_E = {\begin{pmatrix} 0\\\ 1\\\ 0 \end{pmatrix}}_E $ and ${(\psi_3)}_E = {\begin{pmatrix} 0\\\ 0\\\ 1 \end{pmatrix}}_E $. 
 We can easily see that all the off-diagonal terms will go to zero and we are left with:
 
-$H_E=  \begin{pmatrix}
+<p align="center"> $H_E=  \begin{pmatrix}
 E_1& 0 &0\\\
 0& E_2&0\\\
 0&0&E_3
-\end{pmatrix}$= Vals.
+\end{pmatrix}$= Vals. </p>
 
 ### Change of Basis:
 
