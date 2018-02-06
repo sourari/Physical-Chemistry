@@ -83,7 +83,7 @@ If we "operate" the Vecs matrix on ${(\psi_1)}_E$ we wil have:
 \cdots
 \end{pmatrix} {\begin{pmatrix} 1\\\ 0\\\ 0\\\ \vdots \end{pmatrix}}_E = {\begin{bmatrix} \psi_1 \end{bmatrix}}_x $. </p>
 
-So we obtained the first eigenvector in position basis. We can use this method for any ${(\psi_n)}_x$ by operating the Vecs matrix on the corresponding ${\psi_n}_E$. 
+So we obtained the first eigenvector in position basis. We can use this method for any ${(\psi_n)}_x$ by operating the Vecs matrix on the corresponding ${(\psi_n)}_E$. 
 
 
 
