@@ -30,11 +30,13 @@ The two expressions give slightly different values of the derivative, the first 
 The diagonal elements $R_{i,i}$ of the matrix must have a values of $-1$ and off diagonal elements $R_{i+1,i}$ must have a values of $1$ to create the $f(x_0+1)-f(x_0)$ operation. All other elements must be zeros. We should also not forget to multiply the matrix by $\frac{1}{\Delta x}$ to complete the right-derivation operation.
 Similarly, we construct the left-derivative matrix, $L$. This time, the diagonal elements must have values of $1$, while off diagonal elements $R_{i-1,i}$ have values of $-1$.
 
-$\begin{bmatrix}
+Now the second derivative matrix can then be obtained by multiplying the left and right derivative matrices:
+
+<p align="center"> $D=LR= \begin{bmatrix}
 -2& -1 &      & 0 \\\
 -1 & -2  & -1 \\\
 0 &   \ddots  & \ddots & \ddots                      
-\end{bmatrix}$
+\end{bmatrix}$ </p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/35598882-f4f224e8-05f3-11e8-893f-34fd8c86dd72.jpg" width="600">
