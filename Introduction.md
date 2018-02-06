@@ -22,7 +22,7 @@ In quantum mechanics, the basis vectors $|1>, |2>... |n>$ represent the eigenvec
 The single most important piece of quantum mechanics is the TISE defined as:
 
 <p align="center"> $\hat{H}\psi=E\psi$</p>, 
-where $\psi$ is the eigenfunction of the system, $E$ is the value of the energy energy of the system and $\hat{H}=\hat{T}+\hat{V}$ is the Hamiltonian operator for a one-dimensional system. Here $\hat{T}=-\frac{\hbar^2}{2m}\frac{d^2}{dx^2}$ and $\hat{V}$ will be defined by the given quantum system studied.
+where $\psi$ is the eigenfunction of the system, $E$ is the value of the energy of the system and $\hat{H}=\hat{T}+\hat{V}$ is the Hamiltonian operator for a one-dimensional system. Here $\hat{T}=-\frac{\hbar^2}{2m}\frac{d^2}{dx^2}$ and $\hat{V}$ will be defined by the given quantum system studied.
 
 ### 1.2 Constructing Potential Energy Matrix
 From the TISE, we know that the potential energy operator, $\hat{V}$ should be a matrix operating of the wavefunction vector $\psi$. So $\hat{V}$ should be a square matrix of size $n$, where $n$ is the number of entries in the column vector representing the wavefunction. Therefore $\hat{V}$ must be of the form\\
