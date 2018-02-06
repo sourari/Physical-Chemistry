@@ -19,7 +19,7 @@ This allows us to write the energy eigenvector in the position space $(\psi_n)_x
 $(\psi_n)_x=c_1{\begin{pmatrix} 1\\\ 0\\\ 0\\\ \vdots \end{pmatrix}}_x+c_2{\begin{pmatrix} 0\\\ 1\\\ 0\\\ \vdots \end{pmatrix}}_x+c_3{\begin{pmatrix} 0\\\ 0\\\ 1\\\ \vdots \end{pmatrix}}_x...={\begin{pmatrix} c_1\\\ 0\\\ 0\\\ \vdots \end{pmatrix}}_x+{\begin{pmatrix} 0\\\ c_2\\\ 0\\\ \vdots \end{pmatrix}}_x+{\begin{pmatrix} 0\\\ 0\\\ c_3\\\ \vdots \end{pmatrix}}_x...$
 </p>
 
-we can visualize this by plotting any of the eigenvectors, for example the ground state $(\psi_1)_x$, and the basis vectors on the same graph. This is shown in the figure bellow, where we discretized space to 10 distinct points. The intersect of the eigenvector and each of the basis vectors $\vec{x_i}$ represents the coefficient $c_n$.
+we can visualize this by plotting any of the eigenvectors, for example the ground state $(\psi_1)_x$, and the basis vectors on the same graph. This is shown in the figure bellow, where we discretized space to 10 distinct points. The intersect of the eigenvector and each of the basis vectors $\vec{x_i}$ represents the coefficient $c_i$.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/35780329-9942a2b4-09a7-11e8-97b1-aeb6267c8684.jpg" width="500">
