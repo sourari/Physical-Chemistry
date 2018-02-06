@@ -26,7 +26,8 @@ The next step is to construct the kinetic energy matrix. The challenging part of
 
 <p align="center"> $\frac{f(x_0+1)-f(x_0)}{\Delta x}$ or $\frac{f(x_0) - f(x_0-1)}{\Delta x}$. </p>
 
-The two expressions give slightly different values of the derivative, the first expression is labeled right-derivative and the second one is labeled left-derivative. Knowing that the right-derivative is obtained by subtracting the value of the $x_0$ element of the function from the subsequent element, we can then guess the entries of the elements of the right-derivative matrix, $R$. The diagonal elements $R_{i,i}$ of the matrix must have a values of $-1$ and off diagonal elements $R_{i+1,i}$ must have a values of $1$ to create the $f(x_0+1)-f(x_0)$ operation. All other elements must be zeros. We should also not forget to multiply the matrix by $\frac{1}{\Delta x}$ to complete the right-derivation operation.
+The two expressions give slightly different values of the derivative, the first expression is labeled right-derivative and the second one is labeled left-derivative. Knowing that the right-derivative is obtained by subtracting the value of the $x_0$ element of the function from the subsequent element, we can then guess the entries of the elements of the right-derivative matrix, $R$. 
+The diagonal elements $R_{i,i}$ of the matrix must have a values of $-1$ and off diagonal elements $R_{i+1,i}$ must have a values of $1$ to create the $f(x_0+1)-f(x_0)$ operation. All other elements must be zeros. We should also not forget to multiply the matrix by $\frac{1}{\Delta x}$ to complete the right-derivation operation.
 Similarly, we construct the left-derivative matrix, $L$. This time, the diagonal elements must have values of $1$, while off diagonal elements $R_{i-1,i}$ have values of $-1$.
 
 $\begin{bmatrix}
