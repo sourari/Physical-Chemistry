@@ -46,9 +46,9 @@ Therefore, the kinetic energy can be expressed in matrix form as:
 0 &   \ddots  & \ddots & \ddots                      
 \end{bmatrix}$ </p>
 
+Now putting everything together, we can solve the TISE in Matlab and obtain the following eigenvectors: 
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/35598882-f4f224e8-05f3-11e8-893f-34fd8c86dd72.jpg" width="600">
 </p>
 <p align="center">Figure2.2: Wavefunctions for 3 different energy levels of the PIB system </p>
-
-$\frac{1}{1}$
