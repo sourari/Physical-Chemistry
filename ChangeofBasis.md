@@ -79,7 +79,7 @@ $\begin{pmatrix}
 {\begin{bmatrix} \psi_1 \end{bmatrix}}_x &
 {\begin{bmatrix} \psi_1 \end{bmatrix}}_x &
 \cdots
-\end{pmatrix} {\begin{pmatrix} 1\\\ 0\\\ 0 \end{pmatrix}}_E = {\begin{bmatrix} \psi_1 \end{bmatrix}}_x $. So we obtained the first eigenvector in position basis. We can use this method for any ${\psi_n}_x$ by operating the Vecs matrix on the corresponding ${\psi_n}_E$. 
+\end{pmatrix} {\begin{pmatrix} 1\\\ 0\\\ 0 \end{pmatrix}}_E = {\begin{bmatrix} \psi_1 \end{bmatrix}}_x $. So we obtained the first eigenvector in position basis. We can use this method for any ${(\psi_n)}_x$ by operating the Vecs matrix on the corresponding ${\psi_n}_E$. 
 
 
 
