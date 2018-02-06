@@ -51,4 +51,4 @@ Therefore, the kinetic energy can be expressed in matrix form as:
 </p>
 <p align="center">Figure2.2: Wavefunctions for 3 different energy levels of the PIB system </p>
 
-\frac{1}{1}
+$\frac{1}{1}$
