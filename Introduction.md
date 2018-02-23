@@ -6,7 +6,7 @@ Linear algebra is the natural language of quantum mechanics. So it is important 
 Linear algebra allows us to express quantum states in vector forms. This, in my opinion, makes the ideas of orthogonality and normalization of wavefunctions more intuitive. We all know, from introductory linear algebra, what it means to normalize a vector and what orthogonal sets of vectors mean. This makes our lives much easier later in our explorations.
 
 ### 1.1 Orthonormal basis
-Consider a basis formed by the linearly independent vectors $|1>, |2>, |3>... and |n>$ in n-dimensional space, we can write any vector in this space as a linear combination of these vectors.
+Consider a basis formed by the linearly independent vectors $|1>, |2>, |3>... and |n>$ in an n-dimensional space, we can write any vector in this space as a linear combination of these vectors.
 For example, we can write an arbitrary vector $|v>$ as 
 
 <p align="center"> $|v>=v_1\begin{bmatrix} 1 \\\ 0 \\\ \vdots \\\ 0 \end{bmatrix}+v_2\begin{bmatrix} 0 \\\ 1 \\\ \vdots \\\ 0 \end{bmatrix}+v_n\begin{bmatrix} 0 \\\ 0 \\\ \vdots \\\ 1 \end{bmatrix}=\begin{bmatrix} v_{1} \\\ v_{2} \\\ \vdots \\\ v_{n} \end{bmatrix}$. </p>
