@@ -3,7 +3,11 @@
 
 ## Introduction to Quantum Mechanics Concepts Using Linear Algebra
 Linear algebra is the natural language of quantum mechanics. So it is important to begin our explorations by a quick refresher of the main ideas of linear algebra that are most relevant to quantum theory.
-Linear algebra allows us to express quantum states in vector forms. This, in my opinion, makes the ideas of orthogonality and normalization of wavefunctions more intuitive. We all know, from introductory linear algebra, what it means to normalize a vector and what orthogonal sets of vectors mean. Taking a basis formed by linearly independent vectors $|1>, |2>, |3>... |n>$ in n-dimensional space, we can write any vector in this space as a linear combination of these vectors.
+Linear algebra allows us to express quantum states in vector forms. This, in my opinion, makes the ideas of orthogonality and normalization of wavefunctions more intuitive. We all know, from introductory linear algebra, what it means to normalize a vector and what orthogonal sets of vectors mean. 
+
+### 1.1 Orthonormal basis
+
+Taking a basis formed by linearly independent vectors $|1>, |2>, |3>... |n>$ in n-dimensional space, we can write any vector in this space as a linear combination of these vectors.
 For example, we can write an arbitrary vector $|v>$ as 
 
 <p align="center"> $|v>=v_1\begin{bmatrix} 1 \\\ 0 \\\ \vdots \\\ 0 \end{bmatrix}+v_2\begin{bmatrix} 0 \\\ 1 \\\ \vdots \\\ 0 \end{bmatrix}+v_n\begin{bmatrix} 0 \\\ 0 \\\ \vdots \\\ 1 \end{bmatrix}=\begin{bmatrix} v_{1} \\\ v_{2} \\\ \vdots \\\ v_{n} \end{bmatrix}$. </p>
@@ -13,7 +17,7 @@ and another vector $|w>$ as
 We can also write $|v>$ and $|w>$ in a more formal and concise way as
  <p align="center">$|v>= \sum_{n=1}^{n}v_i |i> \ and \ |w>= \sum_{n=1}^{n}w_i |i> $. </p>
 
-### 1.1 Inner Product
+### 1.2 Inner Product
 The inner product of $|v>$ and $|w>$ is defined as
 <p align="center"> $<v,w>=\sum_{n=1}^{n}v_i ^*w_i={\begin{bmatrix} v_{1} & v_{2} & ... & v_{n} \end{bmatrix}} \begin{bmatrix} w_{1} \\\ w_{2} \\\ \vdots \\\ w_{n} \end{bmatrix}$.</p>
 In quantum mechanics, the basis vectors $|1>, |2>... |n>$ represent the eigenvectors of a quantum operator such as the Hamiltonian $\hat{H}$ or the momentum operator $\hat{P}$. These vectors are orthonormal, meaning that they are unit vectors and are mutually orthogonal. This can be summarized as follow:
