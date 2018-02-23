@@ -32,7 +32,6 @@ where $\psi$ is the eigenfunction of the system, $E$ is the value of the energy 
 
 ### 1.4 Quantum Operators
 Quantum operators such as the position operator, angular and linear momentum or the energy operators, the Hamiltonian H, are all represented by matrices. These are square n by n matrices, where n depends on the quantization of the space and can be infinite.
-
 So let’s see one example of an operator matrix.
 
 ### 1.5 Constructing the Potential Energy Matrix
