@@ -20,7 +20,7 @@ We can also write $|v>$ and $|w>$ in a more formal and concise way as
 Inner products are ubiquitous in the realm of quantum mechanics. So it is important to have a quick refresher of inner products and get familiar with the notation we will be using in our study.
 
 The inner product of $|v>$ and $|w>$ is defined as
-<p align="center"> $<v,w>=\sum_{n=1}^{n}v_i ^*w_i={\begin{bmatrix} v_{1} & v_{2} & ... & v_{n} \end{bmatrix}} \begin{bmatrix} w_{1} \\\ w_{2} \\\ \vdots \\\ w_{n} \end{bmatrix}$.</p>
+<p align="center"> $<v,w>={\begin{bmatrix} v_{1} & v_{2} & ... & v_{n} \end{bmatrix}} \begin{bmatrix} w_{1} \\\ w_{2} \\\ \vdots \\\ w_{n} \end{bmatrix}$=\sum_{n=1}^{n}v_i ^*w_i.</p>
 In quantum mechanics, the basis vectors $|1>, |2>... |n>$ represent the eigenvectors of a quantum operator such as the Hamiltonian $\hat{H}$ or the momentum operator $\hat{P}$. These vectors are orthonormal, meaning that they are unit vectors and are mutually orthogonal. This can be summarized as follow:
 <p align="center"> $<i,j>=\begin{cases} 1 \ for \ i=j \\ 0 \ for \ i\neq j \end{cases} = \delta_{ij}$ </p>
 
