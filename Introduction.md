@@ -24,13 +24,15 @@ The inner product of $|v>$ and $|w>$ is defined as
 In quantum mechanics, the basis vectors $|1>, |2>... |n>$ represent the eigenvectors of quantum operators such as the Hamiltonian $\hat{H}$ or the momentum operator $\hat{P}$. These vectors are orthonormal, meaning that they are unit vectors and are mutually orthogonal. This can be summarized as follow:
 <p align="center"> $<i,j>=\begin{cases} 1 \ for \ i=j \\ 0 \ for \ i\neq j \end{cases} = \delta_{ij}$ </p>
 
-### 1.2 Time Independent Schroedinger Equation (TISE)
+### 1.3 Time Independent Schroedinger Equation (TISE)
 The single most important piece of quantum mechanics is the TISE defined as:
 
 <p align="center"> $\hat{H}\psi=E\psi$, </p>
 where $\psi$ is the eigenfunction of the system, $E$ is the value of the energy of the system and $\hat{H}=\hat{T}+\hat{V}$ is the Hamiltonian operator. $\hat{T}=-\frac{\hbar^2}{2m}\frac{d^2}{dx^2}$ for a on-dimentional system and $\hat{V}$, the potential energy operator, is described by the particular quantum system studied.
 
-### 1.2 Constructing Potential Energy Matrix
+### 1.4 Quantum Operators
+
+### 1.5 Constructing the Potential Energy Matrix
 From the TISE, we know that the potential energy operator, $\hat{V}$ should be a matrix operating on the wavefunction represented by a vector $\psi$. So $\hat{V}$ should be a square matrix of size $n$, where $n$ is the number of entries in the column vector representing the wavefunction. Therefore $\hat{V}$ must be of the form
 
 <p align="center"> $\begin{bmatrix}
