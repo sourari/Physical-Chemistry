@@ -46,11 +46,8 @@ Therefore, $\hat{V}$ must be a diagonal matrix of the form
 0 & 0 & & \cdots & & 0&  v_{nn}
 \end{bmatrix}$ </p>
 
-Example:
-Let's consider a 1-dimensional potential represented in the figure below. 
-<p align="center"> <img src="https://user-images.githubusercontent.com/35305574/35784820-b0dd9018-09e9-11e8-8597-b341a167d9eb.jpg" width="600"> </p>
+For example, we can consider the potential shown in the figure bellow. We can express this potential energy in matrix for as
 
-The potential matrix for this potential is:
 <p align="center"> $\hat{V}= \begin{bmatrix}
 4& 0& 0& 0& 0&0 & 0\\\
 0& 0& 0& 0& 0&0 & 0\\\
@@ -60,3 +57,6 @@ The potential matrix for this potential is:
 0& 0& 0& 0& 0&0 & 0\\\
 0& 0& 0& 0& 0&0 & 0
 \end{bmatrix}$ </p>
+
+<p align="center"> <img src="https://user-images.githubusercontent.com/35305574/35784820-b0dd9018-09e9-11e8-8597-b341a167d9eb.jpg" width="600"> </p>
+
