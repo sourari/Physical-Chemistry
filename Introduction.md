@@ -25,13 +25,13 @@ In quantum mechanics, the basis vectors $|1>, |2>... |n>$ represent the eigenvec
 <p align="center"> $<i,j>=\begin{cases} 1 \ for \ i=j \\ 0 \ for \ i\neq j \end{cases} = \delta_{ij}$. </p>
 
 ### 1.3 Time Independent Schroedinger Equation (TISE)
-The single most important piece of quantum mechanics is the TISE defined as:
+The single most important piece of quantum mechanics is the TISE expressed as an eigenvalue equation
 
 <p align="center"> $\hat{H}\psi=E\psi$, </p>
-where $\psi$ is the eigenfunction of the system, $E$ is the value of the energy of the system and $\hat{H}=\hat{T}+\hat{V}$ is the Hamiltonian operator. $\hat{T}=-\frac{\hbar^2}{2m}\frac{d^2}{dx^2}$ for a on-dimentional system and $\hat{V}$, the potential energy operator, is described by the particular quantum system studied.
+where $\psi$ is the eigenfunction of the system, $E$ is the value of the energy of the system and $\hat{H}=\hat{T}+\hat{V}$ is the Hamiltonian operator. $\hat{T}=-\frac{\hbar^2}{2m}\frac{d^2}{dx^2}$ for a one-dimentional system and $\hat{V}$, the potential energy operator, is described by the particular quantum system studied.
 
 ### 1.4 Quantum Operators
-Quantum operators such as the position operator, angular and linear momentum or the energy operators, the Hamiltonian H, are all represented by matrices. These are square n by n matrices, where n depends on the quantization of the space and can be infinite.
+Quantum operators such as position, angular and linear momentum and the Hamiltonian, total energy opertor, are all represented by matrices. These are square n by n matrices, where n depends on the quantization of the space and can be infinite.
 So let’s see one example of an operator matrix.
 
 ### 1.5 Constructing the Potential Energy Matrix
