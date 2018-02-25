@@ -22,7 +22,8 @@ To create the potential energy matrix in Matlab, we first need to create a squar
 v=zeros(pts,1); 
 v([1:barrier_width, (end-(barrier_width-1):end)])=barht;
 V=diag(v);
-```  
+
+```
 
 The next step is to construct the kinetic energy matrix. The challenging part of this step is to create a matrix that take the second derivative of the wavefunction. We know that the first derivate of a function $f(x)$ at a point $x_0$ can be approximated as:
 
