@@ -20,7 +20,7 @@ We also know that the time dependent part is unchanged under the Hamiltonian (be
 
 Now we can divide both sides by $\Psi(x,t)$. This cancels out some few terms and we are left with
 
-<p align="center">  $\frac{H \psi(x) }{\psi(x) } = i \hbar \frac{\frac{\partial}{\partial t} T(t)}{T(t)} $. </p>
+<p align="center">  $\frac{H \psi(x) }{\psi(x) } = i \hbar \frac{1}{T(t)}\frac{\partial}{\partial t} (T(t)) $. </p>
 
 Looking at the above equation, we can see that the left-hand side is only x-dependent while the right-hand side is only time-dependent. Mathematically, this is only possible if both sides are equal to one (the same) constant. We can already notice by looking at the left side of the equation that the constant has to be the energy $E$. Doing so, we get back our TISE
 
