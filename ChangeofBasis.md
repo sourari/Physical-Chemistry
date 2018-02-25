@@ -70,7 +70,9 @@ We can easily see that all the off-diagonal terms will go to zero and we are lef
 E_1& 0 &0\\\
 0& E_2&0\\\
 0&0&E_3
-\end{pmatrix}$= Vals. </p>
+\end{pmatrix}$ </p>
+Which is exactly the Vals matrix.
+
 
 ### Change of Basis:
 
