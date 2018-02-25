@@ -14,9 +14,9 @@ where $\psi(x)$ is in the set of the solutions to the time independent Schroedin
 Therefore, the TDSE becomes:
 
 <p align="center">  $H \psi(x) T(t)= i \hbar \frac{\partial}{\partial t}(\psi(x) T(t))$. </p>
-We also know that the time dependent part is unchanged under the Hamiltonian (because $T(t)$ has no spacial dependence and H is basically a second derivative with respect to position) so 
+We also know that the time dependent part is unchanged under the Hamiltonian (because $T(t)$ has no spacial dependence and H is basically a second derivative with respect to position) so the TDSE becomes
 
-<p align="center">  $T(t) H \psi(x) = i \hbar \psi(x) \frac{\partial}{\partial t} T(t)$. </p>
+<p align="center">  $T(t) H \psi(x) = i \hbar \psi(x) \frac{\partial}{\partial t} (T(t))$. </p>
 
 Now we can divide both sides by $\Psi(x,t)$, this cancels a few terms and are left with:
 
