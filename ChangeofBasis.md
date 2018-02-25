@@ -71,13 +71,13 @@ E_1& 0 &0\\\
 0& E_2&0\\\
 0&0&E_3
 \end{pmatrix}$ </p>
-Which is exactly the Vals matrix.
+which is exactly the Vals matrix.
 
 
 ### Change of Basis:
 
-Using our Vecs matrix we can go from energy eigenvectors in energy basis ${(\psi_n)}_E$ to energy eigenvectors in position basis ${(\psi_n)}_x$. This can be achieved as follow:
-If we "operate" the Vecs matrix on ${(\psi_1)}_E$ we wil have:
+Using our Vecs matrix we can go from energy eigenvectors in energy basis ${(\psi_n)}_E$ to energy eigenvectors in position basis ${(\psi_n)}_x$ and vice versa. This can be achieved as follow:
+If we "operate" the Vecs matrix on ${(\psi_1)}_E$ we wil have
 
 
 <p align="center"> $\begin{pmatrix}
@@ -88,6 +88,31 @@ If we "operate" the Vecs matrix on ${(\psi_1)}_E$ we wil have:
 \end{pmatrix} {\begin{pmatrix} 1\\\ 0\\\ 0\\\ \vdots \end{pmatrix}}_E = {\begin{bmatrix} \psi_1 \end{bmatrix}}_x $. </p>
 
 So we obtained the first eigenvector in position basis. We can use this method for any ${(\psi_n)}_x$ by operating the Vecs matrix on the corresponding ${(\psi_n)}_E$. 
+And to go the other way, we can take the inverse matrix $Vecs^{-1}$ as follow
+
+<p align="center"> ${\begin{pmatrix}
+{\begin{bmatrix} \psi_1 \end{bmatrix}}_x &
+{\begin{bmatrix} \psi_1 \end{bmatrix}}_x &
+{\begin{bmatrix} \psi_1 \end{bmatrix}}_x &
+\cdots
+\end{pmatrix}}^{-1}{\begin{pmatrix}
+{\begin{bmatrix} \psi_1 \end{bmatrix}}_x &
+{\begin{bmatrix} \psi_1 \end{bmatrix}}_x &
+{\begin{bmatrix} \psi_1 \end{bmatrix}}_x &
+\cdots
+\end{pmatrix}} {\begin{bmatrix} \psi_1 \end{bmatrix}}_E = {\begin{pmatrix}
+{\begin{bmatrix} \psi_1 \end{bmatrix}}_x &
+{\begin{bmatrix} \psi_1 \end{bmatrix}}_x &
+{\begin{bmatrix} \psi_1 \end{bmatrix}}_x &
+\cdots
+\end{pmatrix}}^{-1}{\begin{bmatrix} \psi_1 \end{bmatrix}}_x $. </p>
+
+Therefore, <p align="center"> $ {\begin{bmatrix} \psi_1 \end{bmatrix}}_E = {\begin{pmatrix}
+{\begin{bmatrix} \psi_1 \end{bmatrix}}_x &
+{\begin{bmatrix} \psi_1 \end{bmatrix}}_x &
+{\begin{bmatrix} \psi_1 \end{bmatrix}}_x &
+\cdots
+\end{pmatrix}}^{-1}{\begin{bmatrix} \psi_1 \end{bmatrix}}_x $. </p>
 
 
 
