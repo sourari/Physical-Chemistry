@@ -18,4 +18,5 @@ Our work is pertinent to both physics and chemistry students equally and is help
      
 ## $2)$ [Partical in a box](/PIB.md)
 
-## $3)$ [Introduction 
+## $3)$ [Introduction to Time-Dependent Schroedinger Equation (TDSE)](/TDSE1.md)
+
