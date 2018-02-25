@@ -13,7 +13,7 @@ where $\psi(x)$ is in the set of the solutions to the time independent Schroedin
 
 Therefore, the TDSE becomes:
 
-<p align="center">  $H (\psi(x) T(t))= i \hbar \frac{\partial}{\partial t} \psi(x) T(t)$. </p>
+<p align="center">  $H \psi(x) T(t)= i \hbar \frac{\partial}{\partial t} \psi(x) T(t)$. </p>
 We also know that the time dependent part in unchanged under the Hamiltonian so 
 
 <p align="center">  $T(t) H \psi(x) = i \hbar \psi(x) \frac{\partial}{\partial t} T(t)$. </p>
