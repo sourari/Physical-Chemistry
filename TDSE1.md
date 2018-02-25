@@ -18,7 +18,7 @@ We also know that the time dependent part is unchanged under the Hamiltonian (be
 
 <p align="center">  $T(t) H \psi(x) = i \hbar \psi(x) \frac{\partial}{\partial t} (T(t))$. </p>
 
-Now we can divide both sides by $\Psi(x,t)$, this cancels a few terms and are left with:
+Now we can divide both sides by $\Psi(x,t)$. This cancels out some few terms and we are left with
 
 <p align="center">  $\frac{H \psi(x) }{\psi(x) } = i \hbar \frac{\frac{\partial}{\partial t} T(t)}{T(t)} $. </p>
 
