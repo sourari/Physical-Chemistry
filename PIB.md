@@ -3,7 +3,7 @@
 
 # Particle in a Box
 
-The first quantum system we explore is the particle in a box (PIB) system. 
+The first quantum system we will explore is the particle in a box (PIB) system. 
 We restrict our study to a single particle (an electron) in a 1-dimentional box of width a=5nm.
 The potential energy inside the box is set to 0. At the boundary, we set the potential energy to a value that we know will be higher than the particle’s total energy, but also small enough to make the computation work.
 The potential energy (presented in Figure2.1) is then given by:
@@ -15,7 +15,7 @@ The potential energy (presented in Figure2.1) is then given by:
 </p>
 <p align="center">Figure2.1: Potential energy</p>
 
-The potential energy is given by a matrix in the position basis. The potential matrix has the values of the potential energy for reach position (x) along its diagonal. The number of position points is discrete and we can vary it easily in our Matlab code depending the degree of precision we need in our calculation of eigenvectors.
+The potential energy is given by a matrix in the position basis. The potential matrix has the values of the potential energy for reach position (x) along its diagonal. The number of position points is discrete and can easily be varied in our Matlab code depending on the degree of precision neededfor our calculations.
 To create the potential energy matrix in Matlab we first need to create a square matrix of the desired size. The matrix originally has zeros in all its entries then we add the potential energy values on its diagonal using the following code:
 
 v=zeros(pts,1); 
