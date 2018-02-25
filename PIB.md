@@ -19,9 +19,9 @@ The potential energy is given by a matrix in the position basis. The potential m
 To create the potential energy matrix in Matlab, we first need to create a square matrix of the desired size. The matrix originally has zeros in all its entries, then we add the potential energy values on its diagonal using the following code:
 
 ```Matlab
-v=zeros(pts,1)                                             %creates a matriz of zeros; 
-v([1:barrier_width, (end-(barrier_width-1):end)])=barht;   %create a vector of the energy values
-V=diag(v);                                                 %add the energy values on the diagonal entries of the potential matrix
+v=zeros(pts,1)    %creates a matriz of zeros; 
+v([1:barrier_width, (end-(barrier_width-1):end)])=barht;  
+V=diag(v);        %add the energy values on the diagonal entries of the potential matrix
 
 ```
 
