@@ -60,3 +60,4 @@ For example, we can consider the potential shown in the figure bellow. We can ex
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/35305574/35784820-b0dd9018-09e9-11e8-8597-b341a167d9eb.jpg" width="600"> </p>
 
+[Go back to home page](/README.md)
