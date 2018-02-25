@@ -16,7 +16,7 @@ The main idea of the position basis in 1-D is that a vector $\vec{X_i}$  represe
 This allows us to write the energy eigenvector in the position space $(\psi_n)_x$ in vector form as:
 
 <p align="center">
-$(\psi_n)_x=c_1{\begin{pmatrix} 1\\\ 0\\\ 0\\\ \vdots \end{pmatrix}}_x+c_2{\begin{pmatrix} 0\\\ 1\\\ 0\\\ \vdots \end{pmatrix}}_x+c_3{\begin{pmatrix} 0\\\ 0\\\ 1\\\ \vdots \end{pmatrix}}_x...+c_n{\begin{pmatrix} 0\\\ 0\\\ \vdots\\\ n\end{pmatrix}}_x={\begin{pmatrix} c_1\\\ 0\\\ 0\\\ \vdots \end{pmatrix}}_x+{\begin{pmatrix} 0\\\ c_2\\\ 0\\\ \vdots \end{pmatrix}}_x+{\begin{pmatrix} 0\\\ 0\\\ c_3\\\ \vdots \end{pmatrix}}_x...+{\begin{pmatrix} 0\\\ 0\\\ \vdots\\\ c_n\end{pmatrix}}_x$
+$(\psi_n)_x=c_1{\begin{pmatrix} 1\\\ 0\\\ 0\\\ \vdots \end{pmatrix}}_x+c_2{\begin{pmatrix} 0\\\ 1\\\ 0\\\ \vdots \end{pmatrix}}_x+c_3{\begin{pmatrix} 0\\\ 0\\\ 1\\\ \vdots \end{pmatrix}}_x...+c_n{\begin{pmatrix} 0\\\ 0\\\ \vdots\\\ 1\end{pmatrix}}_x={\begin{pmatrix} c_1\\\ 0\\\ 0\\\ \vdots \end{pmatrix}}_x+{\begin{pmatrix} 0\\\ c_2\\\ 0\\\ \vdots \end{pmatrix}}_x+{\begin{pmatrix} 0\\\ 0\\\ c_3\\\ \vdots \end{pmatrix}}_x...+{\begin{pmatrix} 0\\\ 0\\\ \vdots\\\ c_n\end{pmatrix}}_x$
 </p>
 
 we can visualize this by plotting any of the eigenvectors, for example the ground state $(\psi_1)_x$, and the basis vectors on the same graph. This is shown in the figure bellow, where we discretized space to 10 distinct points. The intersect of the eigenvector and each of the basis vectors $\vec{x_i}$ represents the coefficient $c_i$.
