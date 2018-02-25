@@ -4,7 +4,7 @@
 
 So far in our analysis we have only been looking at the spacial dependence of our eigenvectors, $\psi(x)$. To understand the behavior of any real quantum system we have to determine both it spacial and time dependence. This means that we have to find the complete wavefunction, $\Psi(x,t)$. To do so we have to solve the time dependent Schroedinger equation, TDSE:
 <p align="center"> $H \Psi(x,t)= i \hbar \frac{\partial}{\partial t} \Psi(x,t)$, </p>
-where the Hamiltonian operator $H$ is still the sum of the potential and kinetic energy and $i$ is the complex number defined as $i=\sqrt{-1}$ (click here for a quick refresher on complex numbers). In this derivation we are adopting the position basis for our wavefunction, meaning that the Hamiltonian is also expressed in the position basis.
+where the Hamiltonian operator $H$ is still the sum of the potential and kinetic energy and $i$ is the complex number defined as $i=\sqrt{-1}$ (click here for a quick refresher on complex numbers). In this derivation we are adopting the position basis for our energy eigenvectors, meaning that the Hamiltonian is also expressed in the position basis.
 
 The TDSE cannot be analytically solved unless we can separate it into a time dependent term and a spacial dependent term. To do this, we need the help of an old trick called separation of variable technique where we can write the total wavefunction as:
 
