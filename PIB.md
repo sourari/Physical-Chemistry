@@ -18,9 +18,9 @@ The potential energy (presented in Figure2.1) is then given by:
 The potential energy is given by a matrix in the position basis. The potential matrix has the values of the potential energy for reach position (x) along its diagonal. The number of position points is discrete and can easily be varied in our Matlab code depending on the degree of precision needed for our calculations.
 To create the potential energy matrix in Matlab, we first need to create a square matrix of the desired size. The matrix originally has zeros in all its entries, then we add the potential energy values on its diagonal using the following code:
 
-```MATLAB
-v=zeros(pts,1); 
-v([1:barrier_width, (end-(barrier_width-1):end)])=barht;
+```matlab
+v=zeros(pts,1); \\\
+v([1:barrier_width, (end-(barrier_width-1):end)])=barht;\\\
 V=diag(v);
 ```  
 
