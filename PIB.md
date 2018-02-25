@@ -36,16 +36,16 @@ Similarly, we construct the left-derivative matrix, $L$. This time, the diagonal
 Now the second derivative matrix can then be obtained by multiplying the left and right derivative matrices:
 
 <p align="center"> $D=LR= \begin{bmatrix}
--2& -1 &      & 0 \\\
--1 & -2  & -1 \\\
+-2& 1 &      & 0 \\\
+1 & -2  & 1 \\\
 0 &   \ddots  & \ddots & \ddots                      
 \end{bmatrix}$ </p>
 
 Therefore, the kinetic energy can be expressed in matrix form as:
 
 <p align="center"> $T=\frac{-{\hbar}^2}{2m} \begin{bmatrix}
--2& -1 &      & 0 \\\
--1 & -2  & -1 \\\
+-2& 1 &      & 0 \\\
+1 & -2  & 1 \\\
 0 &   \ddots  & \ddots & \ddots                      
 \end{bmatrix}$ </p>
 
