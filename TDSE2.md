@@ -42,7 +42,10 @@ We use the same procedure for the energy by taking the expectation value of the 
 
 Now putting all of the above together, we can visualize the behavior of a particle in a box by plotting its energy eigenvectors in energy and position basis together with the probability density and expectation values.
 
-<img src="https://user-images.githubusercontent.com/35305574/36699212-0506da5a-1b1a-11e8-9398-20a2d0a4969f.gif" width="500">
+Video.1 bellow shows the plots for the second energy state, $\Psi_2(x,t)=\begin{bmatrix} 1 \\\ 0 \\\ \vdots \\\ 0 \end{bmatrix} e^{(\frac{-i E_2}{\hbar})t}$, of the particle in a box system. The graph in the top left corner shows the time evolution of the energy eigenstate in the energy basis evolving in the complex plane. As expected the eigenstate is represented by a delta function. The graph in the top right corner shows the time evolution of the energy eigenstate in the position basis. Since the considered eigenstate is a stationary state, its shape is unchanged over time only rotating in the complex plane with the same frequency for all points. This behavior is also observed in the probability density plot shown at the bottom. As expected the probability density is unchanged over time because $|\Psi_2(x,t)|^2={\Psi_2(x,t)}^* \Psi_2(x,t)={\psi_2(x,t)e^{(\frac{-i E_2}{\hbar})t}}^* \psi_2(x)e^{(\frac{-i E_2}{\hbar})t}={\psi_2(x)}^* \psi_2(x)e^{(\frac{-i E_2}{\hbar})t}e^{-(\frac{-i E_2}{\hbar})t}=|\psi_2|^2 $ which has no time dependence.
 
+<img src="https://user-images.githubusercontent.com/35305574/36699212-0506da5a-1b1a-11e8-9398-20a2d0a4969f.gif" width="600">
+
+The expectation value of the position is graphycally shown with a red star on the probability density graph and the units of both $ < x > $ and $ < E > $ are not determined since we did not use the real values of the physical constants above. Our work so far shows the overall behavior of the system, later we will extant our exploration to using the appropriate constants and units to obtain quantitatively correct vales of for $ < x > $ and $ < E > $.
 
 [Go back to home page](/README.md)
