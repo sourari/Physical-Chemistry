@@ -40,6 +40,8 @@ Probability_density= (conj(Psi_XT)).* Psi_XT;
 
 We use the same procedure for the energy by taking the expectation value of the Hamiltonian in position basis $ < H_x > = < \Psi_x, H_x \Psi_x> $ or in energy basis $ < \Psi_E, H_E \Psi_E > $. This time we can use either of the bases since we know that $H_E$ is the Vals matrix we computed for the PIB ([see here](/ChangeofBasis.md)) and we can go back and forth between $\Psi_x$ and $\Psi_E$ using the basis change machinery we derived in the [change of basis](/ChangeofBasis.md) section.
 
+Now putting all of the above together, we can visualize the behavior of a particle in a box by plotting its energy eigenvectors in energy and position basis together with the probability density and expectation values.
+
 
 
 [Go back to home page](/README.md)
