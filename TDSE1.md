@@ -30,7 +30,7 @@ and a second equation
 
 We know how to deal with the TISE. So will not say more about that part in this page, instead we will try to focus on solving the time dependent part. 
 
-First, lets rewrite it in a form ready to integrate as follow:
+First, lets rewrite it in a form ready for integration as follow:
 
 <p align="center">  $\frac{dT}{T(t)}= (\frac{-i E_n}{\hbar}) dt $. </p>
 
