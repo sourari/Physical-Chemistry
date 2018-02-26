@@ -30,7 +30,7 @@ for k=1:100
 end
 
 ```
-However, the calculation of expectation value of x and E can be a little more treaky. We start with the expectation value of the position operator, $\l x \g $. 
+However, the calculation of expectation value of x and E can be a little more treaky. We start with the expectation value of the position operator, $\textless x \g $. 
  
 Using position basis we have $<x>=<\Psi_x,\hat{x}\Psi_x>$. The expectation value of position can also be computed the energy basis as $<x>=<\Psi_E,\hat{x}_E\Psi_E>$. Theoretically, this is feasible and will yield the exact same value as $<x>=<\Psi_x,\hat{x}_x\Psi_x>$. However, computing the position operator matrix in energy basis is complicated and totally useless since it will not add anything to our understanding of the system. Therefore, we will only work with the position basis for this part. To compute the expectation value, we use the following Matlab code
   
