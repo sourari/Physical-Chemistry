@@ -43,7 +43,7 @@ We use the same procedure for the energy by taking the expectation value of the 
 Now putting all of the above together, we can visualize the behavior of a particle in a box by plotting its energy eigenvectors in energy and position basis together with the probability density and expectation values.
 Video.1 bellow shows the plots for the second energy state, $\Psi_2(x,t)=\begin{bmatrix} 0 \\\ 1 \\\ \vdots \\\ 0 \end{bmatrix} e^{(\frac{-i E_2}{\hbar})t}$, of the particle in a box system. The graph in the top left corner shows the time evolution of the energy eigenstate in the energy basis evolving in the complex plane. As expected the eigenstate is represented by a delta function. The graph in the top right corner shows the time evolution of the energy eigenstate in the position basis. Since the considered eigenstate is a stationary state, its shape is unchanged over time only rotating in the complex plane with the same frequency for all points. This behavior is also observed in the probability density plot shown at the bottom. As expected the probability density is unchanged over time because 
 <p align="center"> $|\Psi_2(x,t)|^2={\Psi_2(x,t)}^* \Psi_2(x,t)$</p> 
-<p align="center">$={\psi_2(x,t)e^{(\frac{-i E_2}{\hbar})t}}^* \psi_2(x)e^{(\frac{-i E_2}{\hbar})t}={\psi_2(x)}^* \psi_2(x)e^{(\frac{-i E_2}{\hbar})t}e^{-(\frac{-i E_2}{\hbar})t}$/p>
+<p align="center">$={\psi_2(x,t)e^{(\frac{-i E_2}{\hbar})t}}^* \psi_2(x)e^{(\frac{-i E_2}{\hbar})t}={\psi_2(x)}^* \psi_2(x)e^{(\frac{-i E_2}{\hbar})t}e^{-(\frac{-i E_2}{\hbar})t}$</p>
 <p align="center">$=|\psi_2(x)|^2 $</p> which has no time dependence.
 
 <img src="https://user-images.githubusercontent.com/35305574/36699212-0506da5a-1b1a-11e8-9398-20a2d0a4969f.gif" width="600">
