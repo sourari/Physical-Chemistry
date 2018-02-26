@@ -21,6 +21,6 @@ Our work is pertinent to both physics and chemistry students equally and is help
 
 ## $3)$ [Introduction to Time-Dependent Schroedinger Equation (TDSE)](/.TDSE1.md)
 
-## $4)$ [Time-Dependent Schroedinger Equation for the PIB](/.TDSE2.md)
+## $4)$ [Time-Dependent Schroedinger Equation for the PIB](/TDSE2.md)
 
 
