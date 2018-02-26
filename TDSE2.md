@@ -31,12 +31,14 @@ end
 
 ```
 However, the calculation of expectation value of x and E can be a little more treaky. We start with the expectation value of the position operator, $ < x > $. 
- Using position basis, we have $ < x > = < \Psi_x,\hat{x}\Psi_x > $. The expectation value of the position can also be computed using the energy basis as $ < x > = < \Psi_E,\hat{x}_E\Psi_E > $. Theoretically, this is feasible and will yield the exact same value as $ < \Psi_x,\hat{x}_x\Psi_x > $, i.e $ < x >_x = < x >_E $. However, computing the position operator matrix in energy basis is complicated and totally useless since it will not add anything to our understanding of the system. Therefore, we will only work with the position basis for this part. To compute the expectation value, we use the following Matlab code
+ Using position basis, we have $ < x > = < \Psi_x,\hat{x}\Psi_x > $. The expectation value of the position can also be computed using the energy basis as $ < x > = < \Psi_E,\hat{x}_E\Psi_E > $. Theoretically, this is feasible and will yield the exact same value as $ < \Psi_x,\hat{x}_x\Psi_x > $, i.e $ < x >_x = < x >_E $. However, computing the position operator matrix in energy basis is complicated and useless for our purpose since it will not add anything to our understanding of the system. Therefore, we will only work with the position basis for this part. To compute the position expectation value, we use the following Matlab code
   
   ```Matlab
 Probability_density= (conj(Psi_XT)).* Psi_XT;
 
 ```
+
+We use the same procedure for the energy by taking the expectation value of the Hamiltonian in position basis $ < H_x > = < \Psy_x, H_x \Psy_x> $ or in energy basis $ < \Psy_E, H_E \Psy_E > $. This time we can use either of the bases since we know that $H_E$ is the matrix Vals we computed for the [PIB](/PIB.md) and we can go back and forth between %\Psy_x% and %\Psy_E% using our changle of basis machinery we derived in the [change of basis](/README.md) section.
 
 
 
