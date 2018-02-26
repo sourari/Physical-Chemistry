@@ -34,7 +34,7 @@ First, lets rewrite it in a form ready for integration as follow:
 
 <p align="center">  $\frac{dT}{T(t)}= (\frac{-i E_n}{\hbar}) dt $. </p>
 
-Then taking integrating both sides we obtain
+Then integrating both sides, we obtain
 
 <p align="center">  $\int_{0}^{T(t)}\frac{1}{T(t)}dT= \int_{o}^{t} (\frac{-i E_n}{\hbar}) dt $. </p>
 
