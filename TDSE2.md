@@ -37,3 +37,7 @@ Using position basis we have $<x>=<\Psi_x,\hat{x}\Psi_x>$. The expectation value
 Probability_density= (conj(Psi_XT)).* Psi_XT;
 
 ```
+
+
+
+[Go back to home page](/README.md)
