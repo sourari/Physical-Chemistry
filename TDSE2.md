@@ -15,4 +15,6 @@ barrier_width=3; %width of the barrier
 
 ```
 
-From there, we can use the same code for the TISE to solve for the stationary states. Once we have the eigenvalues and eigenvectors for our Hamiltonian, we can multiply the eigenvectors $\psi_n(x)$ by the corresponding time-dependent function $T_n(t)= e^{(\frac{-i E_n}{\hbar})t}$ to obtain the total wavefunction $\Psi(x,t)$.
+From there, we can use the same code for the TISE to solve for the stationary states. Once we have the eigenvalues and eigenvectors for our Hamiltonian, we can multiply the eigenvectors $\psi_n(x)$ by the corresponding time-dependent function $T_n(t)= e^{(\frac{-i E_n}{\hbar})t}$ to obtain the total wavefunction $\Psi_n(x,t)$. Once we obtain the energy eigenfunctions in position basis and normalize them we can use change of basis machinery we built in the previous sections to obtain the energy eigenvectors in enerfgy basis. Now we have all what is needed to plot the time evolution of these eigenstates. However, we will postpone this and calculate the probability density as well as the expectation value of the position x and energy E.
+
+
