@@ -15,7 +15,7 @@ Our work is pertinent to both physics and chemistry students equally and is help
 ## $1)$ [Introduction to Quantum Mechanical Concepts Using Linear Algebra](/Introduction.md)
 
 #### 1.1[Change of basis](/ChangeofBasis.md)
-#### 1.2[Complex Number](/Complexnumbers.md)
+#### 1.2[Complex Numbers](/complexnumbers.md)
      
 ## $2)$ [Partical in a box](/PIB.md)
 
