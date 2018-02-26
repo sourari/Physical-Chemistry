@@ -46,7 +46,7 @@ Video.1 bellow shows the plots for the second energy state, $\Psi_2(x,t)=\begin{
 <p align="center">$={\psi_2(x,t)e^{(\frac{-i E_2}{\hbar})t}}^* \psi_2(x)e^{(\frac{-i E_2}{\hbar})t}={\psi_2(x)}^* \psi_2(x)e^{(\frac{-i E_2}{\hbar})t}e^{-(\frac{-i E_2}{\hbar})t}$</p>
 <p align="center">$=|\psi_2(x)|^2 $</p> which has no time dependence.
 
-<img src="https://user-images.githubusercontent.com/35305574/36699212-0506da5a-1b1a-11e8-9398-20a2d0a4969f.gif" width="600">
+<img src="https://user-images.githubusercontent.com/35305574/36699212-0506da5a-1b1a-11e8-9398-20a2d0a4969f.gif" width="800">
 <p align="center">  Video.1: Evolution of the second energy state of the PIB. </p>
 
 The expectation value of the position is graphycally shown with a red star on the probability density graph and the units of both $ < x > $ and $ < E > $ are not determined since we did not use the real values of the physical constants above. Our work so far shows the overall behavior of the system, later we will extant our exploration to using the appropriate constants and units to obtain quantitatively correct vales of for $ < x > $ and $ < E > $.
