@@ -10,7 +10,7 @@ Consider a complex number $z=a+ib$, where $i=\sqrt{-1}$. We call $a$ the real pa
 </p>
 The complex conjugate of $z$, denoted $z^* =a-ib$, is also very pertinent to quantum mechanics. For example the probability density $|\psi|^2= \psi^* \psi$, where $\psi^* $ is the complex conjugate of the wavefunction.  
 
-We can also express the complex number $z$ in polar cooredines as a function of $\theta$, the angle  from the real axis, and $r$, the distance from the origin. Using polar coordinates, we have $z=re^{i\theta}$.
+We can also express the complex number $z$ in polar coordinates  as a function of $\theta$, the angle from the real axis, and $r$, the distance from the origin. Using polar coordinates, we have $z=re^{i\theta}$.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/36648068-714008d6-1a5c-11e8-8f07-9fba19f655f1.png" width="200">
 </p>
