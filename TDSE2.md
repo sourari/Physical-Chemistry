@@ -41,7 +41,7 @@ Probability_density= (conj(Psi_XT)).* Psi_XT;
 We use the same procedure for the energy by taking the expectation value of the Hamiltonian in position basis $ < H_x > = < \Psi_x, H_x \Psi_x> $ or in energy basis $ < \Psi_E, H_E \Psi_E > $. This time we can use either of the bases since we know that $H_E$ is the Vals matrix we computed for the PIB ([see here](/ChangeofBasis.md)) and we can go back and forth between $\Psi_x$ and $\Psi_E$ using the basis change machinery we derived in the [change of basis](/ChangeofBasis.md) section.
 
 Now putting all of the above together, we can visualize the behavior of a particle in a box by plotting its energy eigenvectors in energy and position basis together with the probability density and expectation values.
-Video.1 bellow shows the plots for the second energy state, $\Psi_2(x,t)=\begin{bmatrix} 0 \\\ 1 \\\ \vdots \\\ 0 \end{bmatrix} e^{(\frac{-i E_2}{\hbar})t}$, of the particle in a box system. The graph in the top left corner shows the time evolution of the energy eigenstate in the energy basis evolving in the complex plane. As expected the eigenstate is represented by a delta function. The graph in the top right corner shows the time evolution of the energy eigenstate in the position basis. Since the considered eigenstate is a stationary state, its shape is unchanged over time only rotating in the complex plane with the same frequency for all points. This behavior is also observed in the probability density plot shown at the bottom. As expected the probability density is unchanged over time because 
+Video.1 bellow shows the plots for the second energy state, $\Psi_2(x,t)=\begin{bmatrix} 0 \\\ 1 \\\ 0 \\\\vdots \end{bmatrix} e^{(\frac{-i E_2}{\hbar})t}$, of the particle in a box system. The graph in the top left corner shows the time evolution of the energy eigenstate in the energy basis evolving in the complex plane. As expected the eigenstate is represented by a delta function. The graph in the top right corner shows the time evolution of the energy eigenstate in the position basis. Since the considered eigenstate is a stationary state, its shape is unchanged over time only rotating in the complex plane with the same frequency for all points. This behavior is also observed in the probability density plot shown at the bottom. As expected the probability density is unchanged over time because 
 <p align="center"> $|\Psi_2(x,t)|^2={\Psi_2(x,t)}^* \Psi_2(x,t)$</p> 
 <p align="center">$={\psi_2(x,t)e^{(\frac{-i E_2}{\hbar})t}}^* \psi_2(x)e^{(\frac{-i E_2}{\hbar})t}={\psi_2(x)}^* \psi_2(x)e^{(\frac{-i E_2}{\hbar})t}e^{-(\frac{-i E_2}{\hbar})t}$</p>
 <p align="center">$=|\psi_2(x)|^2 $</p> which has no time dependence.
@@ -50,5 +50,12 @@ Video.1 bellow shows the plots for the second energy state, $\Psi_2(x,t)=\begin{
 <p align="center">  Video.1: Evolution of the second energy state of the PIB. </p>
 
 The expectation value of the position is graphycally shown with a red star on the probability density graph and the units of both $ < x > $ and $ < E > $ are not determined since we did not use the real values of the physical constants above. Our work so far shows the overall behavior of the system, later we will extant our exploration to using the appropriate constants and units to obtain quantitatively correct vales of for $ < x > $ and $ < E > $.
+
+#### How about a non-stationary state? 
+Now let's consider the state defined by the time-independent energy eigenstate in energy basis $\psi_E=\begin{bmatrix} 1 \\\ 1 \\\ 0 \\\ \vdots \end{bmatrix}$. Using the same MAtlab code as in the stationary state case we obtain the time evolution shown in Video.2 bellow.
+
+
+<img src="https://user-images.githubusercontent.com/35305574/36699212-0506da5a-1b1a-11e8-9398-20a2d0a4969f.gif" width="800">
+<p align="center">  Video.1: Evolution of the second energy state of the PIB. </p>
 
 [Go back to home page](/README.md)
