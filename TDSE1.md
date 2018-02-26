@@ -45,7 +45,7 @@ finally,
 
 <p align="center">  $T(t)= e^{(\frac{-i E_n}{\hbar})t}$. </p>
 
-Putting everything together, we have $\Psi(x,t)=\psi(x)e^{(\frac{-i E_n}{\hbar})t}$. But we should not forget that this can only be achieved if the time and space dependence of the wavefunction are separable. So a good question to ask is when are they separable and does that mean physically to have them separable?
+Putting everything together, we have $\Psi(x,t)=\psi(x)e^{(\frac{-i E_n}{\hbar})t}$. But we should not forget that this can only be achieved if the time and space dependence of the wavefunction are separable. So a good question to ask is when are they separable? and what does it mean, physically, to have the time and space functions separable?
 
 It is important to notice that all physically realizable states are solutions to the TDSE but not all of them can be separated into a spacial and a time dependent functions. Only energy eigenfunction, in other words only the $\Psi(x,t)$ that satisfy the TISE, can be separated and therefore our derivations can only work for energy eigenfunctions. 
 
