@@ -20,13 +20,13 @@ From there, we can use the same code we used for the TISE to solve for the stati
 Calculating the probability density of the system is fairly straiforward and can be conputed using the following Matlab code.
 
 ```Matlab
-Psi_E=zeros(pts,1);    %create empty eigenvector in energy basis
+Psi_E=zeros(pts,1);    %create empty eigenvector in E_basis
 Psi_E(1)=1;            %define the energy state (here we took the first energy state)
 for k=1:100                                  
-    Psi_ET= Psi_E.*exp(-i*E*t/hbar);         %Compute the time dependent eigenvector in energy basis
-    Psi_XT=EtoX*Psi_ET;                      %Compute the time dependent eigenvector in position basis 
-    Psi_XT=Psi_XT/norm(Psi_XT);              %normalize
-    Proba_density= (conj(Psi_XT)).* Psi_XT;  %probability density in position basis
+ Psi_ET= Psi_E.*exp(-i*E*t/hbar); %Compute the time dependent eigenvector in E_basis
+ Psi_XT=EtoX*Psi_ET;              %Compute the time dependent eigenvector in X_basis 
+ Psi_XT=Psi_XT/norm(Psi_XT);               %normalize
+ Proba_density= (conj(Psi_XT)).* Psi_XT;   %probability density in X_basis
 end
 
 ```
