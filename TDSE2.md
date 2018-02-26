@@ -38,7 +38,7 @@ Probability_density= (conj(Psi_XT)).* Psi_XT;
 
 ```
 
-We use the same procedure for the energy by taking the expectation value of the Hamiltonian in position basis $ < H_x > = < \Psy_x, H_x \Psy_x> $ or in energy basis $ < \Psy_E, H_E \Psy_E > $. This time we can use either of the bases since we know that $H_E$ is the matrix Vals we computed for the [PIB](/PIB.md) and we can go back and forth between %\Psy_x% and %\Psy_E% using our changle of basis machinery we derived in the [change of basis](/README.md) section.
+We use the same procedure for the energy by taking the expectation value of the Hamiltonian in position basis $ < H_x > = < \Psy_x, H_x \Psy_x> $ or in energy basis $ < \Psy_E, H_E \Psy_E > $. This time we can use either of the bases since we know that $H_E$ is the matrix Vals we computed for the [PIB](/PIB.md) and we can go back and forth between %\Psy_x% and %\Psy_E% using our changle of basis machinery we derived in the [change of basis](/ChangeofBasis.md) section.
 
 
 
