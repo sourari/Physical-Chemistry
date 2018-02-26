@@ -23,3 +23,4 @@ Our work is pertinent to both physics and chemistry students equally and is help
 
 ## $4)$ [Time-Dependent Schroedinger Equation for the PIB](/TDSE2.md)
 
+$\afit{}$
