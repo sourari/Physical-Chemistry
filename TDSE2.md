@@ -42,6 +42,7 @@ We use the same procedure for the energy by taking the expectation value of the 
 
 Now putting all of the above together, we can visualize the behavior of a particle in a box by plotting its energy eigenvectors in energy and position basis together with the probability density and expectation values.
 
+<img src="https://user-images.githubusercontent.com/35305574/36699212-0506da5a-1b1a-11e8-9398-20a2d0a4969f.gif" width="500">
 
 
 [Go back to home page](/README.md)
