@@ -61,6 +61,6 @@ This represents a rotation in the complex plane with a frequency $\frac{E_n}{\hb
 </p>
 
 Notice that the frequency is dependent on the energy $E_n$, higher energy means faster rotation around the complex plane.
-What this means for our wavefunction is that that for a given energy the energy eigenstate is the same overtime but it undergoes rotation around the complex plane. For this reason, we can refer to the energy eigenstate as a stationary state.
+What this means for our wavefunction is that that, for a given energy, the energy eigenstate is the same overtime but it undergoes rotation around the complex plane. For this reason, we can refer to the energy eigenstate as a stationary state.
 
 [Go back to home page](/README.md)
