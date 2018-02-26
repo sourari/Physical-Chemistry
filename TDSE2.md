@@ -56,6 +56,6 @@ Now let's consider the state defined by the time-independent energy eigenstate i
 
 
 <img src="https://user-images.githubusercontent.com/35305574/36702023-75ced0d6-1b23-11e8-8043-65ff858ab4a1.gif" width="800">
-<p align="center">  Video.1: Evolution of the second energy state of the PIB. </p>
+<p align="center">  Video.1: Evolution of a non-stationary state fro the PIB. </p>
 
 [Go back to home page](/README.md)
