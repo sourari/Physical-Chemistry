@@ -15,11 +15,13 @@ We can also express the complex number $z$ in polar coordinates  as a function o
   <img src="https://user-images.githubusercontent.com/35305574/36648068-714008d6-1a5c-11e8-8f07-9fba19f655f1.png" width="200">
 </p>
 
+### Important Formulas and Identities:
+Euler formula's $e^{ix}=cos(x)+isin(x)$.
+$cos(x)=\frac{e^{ix}+e^{-ix}}{2}$.
+$sin(x)=\frac{e^{ix}-e^{-ix}}{2i}$.
+$e^{ix}=e^{ix+2n\pi}$, where n is an integer.
 
-
-
-
-
-
+All these identities can be summerized in one, probably the most important, eqaution in mathematics: the Euler identity 
+<p align="center"> $e^{i\pi}=-1$.</p>
 
 [Go back to home page](/README.md)
