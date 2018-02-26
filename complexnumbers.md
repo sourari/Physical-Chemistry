@@ -14,3 +14,12 @@ We can also express the complex number $z$ in polar coordinates  as a function o
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/36648068-714008d6-1a5c-11e8-8f07-9fba19f655f1.png" width="200">
 </p>
+
+
+
+
+
+
+
+
+[Go back to home page](/README.md)
