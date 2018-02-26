@@ -20,7 +20,20 @@ From there, we can use the same code we used for the TISE to solve for the stati
 Calculating the probability density of the system is fairly straiforward and can be conputed using the following Matlab code.
 
 ```Matlab
+Psi_E=zeros(pts,1);    %create empty eigenvector in energy basis
+Psi_E(1)=1;            %define the energy state (here we took the first energy state)
+for k=1:100                                  
+    Psi_ET= Psi_E.*exp(-i*E*t/hbar);         %Compute the time dependent eigenvector in energy basis
+    Psi_XT=EtoX*Psi_ET;                      %Compute the time dependent eigenvector in position basis 
+    Psi_XT=Psi_XT/norm(Psi_XT);              %normalize
+    Proba_density= (conj(Psi_XT)).* Psi_XT;  %probability density in position basis
+end
+
+```
+However, the calculation of expectation value of x and E can be a little more treaky. We start with the expectation value of the position operator, $<x>$. 
+Using position basis we have $<x>=<\Psi_x,\hat{x}\Psi_x>$. The expectation value of position can also be computed the energy basis as $<x>=<\Psi_E,\hat{x}_E\Psi_E>$. Theoretically, this is feasible and will yield the exact same value as $<x>=<\Psi_x,\hat{x}_x\Psi_x>$. However, computing the position operator matrix in energy basis is complicated and totally useless since it will not add anything to our understanding of the system. Therefore, we will only work with the position basis for this part. To compute the expectation value, we use the following Matlab code
+  
+  ```Matlab
 Probability_density= (conj(Psi_XT)).* Psi_XT;
 
 ```
-Howeve
