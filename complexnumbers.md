@@ -25,7 +25,7 @@ $sin(x)=\frac{e^{ix}-e^{-ix}}{2i}$.
 
 $e^{ix}=e^{ix+2n\pi}$, where n is an integer.
 
-All these identities can be summerized in one, probably the most important, eqaution in mathematics: the Euler's identity 
+All these identities can be summerized in one of the most important eqaution in mathematics: the Euler's identity 
 <p align="center"> $e^{i\pi}=-1$.</p>
 
 [Go back to home page](/README.md)
