@@ -11,7 +11,7 @@ Psi_X=exp(-a*(x'-b).^2).*exp(c*x'*i);
 ```
 We obtain:
 
-<p align="center"> <img src="https://user-images.githubusercontent.com/35305574/36706076-338a610a-1b36-11e8-8ae3-6a15358414b3.gif" width="600"> </p>
+<p align="center"> <img src="https://user-images.githubusercontent.com/35305574/36706076-338a610a-1b36-11e8-8ae3-6a15358414b3.gif" width="800"> </p>
 
 
 
