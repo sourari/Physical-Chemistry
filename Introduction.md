@@ -24,7 +24,6 @@ The inner product of $|v>$ and $|w>$ is defined as
 <p align="center"> $<v,w>={\begin{bmatrix} v_{1} & v_{2} & ... & v_{n} \end{bmatrix}}^* \begin{bmatrix} w_{1} \\\ w_{2} \\\ \vdots \\\ w_{n} \end{bmatrix}=\sum_{n=1}^{n}v_i ^*w_i $.</p>
 In quantum mechanics, the basis vectors $|1>, |2>... |n>$ represent the eigenvectors of a quantum operator such as the Hamiltonian $\hat{H}$ or the momentum operator $\hat{P}$. These vectors are orthonormal, meaning that they are unit vectors and are mutually orthogonal. This can be mathematically summarized as
 <p align="center"> $<i,j>=\begin{cases} 1 \ for \ i=j \\ 0 \ for \ i\neq j \end{cases} = \delta_{ij}$. </p>
- 
 Inner products are usefull in quantum mechanics for normelizing vectors and computing expectation values. The magnitude of a vector $\vec{v}$ can be expressed as an inner product $|\vec{v}|= \sqrt{< \vec{v},\vec{v} >} $. Therefore, we can normelize $\vec{v}$ as follow
  
 <p align="center"> $\hat{v}=\frac{1}{\sqrt{< \vec{v},\vec{v} >}} \vec{v} $. </p>
