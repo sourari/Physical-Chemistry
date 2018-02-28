@@ -4,7 +4,7 @@
 ## Introduction to Quantum Mechanics Concepts Using Linear Algebra
 Linear algebra is the natural language of quantum mechanics. So it is crucial to begin our explorations by a quick refresher of the main ideas in linear algebra that are most relevant to our study.
 
-Linear algebra allows us to express quantum states in vector forms. This, in my opinion, makes the ideas of orthogonality and normalization of wavefunctions more intuitive. We all know from introductory linear algebra what it means to normalize a vector and what orthogonal sets of vectors mean, now we can putour math backround to some real scientific use.
+Linear algebra allows us to express quantum states in vector forms. This, in my opinion, makes the ideas of orthogonality and normalization of wavefunctions more intuitive. We all know from introductory linear algebra what it means to normalize a vector and what orthogonal sets of vectors mean, here we will put our math backround to some real scientific use.
 
 ### 1.1 Orthonormal basis
 Consider a basis formed by the linearly independent vectors $|1>, |2>, |3>...|n>$ in a n-dimensional space, we can write any vector in this space as a linear combination of these vectors.
