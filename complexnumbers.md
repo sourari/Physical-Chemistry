@@ -19,7 +19,7 @@ We can also express the complex number $z$ in polar coordinates  as a function o
 
 ### Important Formulas and Identities:
 Euler's formula
-$e^{ix}=cos(x)+isin(x)$.
+$e^{ix}=cos (x)+i sin (x)$.
 
 $cos(x)=\frac{e^{ix}+e^{-ix}}{2}$.
 
