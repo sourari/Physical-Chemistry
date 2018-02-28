@@ -25,7 +25,7 @@ V=diag(v);  %add the energies to the diagonal entries of the potential matrix
 
 ``` 
 
-The next step is to construct the kinetic energy matrix. The challenging part of this step is to create a matrix that take the second derivative of the wavefunction. We know that the first derivate of a function $f(x)$ at a point $x_0$ can be approximated as:
+The next step is to construct the kinetic energy matrix. The challenging part in this step is to create a matrix that take the second derivative of the wavefunction. We know that the first derivate of a function $f(x)$ at a point $x_0$ can be approximated as:
 
 <p align="center"> $\frac{f(x_0+1)-f(x_0)}{\Delta x}$ or $\frac{f(x_0) - f(x_0-1)}{\Delta x}$. </p>
 
