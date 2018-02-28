@@ -1,0 +1,152 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>PIB2</title><meta name="generator" content="MATLAB 9.2"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2018-02-28"><meta name="DC.source" content="PIB2.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><h2>Contents</h2><div><ul><li><a href="#4">For plotting the well</a></li></ul></div><pre class="codeinput"><span class="keyword">function</span> [] =PIB2(n )
+</pre><pre class="codeinput">hbar=1.054*10^-34;    <span class="comment">%plank constant</span>
+me=9.109*10^-31;      <span class="comment">%mass electron</span>
+
+a=5*10^-9;             <span class="comment">%width of box</span>
+barht=10^-5;           <span class="comment">%hight of barrier</span>
+pts=350;             <span class="comment">%number of points discritizing space</span>
+barrier_width=30;     <span class="comment">%number of points with infinit potential</span>
+blowup=10^-19;        <span class="comment">%to make the graph readable</span>
+
+x=linspace(0,a,pts);
+dx=x(2)-x(1);
+
+v=zeros(pts,1);       <span class="comment">%Creates a vector of zeros that will hold the values of potential energy</span>
+v([1:barrier_width, (end-(barrier_width-1):end)])=barht;  <span class="comment">%Fill the vector with the energy values (zeros inside the box and a value of barht for the barrier)</span>
+V=diag(v);                                                 <span class="comment">%Potential energy matrix</span>
+
+T=- (hbar.^2 /(2.*me))*(1/(dx)^2) *(-2*eye(pts)+diag(ones(pts-1,1),-1)+diag(ones(pts-1,1),1));  <span class="comment">%kinetic energy matrix</span>
+
+H=T+V ;              <span class="comment">%Hamiltonian matrix</span>
+
+[Vecs,Vals]=srteig(H);  <span class="comment">%get the eigenvalues and eigenvectors and sort them</span>
+</pre><pre class="codeinput">outervec=ones(pts, 1);         <span class="comment">%vector to use for the outerproduct</span>
+repvals=outervec*(diag(Vals)');  <span class="comment">%make matrix with column having repeated eigenvalue</span>
+shiftvecs=(blowup*Vecs+ repvals);        <span class="comment">%shift the eigenvectors by the eigenvalues</span>
+shiftvecs = shiftvecs(:,1:6);     <span class="comment">%how many eigenstates do we need</span>
+
+plot(x,v, x,shiftvecs)
+axis([min(x) max(x) -.1*blowup 1.1*max(max(shiftvecs))])
+xlabel(<span class="string">'x'</span>,<span class="string">'FontSize'</span>,16)
+ylabel(<span class="string">'Energy'</span>,<span class="string">'FontSize'</span>,16)
+title(<span class="string">'PIB Wavefunctions'</span>,<span class="string">'FontSize'</span>,16)
+legend({<span class="string">'V'</span>,<span class="string">'n=1'</span>,<span class="string">'n=2'</span>,<span class="string">'n=3'</span>,<span class="string">'n=4'</span>,<span class="string">'n=5'</span>,<span class="string">'n=6'</span>},<span class="string">'FontSize'</span>,14);
+</pre><img vspace="5" hspace="5" src="PIB2_01.png" alt=""> <h2 id="4">For plotting the well</h2><p>plot(x,v,'LineWidth',8) axis([min(x) max(x) -10^13 *blowup 1.1*max(v)]) xlabel('x','FontSize',16) ylabel('Energy','FontSize',16) title('PIB Wavefunctions','FontSize',16) legend({'V'},'FontSize',14);</p><pre class="codeinput"><span class="keyword">end</span>
+</pre><p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2017a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+function [] =PIB2(n )
+hbar=1.054*10^-34;    %plank constant
+me=9.109*10^-31;      %mass electron
+
+a=5*10^-9;             %width of box
+barht=10^-5;           %hight of barrier
+pts=350;             %number of points discritizing space
+barrier_width=30;     %number of points with infinit potential 
+blowup=10^-19;        %to make the graph readable
+
+x=linspace(0,a,pts);
+dx=x(2)-x(1);
+
+v=zeros(pts,1);       %Creates a vector of zeros that will hold the values of potential energy
+v([1:barrier_width, (end-(barrier_width-1):end)])=barht;  %Fill the vector with the energy values (zeros inside the box and a value of barht for the barrier) 
+V=diag(v);                                                 %Potential energy matrix
+
+T=- (hbar.^2 /(2.*me))*(1/(dx)^2) *(-2*eye(pts)+diag(ones(pts-1,1),-1)+diag(ones(pts-1,1),1));  %kinetic energy matrix
+
+H=T+V ;              %Hamiltonian matrix
+
+[Vecs,Vals]=srteig(H);  %get the eigenvalues and eigenvectors and sort them
+%%
+outervec=ones(pts, 1);         %vector to use for the outerproduct
+repvals=outervec*(diag(Vals)');  %make matrix with column having repeated eigenvalue
+shiftvecs=(blowup*Vecs+ repvals);        %shift the eigenvectors by the eigenvalues
+shiftvecs = shiftvecs(:,1:6);     %how many eigenstates do we need
+
+plot(x,v, x,shiftvecs)
+axis([min(x) max(x) -.1*blowup 1.1*max(max(shiftvecs))])
+xlabel('x','FontSize',16)
+ylabel('Energy','FontSize',16)
+title('PIB Wavefunctions','FontSize',16)
+legend({'V','n=1','n=2','n=3','n=4','n=5','n=6'},'FontSize',14);
+
+
+%% For plotting the well
+% plot(x,v,'LineWidth',8)
+% axis([min(x) max(x) -10^13 *blowup 1.1*max(v)])
+% xlabel('x','FontSize',16)
+% ylabel('Energy','FontSize',16)
+% title('PIB Wavefunctions','FontSize',16)
+% legend({'V'},'FontSize',14);
+%%
+
+end
+##### SOURCE END #####
+--></body></html>
