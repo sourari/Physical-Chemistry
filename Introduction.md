@@ -47,7 +47,7 @@ Therefore, $\hat{V}$ must be a diagonal matrix of the form
 0 & 0 & & \cdots & &  v_{nn}
 \end{bmatrix}$ </p>
 
-For example, we can consider the potential shown in the figure bellow. We can express this potential energy in matrix for as
+For example, we can consider the potential shown in the figure bellow. This potential can be expressed in matrix form as
 
 <p align="center"> $\hat{V}= \begin{bmatrix}
 4& 0& 0& 0& 0&0 & 0\\\
