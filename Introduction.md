@@ -28,7 +28,7 @@ Inner products are particularly useful in quantum mechanics for normalizing  vec
  
 <p align="center"> $\hat{v}=\frac{1}{\sqrt{< \vec{v},\vec{v} >}} \vec{v} $. </p>
  
- Similarly, the expectation value of a quantum operator $\hat{Q}$ is expressed as an inner product 
+ Similarly, the expectation value of a quantum operator $\hat{Q}$ can be expressed as an inner product 
  
  <p align="center"> $ < \hat{Q} >= < \psi, Q \psi > $, </p>
  
