@@ -7,7 +7,7 @@
 In this page, we will be presenting some quantum mechanical concepts using Matlab.
 Our explorations will start from the Time-Independent Schrödinger Equation (TISE). The, we will gradually transition to the Time-Dependent Schrödinger Equation (TDSE) and perturbation theory. 
 Our work will explore both the theory at the core of these topics in physical chemistry and the computational methods needed to illustrate the resulting quantum phenomena.
-Our work is pertinent to both physics and chemistry students equally and is helpful for developing a complete picture of some fairly complicated quantum systems. 
+Our work is pertinent to both physics and chemistry students equally and is helpful for developing a complete understanding of some fairly complicated quantum systems. 
 
 
 ## Table of contents
