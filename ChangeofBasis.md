@@ -89,7 +89,8 @@ If we apply the Vecs matrix on ${(\psi_1)}_E$ we wil have
 \end{pmatrix} {\begin{pmatrix} 1\\\ 0\\\ 0\\\ \vdots \end{pmatrix}}_E = {\begin{bmatrix} \psi_1 \end{bmatrix}}_x $. </p>
 
 So we obtained the first eigenvector in position basis. We can use this method for any ${(\psi_n)}_x$ by operating the Vecs matrix on the corresponding ${(\psi_n)}_E$. 
-And to go the other way, we can take the inverse matrix $[Vecs]^{-1}$ as follow.
+
+Similarly, to go from position basis to energy basis, we can take the inverse matrix $[Vecs]^{-1}$ as follow.
 We have 
 <p align="center"> $[Vecs] {(\psi_n)}_E={(\psi_n)}_x $. </p>
 So, 
