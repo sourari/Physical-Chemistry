@@ -28,7 +28,7 @@ In quantum mechanics, the basis vectors $|1>, |2>... |n>$ represent the eigenvec
 ### 1.3 Time Independent Schroedinger Equation (TISE)
 The single most important piece of quantum mechanics is the TISE expressed as an eigenvalue equation
 
-<p align="center"> $\hat{H}\psi=E\psi$, </p>
+<p align="center"> $\hat{H}\psi_n=E_n\psi_n$, </p>
 where $\psi$ is the eigenfunction of the system, $E$ is the value of the energy of the system and $\hat{H}=\hat{T}+\hat{V}$ is the Hamiltonian operator. $\hat{T}=-\frac{\hbar^2}{2m}\frac{d^2}{dx^2}$ for a one-dimentional system and $\hat{V}$, the potential energy operator, is described by the particular quantum system studied.
 
 ### 1.4 Quantum Operators
