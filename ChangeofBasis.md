@@ -78,7 +78,7 @@ which is exactly the Vals matrix.
 
 Using our Vecs matrix we can go from energy eigenvectors in energy basis ${(\psi_n)}_E$ to energy eigenvectors in position basis ${(\psi_n)}_x$ and vice versa. This can be achieved as follow:
 
-If we "operate" the Vecs matrix on ${(\psi_1)}_E$ we wil have
+If we apply the Vecs matrix on ${(\psi_1)}_E$ we wil have
 
 
 <p align="center"> $\begin{pmatrix}
