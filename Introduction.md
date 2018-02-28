@@ -47,14 +47,6 @@ Therefore, $\hat{V}$ must be a diagonal matrix of the form
 0 & 0 & & \cdots & &  v_{nn}
 \end{bmatrix}$ </p>
 
-<p align="center"> $\begin{bmatrix}
- v_{11} & 0 & & \cdots & & 0&  0 \\\
- 0 & v_{22} & & \cdots & & 0&  0 \\\
- \vdots &  \vdots &  & \ddots & & \vdots & \vdots\\\
- 0 & 0 & & \cdots & & v_{(n-1)(n-1)}&  0 \\\
-0 & 0 & & \cdots & & 0&  v_{nn}
-\end{bmatrix}$ </p>
-
 For example, we can consider the potential shown in the figure bellow. We can express this potential energy in matrix for as
 
 <p align="center"> $\hat{V}= \begin{bmatrix}
