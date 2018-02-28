@@ -37,7 +37,7 @@ Quantum operators such as position, angular and linear momentum and the Hamilton
 So, let’s see one example of an operator matrix.
 
 ### 1.5 Constructing the Potential Energy Matrix
-From the TISE, we know that the potential energy operator, $\hat{V}$ should be a matrix operating on the wavefunction represented by a vector $\psi$ of size n. So, $\hat{V}$ should be a square matrix of size $n$. Now we need to know the entries of this square matrix. We know that operating the potential energy operator on a position eigenvector yields the value of the potential energy (eigenvalues) at the position represented by the vector. This means that when operating the potential energy matrix on the independent vectors $|1>, |2>, |3>...|n>$ we obtain $v_{11}|1>, v_{22}|2>, v_{33}|3>...v_{nn}|n>$, respectively.
+From the TISE, we know that the potential energy operator, $\hat{V}$ should be a matrix operating on the wavefunction represented by a vector $\psi$ of size n. So, $\hat{V}$ should be an $n$ by $n$ square matrix. Now we need to know the entries of this square matrix. We know that operating the potential energy operator on a position eigenvector yields the value of the potential energy (eigenvalues) at the position represented by the vector. This means that when operating the potential energy matrix on the independent vectors $|1>, |2>, |3>...|n>$ we obtain $v_{11}|1>, v_{22}|2>, v_{33}|3>...v_{nn}|n>$, respectively.
 Therefore, $\hat{V}$ must be a diagonal matrix of the form
 
 <p align="center"> $\begin{bmatrix}
