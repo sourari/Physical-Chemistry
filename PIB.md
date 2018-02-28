@@ -56,4 +56,6 @@ Now putting everything together, we can solve the TISE in Matlab and obtain the 
 </p>
 <p align="center">Figure2.2: Wavefunctions for 6 different energy levels of the PIB system </p>
 
+#### 4.1[The complete Matlab code can be found here](/PIB2.html)
+
 [Go back to home page](/README.md)
