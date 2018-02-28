@@ -20,7 +20,7 @@ To create the potential energy matrix in Matlab, we first need to create a squar
   
 ```Matlab
 v=zeros(pts,1)    %creates a matrix of zeros;
-v([1:barrier_width, (end-(barrier_width-1):end)])=barht; %barier hight
+v([1:barrier_width, (end-(barrier_width-1):end)])=barht; %barrier hight
 V=diag(v);  %add the energies to the diagonal entries of the potential matrix
 
 ``` 
