@@ -1,0 +1,194 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>TDSE_time_ones</title><meta name="generator" content="MATLAB 9.2"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2018-02-28"><meta name="DC.source" content="TDSE_time_ones.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><pre class="codeinput"><span class="keyword">function</span> [] =TDSE_time_ones(n )
+hbar=1;          <span class="comment">%plank constant</span>
+me=1;            <span class="comment">%mass of the electron</span>
+a=1;             <span class="comment">%width of the box</span>
+barrht=10^6;     <span class="comment">%hight of the barrier</span>
+pts=250;         <span class="comment">%number of points discritizing space</span>
+barrier_width=3; <span class="comment">%number of points with infinit potential</span>
+
+x=linspace(0,a,pts); <span class="comment">%discritizing space</span>
+dx=x(2)-x(1);        <span class="comment">%position differential</span>
+
+v=zeros(pts,1);             <span class="comment">%creates a matrix of zeros;</span>
+v([1:barrier_width, (end-(barrier_width-1):end)])=barrht; <span class="comment">%barrier hight</span>
+v([(120:130)])=barrht/1500; <span class="comment">%Perturbation</span>
+V=diag(v);                  <span class="comment">%Potential energy matrix</span>
+
+T=- (hbar.^2 /(2.*me))*(1/(dx)^2) *(-2*eye(pts)+diag(ones(pts-1,1),-1)+diag(ones(pts-1,1),1));  <span class="comment">%kinetic energy matrix</span>
+
+H=T+V ;                 <span class="comment">%Hamiltonian matrix</span>
+
+[Vecs,Vals]=srteig(H);  <span class="comment">%solve for the eigenvalues and eigenvectors</span>
+E=diag(Vals);           <span class="comment">%store the eigenvalues</span>
+
+EtoX= Vecs;             <span class="comment">%change from energy to position basis</span>
+XtoE=inv(Vecs);         <span class="comment">%change from position to energy basis</span>
+
+Psi_X=exp(-100*(x'-0.2).^2).*exp(10*x'*i);
+Psi_E=inv(Vecs)*Psi_X;
+
+t=0;          <span class="comment">%initialize</span>
+dt=0.0005;    <span class="comment">%time increment</span>
+
+<span class="keyword">for</span> k=1:10
+    Psi_ET= Psi_E.*exp(-i*E*t/hbar);             <span class="comment">%Compute the time dependent eigenvector in energy basis</span>
+    Psi_XT=EtoX*Psi_ET;                          <span class="comment">%Compute the time dependent eigenvector in position basis</span>
+    Psi_XT=Psi_XT/norm(Psi_XT);                  <span class="comment">%normalize</span>
+    Proba_density= (conj(Psi_XT)).* Psi_XT;      <span class="comment">%probability density in position basis</span>
+    Xexp_v=real( Psi_XT' * ((x').* Psi_XT));     <span class="comment">%expectation value of position using position basis</span>
+<span class="comment">%     Eexp_v=real( Psi_ET' * (Vals* Psi_ET));    %expectation value of energy using energy basis</span>
+    Eexp_v=real( Psi_XT' * (H* Psi_XT));         <span class="comment">%expectation value of energy using position basis</span>
+
+
+    figure(1)
+    subplot (2, 2, 1)
+    sali_plot3(x',4*Psi_ET)
+    subplot (2, 2, 2)
+    sali_plot3(x',4*Psi_XT)
+    subplot(2,2,[3,4]);
+    plot(x,v/30000, x, Proba_density , Xexp_v,0.01 ,<span class="string">'r*'</span>)
+    text(0.1 ,0.02,[<span class="string">'&lt; E &gt;= '</span> num2str(Eexp_v) <span class="string">'a.u'</span>],<span class="string">'FontSize'</span>,16)
+    text(0.1 ,0.017,[<span class="string">'&lt; x &gt;= '</span> num2str(Xexp_v) <span class="string">'a.u'</span>],<span class="string">'FontSize'</span>,16)
+    ylim([0 0.03])
+    title(<span class="string">'Probability Density'</span>,<span class="string">'FontSize'</span>,16)
+    xlabel(<span class="string">'x'</span>,<span class="string">'FontSize'</span>,16)
+    ylabel(<span class="string">'Amplitude'</span>,<span class="string">'FontSize'</span>,16)
+
+    drawnow
+    t=t+dt;
+<span class="keyword">end</span>
+
+<span class="keyword">end</span>
+</pre><img vspace="5" hspace="5" src="TDSE_time_ones_01.png" alt=""> <p class="footer"><br><a href="http://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2017a</a><br></p></div><!--
+##### SOURCE BEGIN #####
+function [] =TDSE_time_ones(n )
+hbar=1;          %plank constant
+me=1;            %mass of the electron
+a=1;             %width of the box
+barrht=10^6;     %hight of the barrier
+pts=250;         %number of points discritizing space
+barrier_width=3; %number of points with infinit potential 
+
+x=linspace(0,a,pts); %discritizing space
+dx=x(2)-x(1);        %position differential
+ 
+v=zeros(pts,1);             %creates a matrix of zeros;
+v([1:barrier_width, (end-(barrier_width-1):end)])=barrht; %barrier hight
+v([(120:130)])=barrht/1500; %Perturbation 
+V=diag(v);                  %Potential energy matrix
+
+T=- (hbar.^2 /(2.*me))*(1/(dx)^2) *(-2*eye(pts)+diag(ones(pts-1,1),-1)+diag(ones(pts-1,1),1));  %kinetic energy matrix
+
+H=T+V ;                 %Hamiltonian matrix
+
+[Vecs,Vals]=srteig(H);  %solve for the eigenvalues and eigenvectors
+E=diag(Vals);           %store the eigenvalues
+
+EtoX= Vecs;             %change from energy to position basis
+XtoE=inv(Vecs);         %change from position to energy basis
+
+Psi_X=exp(-100*(x'-0.2).^2).*exp(10*x'*i);
+Psi_E=inv(Vecs)*Psi_X;
+
+t=0;          %initialize
+dt=0.0005;    %time increment
+
+for k=1:10
+    Psi_ET= Psi_E.*exp(-i*E*t/hbar);             %Compute the time dependent eigenvector in energy basis
+    Psi_XT=EtoX*Psi_ET;                          %Compute the time dependent eigenvector in position basis 
+    Psi_XT=Psi_XT/norm(Psi_XT);                  %normalize
+    Proba_density= (conj(Psi_XT)).* Psi_XT;      %probability density in position basis
+    Xexp_v=real( Psi_XT' * ((x').* Psi_XT));     %expectation value of position using position basis
+%     Eexp_v=real( Psi_ET' * (Vals* Psi_ET));    %expectation value of energy using energy basis
+    Eexp_v=real( Psi_XT' * (H* Psi_XT));         %expectation value of energy using position basis
+    
+    
+    figure(1)
+    subplot (2, 2, 1)
+    sali_plot3(x',4*Psi_ET)
+    subplot (2, 2, 2)
+    sali_plot3(x',4*Psi_XT)
+    subplot(2,2,[3,4]);
+    plot(x,v/30000, x, Proba_density , Xexp_v,0.01 ,'r*')
+    text(0.1 ,0.02,['< E >= ' num2str(Eexp_v) 'a.u'],'FontSize',16)
+    text(0.1 ,0.017,['< x >= ' num2str(Xexp_v) 'a.u'],'FontSize',16)
+    ylim([0 0.03])
+    title('Probability Density','FontSize',16)
+    xlabel('x','FontSize',16)
+    ylabel('Amplitude','FontSize',16)
+
+    drawnow
+    t=t+dt; 
+end
+
+end
+##### SOURCE END #####
+--></body></html>
