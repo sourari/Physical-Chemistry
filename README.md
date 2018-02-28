@@ -2,7 +2,7 @@
 
 #     **Physical Chemistry** 
 
-### Salim Ourari
+### Salim Ourari, Bates College
 
 In this page, we will be presenting some quantum mechanical concepts using Matlab.
 Our explorations will start from the Time-Independent Schrödinger Equation (TISE). Then, we will gradually transition to the Time-Dependent Schrödinger Equation (TDSE) and perturbation theory. 
