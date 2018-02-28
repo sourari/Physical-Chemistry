@@ -30,7 +30,7 @@ Inner products are particularly useful in quantum mechanics for normalizing  vec
  
  Similarly, the expectation value of a quantum operator $\hat{Q}$ can be expressed as an inner product 
  
- <p align="center"> $ < \hat{Q} >= < \psi, Q \psi > $, </p>
+ <p align="center"> $ < \hat{Q} >= < \psi, \hat{Q} \psi > $, </p>
  
  where $\psi$ is an energy eigenvector of the quantum system.
 
