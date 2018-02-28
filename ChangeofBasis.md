@@ -48,7 +48,7 @@ E_1& 0 &0&0\\\
 Notice that Vals is exactly the Hamiltonian in the energy basis, $H_E$. To visualize that it is indeed $ H_E $, we write the TISE in the energy basis as follow 
 <p align="center">$H_E {(\psi_n)}_E = E_n {(\psi_n)}_E $.</p>
 It is crucial to keep in mind that the energy eigenvalues are independent of the chosen basis for the Hamiltonian and are, therefore, the same in position, momentum or position bases.
-The above TISE can be rewritten in matrix form (we will only show it for a 3x3 matrix for simplicity, the math would be the same for any $nxn$ matrix) as:
+The above TISE can be rewritten in matrix form (we will only show it for a 3x3 matrix for simplicity, the math would be the same for any $n \times n$ matrix) as:
 
 <p align="center"> $ \begin{pmatrix}
 E_{11}& E_{12} &E_{13}\\\
