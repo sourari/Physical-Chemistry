@@ -41,6 +41,13 @@ From the TISE, we know that the potential energy operator, $\hat{V}$ should be a
 Therefore, $\hat{V}$ must be a diagonal matrix of the form
 
 <p align="center"> $\begin{bmatrix}
+ v_{11} & 0 & & \cdots & &  0 \\\
+ 0 & v_{22} & & \cdots & & 0 \\\
+ \vdots &  \vdots &  & \ddots & & \vdots\\\
+0 & 0 & & \cdots & & 0&  v_{nn}
+\end{bmatrix}$ </p>
+
+<p align="center"> $\begin{bmatrix}
  v_{11} & 0 & & \cdots & & 0&  0 \\\
  0 & v_{22} & & \cdots & & 0&  0 \\\
  \vdots &  \vdots &  & \ddots & & \vdots & \vdots\\\
