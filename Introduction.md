@@ -1,8 +1,8 @@
 {% include mathjax.html %}
 
 
-## Introduction to Quantum Mechanics Concepts Using Linear Algebra
-Linear algebra is the natural language of quantum mechanics. So, it is crucial to begin our explorations by a quick refresher of the main ideas in linear algebra that are most relevant to our study.
+## Introduction to Quantum Mechanical Concepts Using Linear Algebra
+Linear algebra is the natural language of quantum mechanics. So, it is crucial to begin our explorations by a quick refresher on the main ideas in linear algebra that are most relevant to our study.
 
 Linear algebra allows us to express quantum states in vector forms. This, in my opinion, makes the ideas of orthogonality and normalization of wavefunctions more intuitive. We all know from introductory linear algebra what it means to normalize a vector and what orthogonal sets of vectors mean, here we will put our math background to some real scientific use.
 
@@ -18,7 +18,7 @@ We can also write $|v>$ and $|w>$ in a more formal and concise way as
  <p align="center">$|v>= \sum_{n=1}^{n}v_i |i> \ and \ |w>= \sum_{n=1}^{n}w_i |i> $. </p>
 
 ### 1.2 Inner Product
-Inner products are ubiquitous in the realm of quantum mechanics. So it is important to have a quick refresher of inner products and get familiar with the notation we will be using in our study.
+Inner products are ubiquitous in the realm of quantum mechanics. So it is important to have a quick refresher on inner products and get familiar with the notation we will be using in our study.
 
 The inner product of $|v>$ and $|w>$ is defined as
 <p align="center"> $<v,w>={\begin{bmatrix} v_{1} & v_{2} & ... & v_{n} \end{bmatrix}}^* \begin{bmatrix} w_{1} \\\ w_{2} \\\ \vdots \\\ w_{n} \end{bmatrix}=\sum_{n=1}^{n}v_i ^*w_i $.</p>
