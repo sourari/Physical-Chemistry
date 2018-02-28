@@ -2,7 +2,7 @@
 
 ## Complex numbers:
 
-Complex numbers are common in advanced science classes. Here we give a short summery of the concepts that are needed for quantum theory.
+Complex numbers are common in advanced science classes. Here we give a short summery of the most common complex numbers concepts in quantum theory.
 
 Consider a complex number $z=a+ib$, where $i=\sqrt{-1}$. We call $a$ the real part of $z$ and $b$ its imaginary part. Therefore, any complex number can be plotted in the complex plane as follow.
 <p align="center">
