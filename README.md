@@ -12,7 +12,7 @@ Our work is pertinent to both physics and chemistry students equally and is help
 
 ## Table of contents
 
-### $1)$ [Introduction to Quantum Mechanical Concepts Using Linear Algebra](/.Introduction.md)
+### $1)$ [Introduction to Quantum Mechanical Concepts Using Linear Algebra](/Introduction.md)
 
 #### 1.1[Change of basis](/ChangeofBasis.md)
 #### 1.2[Complex Numbers](/complexnumbers.md)
