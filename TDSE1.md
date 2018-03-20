@@ -54,7 +54,7 @@ We can use Euler formula to  obtain
 
 <p align="center"> $e^{\frac{-i E_n}{\hbar}t}= $ cos$ (\frac{ E_n}{\hbar}t) - i$ sin$ (\frac{ E_n}{\hbar}t)$. </p>
 
-This represents a rotation in the complex plane with a frequency $\frac{E_n}{\hbar}$ as shown in figure bellow:
+This represents a rotation in the complex plane with a frequency $\frac{E_n}{\hbar}$. The figure bellow shows what a rotation in the complex plane of the form $e^{i\theta t}$ looks like:
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/35788659-b433fafc-0a04-11e8-8652-6405e03fd2cb.jpg" width="500">
