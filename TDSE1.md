@@ -1,15 +1,15 @@
 {% include mathjax.html %}
 
-# Time Dependent Schroedinger Equation:
+# Time Dependent Schröedinger Equation:
 
-So far in our analysis we have only been looking at the spatial dependence of our eigenvectors, $\psi(x)$. To understand the behavior of any real quantum system we have to determine both it spatial and time dependence. This means that we have to find the complete wavefunction, $\Psi(x,t)$. To do so we have to solve the time dependent Schroedinger equation, TDSE:
+So far in our analysis we have only been looking at the spatial dependence of our eigenvectors, $\psi(x)$. To understand the behavior of any real quantum system we have to determine both it spatial and time dependence. This means that we have to find the complete wavefunction, $\Psi(x,t)$. To do so we have to solve the time dependent Schröedinger equation, TDSE:
 <p align="center"> $H \Psi(x,t)= i \hbar \frac{\partial}{\partial t} \Psi(x,t)$, </p>
 where the Hamiltonian operator $H$ is still the sum of the potential and kinetic energy and $i$ is the complex number defined as $i=\sqrt{-1}$ ([click here](/complexnumbers.md) for a quick refresher on complex numbers). In this derivation we are adopting the position basis for our energy eigenvectors, meaning that the Hamiltonian is also expressed in the position basis.
 
 The TDSE cannot be analytically solved unless we can separate it into a time dependent term and a spatial dependent term. To do this, we need the help of an old trick called separation of variable technique where we can write the total wavefunction as:
 
 <p align="center">  $\Psi(x,t)= \psi(x) T(t) $, </p>
-where $\psi(x)$ is in the set of the solutions to the time independent Schroedinger equation $\{ {\psi(x)}_n \}$.
+where $\psi(x)$ is in the set of the solutions to the time independent Schröedinger equation $\{ {\psi(x)}_n \}$.
 
 Therefore, the TDSE becomes:
 
