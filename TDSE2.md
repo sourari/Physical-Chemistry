@@ -1,6 +1,6 @@
 {% include mathjax.html %}
 
-# Time Dependent Schroedinger Equation for the Particle in a Box System:
+# Time Dependent Schröedinger Equation for the Particle in a Box System:
 
 In this section we want to numerically solve the TDSE for the PIB using Matlab.
 At this stage, we only want to have an overall idea of the behavior of a particle inside an infinit 2-D square potential. So, we will set all the constant to a value of $1$ in Matlab as follow.
