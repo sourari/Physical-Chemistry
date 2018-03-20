@@ -20,9 +20,9 @@ Our work is pertinent to both physics and chemistry students equally and is help
 ### $2)$ [Particle in a box](/PIB.md)
 #### 2.1[PIB Matlab code](/PIB2.html)
 
-### $3)$ [Introduction to Time-Dependent Schroedinger Equation (TDSE)](/TDSE1.md)
+### $3)$ [Introduction to Time-Dependent Schröedinger Equation (TDSE)](/TDSE1.md)
 
-### $4)$ [Time-Dependent Schroedinger Equation for the PIB](/TDSE2.md)
+### $4)$ [Time-Dependent Schröedinger Equation for the PIB](/TDSE2.md)
 #### 4.1[TDSE for a Perturbed PIB](/TDSE3.md)
 #### 4.2[TDSE Matlab code](/TDSE_time_ones.html)
 
