@@ -2,11 +2,11 @@
 
 # Time Dependent Schroedinger Equation:
 
-So far in our analysis we have only been looking at the spacial dependence of our eigenvectors, $\psi(x)$. To understand the behavior of any real quantum system we have to determine both it spacial and time dependence. This means that we have to find the complete wavefunction, $\Psi(x,t)$. To do so we have to solve the time dependent Schroedinger equation, TDSE:
+So far in our analysis we have only been looking at the spatial dependence of our eigenvectors, $\psi(x)$. To understand the behavior of any real quantum system we have to determine both it spatial and time dependence. This means that we have to find the complete wavefunction, $\Psi(x,t)$. To do so we have to solve the time dependent Schroedinger equation, TDSE:
 <p align="center"> $H \Psi(x,t)= i \hbar \frac{\partial}{\partial t} \Psi(x,t)$, </p>
 where the Hamiltonian operator $H$ is still the sum of the potential and kinetic energy and $i$ is the complex number defined as $i=\sqrt{-1}$ ([click here](/complexnumbers.md) for a quick refresher on complex numbers). In this derivation we are adopting the position basis for our energy eigenvectors, meaning that the Hamiltonian is also expressed in the position basis.
 
-The TDSE cannot be analytically solved unless we can separate it into a time dependent term and a spacial dependent term. To do this, we need the help of an old trick called separation of variable technique where we can write the total wavefunction as:
+The TDSE cannot be analytically solved unless we can separate it into a time dependent term and a spatial dependent term. To do this, we need the help of an old trick called separation of variable technique where we can write the total wavefunction as:
 
 <p align="center">  $\Psi(x,t)= \psi(x) T(t) $, </p>
 where $\psi(x)$ is in the set of the solutions to the time independent Schroedinger equation $\{ {\psi(x)}_n \}$.
@@ -14,7 +14,7 @@ where $\psi(x)$ is in the set of the solutions to the time independent Schroedin
 Therefore, the TDSE becomes:
 
 <p align="center">  $H \psi(x) T(t)= i \hbar \frac{\partial}{\partial t}(\psi(x) T(t))$. </p>
-We also know that the time dependent part is unchanged under the Hamiltonian (because $T(t)$ has no spacial dependence and H is basically a second derivative with respect to position) so the TDSE becomes
+We also know that the time dependent part is unchanged under the Hamiltonian (because $T(t)$ has no spatial dependence and H is basically a second derivative with respect to position) so the TDSE becomes
 
 <p align="center">  $T(t) H \psi(x) = i \hbar \psi(x) \frac{\partial}{\partial t} (T(t))$. </p>
 
@@ -47,7 +47,7 @@ finally,
 
 Putting everything together, we have $\Psi(x,t)=\psi(x)e^{(\frac{-i E_n}{\hbar})t}$. But we should not forget that this can only be achieved if the time and space dependence of the wavefunction are separable. So a good question to ask is when are they separable? and what does it mean, physically, to have the time and space functions separable?
 
-It is important to notice that all physically realizable states are solutions to the TDSE but not all of them can be separated into a spacial and a time dependent functions. Only energy eigenfunction, in other words only the $\Psi(x,t)$ that satisfy the TISE, can be separated and therefore our derivations can only work for energy eigenfunctions. 
+It is important to notice that all physically realizable states are solutions to the TDSE but not all of them can be separated into a spatial and a time dependent functions. Only energy eigenfunction, in other words only the $\Psi(x,t)$ that satisfy the TISE, can be separated and therefore our derivations can only work for energy eigenfunctions. 
 
 Now to understand the physical meaning of our derived separable function let's look at what the time-dependent part does.
 We can use Euler formula to  obtain 
