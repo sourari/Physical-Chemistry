@@ -49,7 +49,7 @@ Video.1 bellow shows the plots for the second energy state, $\Psi_2(x,t)=\begin{
 <img src="https://user-images.githubusercontent.com/35305574/36699212-0506da5a-1b1a-11e8-9398-20a2d0a4969f.gif" width="800">
 <p align="center">  Video.1: Evolution of the second energy state of the PIB. </p>
 
-The expectation value of the position is graphycally shown with a red star on the probability density graph and the units of both $ < x > $ and $ < E > $ are not determined since we did not use the real values of the physical constants above. Our work so far shows the overall behavior of the system, later we will extant our exploration to using the appropriate constants and units to obtain quantitatively correct vales of for $ < x > $ and $ < E > $.
+The expectation value of the position is graphically shown with a red star on the probability density graph and the units of both $ < x > $ and $ < E > $ are not determined since we did not use the real values of the physical constants above. Our work so far shows the overall behavior of the system, later we will extant our exploration to using the appropriate constants and units to obtain quantitatively correct vales of for $ < x > $ and $ < E > $.
 
 #### How about the non-stationary states? 
 Let's consider the state defined by the time-independent energy eigenstate $\psi_E=\begin{bmatrix} 1 \\\ 1 \\\ 0 \\\ \vdots \end{bmatrix}$. Using the same Matlab code as in the stationary state case we obtain the time evolution shown in Video.2 bellow.
