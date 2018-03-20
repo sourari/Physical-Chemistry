@@ -17,7 +17,7 @@ Our work is pertinent to both physics and chemistry students equally and is help
 #### 1.1[Change of basis](/ChangeofBasis.md)
 #### 1.2[Complex Numbers](/complexnumbers.md)
      
-### $2)$ [Partical in a box](/PIB.md)
+### $2)$ [Particle in a box](/PIB.md)
 #### 2.1[PIB Matlab code](/PIB2.html)
 
 ### $3)$ [Introduction to Time-Dependent Schroedinger Equation (TDSE)](/TDSE1.md)
