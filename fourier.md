@@ -1,6 +1,6 @@
 {% include mathjax.html %}
 
-# TFourier Transform:
+# Fourier Transform:
 
 So far in our analysis we have only been looking at the spatial dependence of our eigenvectors, $\psi(x)$. To understand the behavior of any real quantum system we have to determine both it spatial and time dependence. This means that we have to find the complete wavefunction, $\Psi(x,t)$. To do so we have to solve the time dependent Schröedinger equation, TDSE:
 <p align="center"> $H \Psi(x,t)= i \hbar \frac{\partial}{\partial t} \Psi(x,t)$, </p>
