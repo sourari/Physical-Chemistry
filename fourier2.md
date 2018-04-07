@@ -61,6 +61,9 @@ Now with a better understanding of the position-momentum relation, let’s study
 
 ![Four1](/Untitled.gif) 
 
+The figure above shows the evolution of the position (left) and momentum the momentum (right) in the comlex plane. The figure above shows the evolution of the position (left) and momentum the momentum (right) in the complex plane. The vertical planes show the x=o (red) and the k=0 (blue) points. First thing we can see from the figure is that as the position distribution becomes wider the momentum distribution becomes narrower, in agreement with what I have shown the figures above. Notice that when the momentum distribution is centered at $k=0$ the position function is always along the real (no imaginary part). The more the center of the momentum distribution goes way from the center, the kinkier the position distribution becomes. Similarly, the higher the position the kinkier the momentum is.
+
+
 
 
 
