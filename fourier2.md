@@ -57,6 +57,11 @@ For high lowest in position:
 
 The figures above show how decreasing the width of the Gaussian in position domain (meaning decreasing the uncertainty in position) increases the width of the Gaussian in momentum domain (increasing the uncertainty in momentum). 
 
+Now with a better understanding of the position-momentum relation, let’s study a simulation of the time evolution of the values of position and momentum as follow. 
+
+![Four1](/Untitled.gif) 
+
+
 
 
 [Go back to home page](/README.md)
