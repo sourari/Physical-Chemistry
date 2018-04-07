@@ -31,3 +31,5 @@ Our work is pertinent to both physics and chemistry students equally and is help
 ### $6)$ [Fourier Transform](/fourier.md)
 #### 6.1[Fourier Transform Visualization](/fourier2.md)
 
+### $7)$ [Perturbation Theory (a Very Brief Introduction)](/perturb.md)
+
