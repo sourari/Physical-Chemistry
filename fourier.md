@@ -23,11 +23,9 @@ The above equation is known as the inverse Fourier Transform. The Fourier Transf
 <p align="center"> $\hat{f}(k)=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} f(x) e^{-ikx}dx$. </p>
 
 
-
-
-
-
-<p align="center"> $H \Psi(x,t)= i \hbar \frac{\partial}{\partial t} \Psi(x,t) dx$, </p>
+The same equations can be used to transform from the time domain to the frequency domain or vise-versa as follow
+<p align="center"> $f(\omega)=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} \hat{f}(t) e^{i\omegat}dk$. </p>
+<p align="center"> $\hat{f}(t)=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} f(\omega) e^{-i\omegat}dx$. </p>
 
 
 
