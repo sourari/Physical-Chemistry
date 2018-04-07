@@ -27,13 +27,13 @@ Let’s consider a function that would have minimal uncertainty in both position
 
 In Matlab I create the Gaussian function using this code:
 ```Matlab
-Phi_x=exp(-a*(x'-b).^2);
+Psi_x=exp(-a*(x'-b).^2);
 
 ```
 Then I compute the function in the momentum domain using the fft and fftshift shift finctions of matlab as follow:
 ```Matlab
-phi_k = fft(hi_x);
-phi_k = fftshift(phi_k);
+psi_k = fft(psi_x);
+psi_k = fftshift(psi_k);
 ```
 Using this code I computed the Fourier transform of different Gaussian wavefunction that have different linewidths (higher uncertainty in the position) as shown in the figure bollow.
 
