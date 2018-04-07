@@ -39,8 +39,6 @@ Using this code I computed the Fourier transform of different Gaussian wavefunct
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/38460807-8b2beb90-3a8f-11e8-98ef-756d82a8ebc2.jpg" width="300">
-</p>
-<p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/38460812-a1dd6b8e-3a8f-11e8-9d08-f576b3cf7c19.jpg" width="300">
 </p>
 
