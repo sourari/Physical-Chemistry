@@ -18,6 +18,8 @@ The wavepacket travels towards the finite barrier then a part of the packet tunn
 
 The method I used so far in calculating the wavefunction was to directly evaluate the eigenvalues and eigenvectors of the Hamiltonian and then finding the time dependent wavefunction at the desired time ($t$) using the formula 
 $$\Psi(x,t)_n=\psi(x)_n e^{\frac{-iE_n}{h}t}$$.
+This method is great and quick when we want to evaluate the wavefunction of the system. However, this method might not be as effective if we want to solve more complicated systems, such as 2-D or 3-D PIB systems. Therefore, in the [next page](/difference.md) I will introduce another method of evaluating the time-dependent wavefunctions.
+
 
 
 
