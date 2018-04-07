@@ -7,7 +7,9 @@ The difference method is a powerful tool of evaluating the TDSE, or any other di
 <p align="center"> $H \Psi(x,t)= i \hbar \frac{\partial}{\partial t} \Psi(x,t)$. </p>
 Now let’s transition from the time differential to time difference $\Delta t$ so that 
 <p align="center"> $H \Psi(x,t)= i \hbar \frac{\Delta \Psi(x,t)}{\Delta t} $, </p>
-where $\ Delta \Psi(x,t)=\Psi(x,t+\Delta t)-\Psi(x,t). $
+where $\Delta \Psi(x,t)=\Psi(x,t+\Delta t)-\Psi(x,t). $
+So the TDSE become
+<p align="center"> $H \Psi(x,t)= i \hbar \frac{\partial}{\partial t} \Psi(x,t)$. </p>
 
 
 
