@@ -55,5 +55,8 @@ For high lowest in position:
   <img src="https://user-images.githubusercontent.com/35305574/38460822-da304f4c-3a8f-11e8-871d-3c8a37ff9caf.jpg" width="300">
 </p>
 
+The figures above show how decreasing the width of the Gaussian in position domain (meaning decreasing the uncertainty in position) increases the width of the Gaussian in momentum domain (increasing the uncertainty in momentum). 
+
+
 
 [Go back to home page](/README.md)
