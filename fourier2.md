@@ -37,16 +37,19 @@ psi_k = fftshift(psi_k);
 ```
 Using this code I computed the Fourier transform of different Gaussian wavefunction that have different linewidths (higher uncertainty in the position) as shown in the figure bollow.
 
+For high uncertainty in position:
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/38460807-8b2beb90-3a8f-11e8-98ef-756d82a8ebc2.jpg" width="300">
   <img src="https://user-images.githubusercontent.com/35305574/38460812-a1dd6b8e-3a8f-11e8-9d08-f576b3cf7c19.jpg" width="300">
 </p>
 
+For high less in position:
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/38460815-b3d30b8c-3a8f-11e8-875e-bd5717201a9c.jpg" width="300">
   <img src="https://user-images.githubusercontent.com/35305574/38460818-c0dc8f6a-3a8f-11e8-96b7-ba14aa9cb8aa.jpg" width="300">
 </p>
 
+For high lowest in position:
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/38460820-ce5132ea-3a8f-11e8-8eb7-5ada0aceacb6.jpg" width="300">
   <img src="https://user-images.githubusercontent.com/35305574/38460822-da304f4c-3a8f-11e8-871d-3c8a37ff9caf.jpg" width="300">
