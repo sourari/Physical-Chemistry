@@ -7,7 +7,7 @@ The Fourier Transform decomposes a function into the sum of complex exponential 
 
 Let’s explore the example of transforming a function from position space to momentum space. In momentum space, we use the wavenumber $k=\frac{2\pi}{\lambda}$ as our variable. To see why we use $k$ for the momentum space let’s apply the momentum operator on an arbitrary function $f(x)=e^{ikx}$. We obtain
 
-<p align="center"> $\hat{P}e^{ikx}= -i \hbar \frac{\partial}{\partialx}e^{ikx}$. </p>
+<p align="center"> $\hat{P}e^{ikx}= -i \hbar \frac{\partial}{\partial x}e^{ikx}$. </p>
 so 
 <p align="center"> $\hat{P}e^{ikx}= k \hbar e^{ikx}$. </p>
 Therefore, the momentum is the wavenumber $k$ multiplied by $\hbar$.
