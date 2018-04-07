@@ -24,8 +24,8 @@ The above equation is known as the inverse Fourier Transform. The Fourier Transf
 
 
 The same equations can be used to transform from the time domain to the frequency domain or vise-versa as follow
-<p align="center"> $f(\omega)=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} \hat{f}(t) e^{i\omega t}dk$. </p>
-<p align="center"> $\hat{f}(t)=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} f(\omega) e^{-i\omega t}dx$. </p>
+<p align="center"> $f(\omega)=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} \hat{f}(t) e^{-i\omega t}dk$. </p>
+<p align="center"> $\hat{f}(t)=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} f(\omega) e^{i\omega t}dx$. </p>
 
 
 
