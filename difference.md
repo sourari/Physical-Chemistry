@@ -17,7 +17,7 @@ Recall that the Hamiltonian H is the sum of the kinetic and potential energy ope
 <p align="center"> $(\frac{\Delta t}{i \hbar} H +I)\Psi(x,t)=\Psi(x,t+\Delta t), $ </p>
 where $I$ is the identity matrix given by $I\Psi(x,t)=\Psi(x,t).$
 
-We can consider (\frac{\Delta t}{i \hbar} H +I) as an operator, which is computationally easy to build, that operates on the wavefunction at a certain time $t$ to give us the subsequent wavefunction after a time duration $\Delta t$. 
+We can consider $(\frac{\Delta t}{i \hbar} H +I)$ as an operator, which is computationally easy to build, that operates on the wavefunction at a certain time $t$ to give us the subsequent wavefunction after a time duration $\Delta t$. 
 
 
 
