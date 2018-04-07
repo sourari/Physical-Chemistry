@@ -25,6 +25,17 @@ The fact that the Fourier Transform of a sinusoidal wave is a delta function sho
 
 Let’s consider a function that would have minimal uncertainty in both position and momentum values. The type of function that satisfy this condition is the Gaussian function. The general form of a Gaussian is given by $f(x)= A e^{-c(x-b)^2}$, where $A$ scales the amplitude of the function, $c$ defines the linewidth and $b$ $ defines the center of the Gaussian.
 
+In Matlab I create the Gaussian function using this code:
+```Matlab
+Phi_x=exp(-a*(x'-b).^2);
+
+```
+Then I compute the function in the momentum domain using the fft and fftshift shift finctions of matlab as follow:
+```Matlab
+phi_k = fft(hi_x);
+phi_k = fftshift(phi_k);
+```
+Using this code I computed the Fourier transform of different Gaussian wavefunction that have different linewidths (higher uncertainty in the position) as shown in the figure bollow.
 
 
 
