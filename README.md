@@ -27,5 +27,7 @@ Our work is pertinent to both physics and chemistry students equally and is help
 #### 4.2[TDSE Matlab code](/TDSE_time_ones.html)
 
 ### $5)$ [TDSE with the Difference Method](/difference.md)
+
 ### $6)$ [Fourier Transform](/fourier.md)
+#### 6.1[Fourier Transform Visualization](/fourier2.md)
 
