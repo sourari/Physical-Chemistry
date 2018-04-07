@@ -9,7 +9,9 @@ Now let’s transition from the time differential to time difference $\Delta t$ 
 <p align="center"> $H \Psi(x,t)= i \hbar \frac{\Delta \Psi(x,t)}{\Delta t} $, </p>
 where $\Delta \Psi(x,t)=\Psi(x,t+\Delta t)-\Psi(x,t). $
 So the TDSE become
-<p align="center"> $H \Psi(x,t)= i \hbar \frac{\partial}{\partial t} \Psi(x,t)$. </p>
+<p align="center"> $H \Psi(x,t)= i \hbar \frac{\Psi(x,t+\Delta t)-\Psi(x,t)}{\Delta t} .$ </p>
+Which can be rewritten as
+<p align="center"> $\frac{\Delta t}{i \hbar} H \Psi(x,t) +\Psi(x,t) =\Psi(x,t+\Delta t) $ </p>
 
 
 
