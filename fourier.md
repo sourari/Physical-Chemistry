@@ -20,7 +20,7 @@ The expression above is for a finite sum for discrete values of $k$. To express 
 <p align="center"> $f(x)=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} \hat{f}(k) e^{ikx}dk$. </p>
 
 The above equation is known as the inverse Fourier Transform. The Fourier Transform is then given by
-<p align="center"> $f\hat{f}(k)=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} f(x) e^{-ikx}dx$. </p>
+<p align="center"> $\hat{f}(k)=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} f(x) e^{-ikx}dx$. </p>
 
 
 
