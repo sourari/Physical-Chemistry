@@ -35,4 +35,5 @@ Our work is pertinent to both physics and chemistry students equally and is help
 
 
 ### $8)$ [Selection Rules](/selection.md)
+#### 8.1[see this link](/dipoles.md)
 
