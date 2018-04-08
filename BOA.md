@@ -11,7 +11,7 @@ For example, consider $H_2^+$ shown in Fig.1 bellow. It is composed of three par
 
 We can write the Hamiltonian as:
 
-$\hat{H}=\frac{-\hbar^2 }{2M_a}\nabla^2_a + \frac{-\hbar^2 }{2M_b}\nabla^2_b + \frac{-\hbar^2 }{2M_e}\nabla^2_e  $
+$\hat{H}=\frac{-\hbar^2 }{2M_a}\nabla^2_a + \frac{-\hbar^2 }{2M_b}\nabla^2_b + \frac{-\hbar^2 }{2M_e}\nabla^2_e + \frac{-q^2}{4\pi \epsilon_0 r_a} + \frac{-q^2}{4\pi \epsilon_0 r_b}+ \frac{q^2}{4\pi \epsilon_0 R_ab}$
 
 
 
