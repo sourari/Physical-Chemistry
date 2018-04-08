@@ -18,5 +18,6 @@ M=Vecs' *diag(x)* Vecs;
 ```
 I used the old SHO code with this above code to determine the selection rules for the SHO system. The selection rules for this system are shown in Fig.1. The horizontal axis shows final state $m$ and the vertical axis shows the initial state $n$. 
 
+https://user-images.githubusercontent.com/35305574/38471395-98f4fa00-3b3e-11e8-9b67-01ad0d952ac1.jpg
 
 [Go back to home page](/README.md)
