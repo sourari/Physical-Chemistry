@@ -26,5 +26,8 @@ We know that light is an electromagnetic wave (composed of a magnetic and an ele
 <p align="center"><img src="https://user-images.githubusercontent.com/35305574/38469581-105471c6-3b25-11e8-9f59-e057c2353ba6.jpg" width="500"></p>
 <p align="center">Fig.3</p>
 
+Notice that in the case of orthogonal beam (Fig.3) there is no net force applied on the dipole. If the light beam is not orthogonal to the dipole, then the forces on the two charges will not be equal and will result in a net force that would move the dipole or will result in torque that will rotates the dipole.
+
+
 
 [Go back to home page](/README.md)
