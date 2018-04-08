@@ -18,7 +18,7 @@ M=Vecs' *diag(x)* Vecs;
 ```
 I used the old SHO code with this above code to determine the selection rules for the SHO system. The selection rules for this system are shown in Fig.1. The horizontal axis shows final state $m$ and the vertical axis shows the initial state $n$. From the figure, we can see that transitions only occur for $m=n \pm 1$. In other words, the transition rule is $\Delta v=\pm1$, taking into account that for the SHO is we use the quantum number $v$ not $n$. 
 
-<p align="center"><img src="https://user-images.githubusercontent.com/35305574/38471395-98f4fa00-3b3e-11e8-9b67-01ad0d952ac1.jpg" width="300"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/35305574/38471395-98f4fa00-3b3e-11e8-9b67-01ad0d952ac1.jpg" width="500"></p>
 
 The SHO model is very useful to understand the selection rules, however, to a more realistic model of molecular vibration is given by the Lennard-Jones potential. This potential is shown in the next page.
 
