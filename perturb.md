@@ -11,6 +11,8 @@ Let’s consider a PIB system with a barrier in the middle of the potential well
 https://user-images.githubusercontent.com/35305574/38461524-b969859c-3aa0-11e8-85d4-cf257f26b9cc.jpg" width="500">
 </p>
 
+In this case we can compute the wavefunction of the left well and the right well separately. Then we can use the wavefunction of the two wells as a basis for the total wavefunction. This can be mathematically expressed as $\psi_tot \approx c_{left} \psi_{left}+ c_{right} \psi_{right} $.
+
 
 
 
