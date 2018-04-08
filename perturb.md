@@ -5,6 +5,13 @@
 
 Perturbation theory is a powerful mathematical tool that allows us to approximate and study quantum systems that we could not solve otherwise using direct calculations. The number of quantum systems that can be solved analytically are very few and they are mainly hypothetical, over simplified systems. For this reason, scientists have developed the perturbation theory, which consists of solving a complex problem by considering a simplified system (which we can compute the solution analytically) and treat the complex parts as perturbation to your simple problem. This method has been proven successful in explaining a myriad of phenomena, from the subatomic interactions to chemical bond. In this page, I will focus on the example of atomic orbitals to show some basics of how perturbation theory is useful.
 
+Let’s consider a PIB system with a barrier in the middle of the potential well. Consider the barrier to be of finite height and width as shown in the figure bellow.
+<p align="center">
+  <img src="
+https://user-images.githubusercontent.com/35305574/38461518-3cc8b97c-3aa0-11e8-9af6-4fb65120160e.jpg" width="500">
+</p>
+
+
 
 
 [Go back to home page](/README.md)
