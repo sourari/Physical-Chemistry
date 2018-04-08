@@ -37,7 +37,7 @@ such that
 
 Then dividing both sides by $\psi(r;R)\chi(R)$ we have
 
-<p align="center">$\hat{T}_{nuclear}\psi(r;R)\chi(R)+ \hat{T}_{electron}\psi(r;R)+ \hat{V}_{nuc-e} +\hat{V}_{nuc-nuc} =\xi.$</p>
+<p align="center">$\frac{\hat{T}_{nuclear}\psi(r;R) \chi(R)}{\psi(r;R) \chi(R)}+ \frac{\hat{T}_{electron}\psi(r;R)}{\psi(r;R)}+ \hat{V}_{nuc-e} +\hat{V}_{nuc-nuc} =\xi.$</p>
 
 
 
