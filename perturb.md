@@ -15,7 +15,7 @@ In this case we can compute the wavefunction of the left well and the right well
 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/35305574/38461733-faea5e2e-3aa5-11e8-8949-ef3102b6ea2f.jpg" width="400">
+  <img src="https://user-images.githubusercontent.com/35305574/38461733-faea5e2e-3aa5-11e8-8949-ef3102b6ea2f.jpg" width="500">
 </p>
 
 
