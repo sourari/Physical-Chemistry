@@ -31,7 +31,7 @@ We see that when both $C_{left}$ and $C_{right}$ are positive the total energy o
 The last two graphs of Fig.3 can be used to represent the bonding and antibonding (last and second to last graphs, respectively) of two 1s orbitals as shown in Fig.4.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/35305574/38461976-02621902-3aac-11e8-8150-fca251b7a6e7.gif" width="500">
+  <img src="https://user-images.githubusercontent.com/35305574/38461976-02621902-3aac-11e8-8150-fca251b7a6e7.gif" width="300">
 </p>
 <p align="center">Fig.4</p>
 
