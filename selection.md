@@ -16,8 +16,7 @@ This form is ready for Matlab computation. I used the following code to compute 
 ```Matlab
 M=Vecs' *diag(x)* Vecs;
 ```
-
-https://user-images.githubusercontent.com/35305574/38471249-545b306e-3b3c-11e8-94da-acd1d8d4f9c4.jpg
+I used the old SHO code with this above code to determine the selection rules for the SHO system. The selection rules for this system are shown in Fig.1. The horizontal axis shows final state $m$ and the vertical axis shows the initial state $n$. 
 
 
 [Go back to home page](/README.md)
