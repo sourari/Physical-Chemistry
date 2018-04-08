@@ -23,5 +23,8 @@ Now that we developed a solid understanding of what electric diploes are, let’
 
 We know that light is an electromagnetic wave (composed of a magnetic and an electric waves). Recall that an electric field attracts or repulses a charged particle depending on the charge of the particle and the direction of the electric field. Therefore, we expect that the electromagnetic field (light) will also have these interactions with a dipole (two or more charged particles). Let’s consider the simples system of a two particles dipole (one positive and one negative) with a light beam traveling orthogonal to the dipole. This system is shown in Fig.3.
 
-https://user-images.githubusercontent.com/35305574/38469581-105471c6-3b25-11e8-9f59-e057c2353ba6.jpg
+<p align="center"><img src="https://user-images.githubusercontent.com/35305574/38469581-105471c6-3b25-11e8-9f59-e057c2353ba6.jpg" width="500"></p>
+<p align="center">Fig.3</p>
+
+
 [Go back to home page](/README.md)
