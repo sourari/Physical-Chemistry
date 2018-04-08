@@ -8,7 +8,7 @@ Perturbation theory is a powerful mathematical tool that allows us to approximat
 Let’s consider a PIB system with a barrier in the middle of the potential well. Consider the barrier to be of finite height and width as shown in the figure bellow.
 <p align="center">
   <img src="
-https://user-images.githubusercontent.com/35305574/38461518-3cc8b97c-3aa0-11e8-9af6-4fb65120160e.jpg" width="500">
+https://user-images.githubusercontent.com/35305574/38461524-b969859c-3aa0-11e8-85d4-cf257f26b9cc.jpg" width="500">
 </p>
 
 
