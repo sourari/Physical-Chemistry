@@ -13,10 +13,19 @@ We can write the Hamiltonian as:
 
 <p align="center">$\hat{H}=\hat{T_{nuclear}}+\hat{T_{electron}}+\hat{V_{nuc-e}}+\hat{V_{nuc-nuc}}$</p>
 
-<p align="center">$=(\frac{-\hbar^2 }{2M_a}\nabla^2_a + \frac{-\hbar^2 }{2M_b}\nabla^2_b) + \frac{-\hbar^2 }{2M_e}\nabla^2_e + (\frac{-q^2}{4\pi \epsilon_0 r_a} + \frac{-q^2}{4\pi \epsilon_0 r_b})+ \frac{q^2}{4\pi \epsilon_0 R_ab}$</p>
+<p align="center">$=(\frac{-\hbar^2 }{2M_a}\nabla^2_a + \frac{-\hbar^2 }{2M_b}\nabla^2_b) + \frac{-\hbar^2 }{2M_e}\nabla^2_e + (\frac{-q^2}{4\pi \epsilon_0 r_a} + \frac{-q^2}{4\pi \epsilon_0 r_b})+ \frac{q^2}{4\pi \epsilon_0 R_ab}.$</p>
 
+Therefore, the TISE is given by
+
+<p align="center">$\hat{H}\Psi(r,R)=\xi \Psi(r,R)$</p>
+so
+<p align="center">$(\hat{T_{nuclear}}+\hat{T_{electron}}+\hat{V_{nuc-e}}+\hat{V_{nuc-nuc}})\Psi(r,R)=\xi \Psi(r,R).$</p>
+
+To solve this TISE we need to resort once again to the separation of variables trick and let
+
+$\Psi(r,R)=\psi(r;R)\chi(R),$
+where $\psi(r;R)$ means that $\psi$ is a function of $r$ and has $R$ and a parameter.
 
 
 [Go back to home page](/README.md)
-
 
