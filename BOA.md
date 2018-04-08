@@ -23,8 +23,21 @@ so
 
 To solve this TISE we need to resort once again to the separation of variables trick and let
 
-$\Psi(r,R)=\psi(r;R)\chi(R),$
+<p align="center">$\Psi(r,R)=\psi(r;R)\chi(R),$</p>
 where $\psi(r;R)$ means that $\psi$ is a function of $r$ and has $R$ as a parameter.
+
+So the TISE becomes
+
+<p align="center">$(\hat{T}_{nuclear}+\hat{T}_{electron}+\hat{V}_{nuc-e}+\hat{V}_{nuc-nuc})\psi(r;R)\chi(R)=\xi \psi(r;R)\chi(R),$</p>
+
+such that
+
+<p align="center">$\hat{T}_{nuclear}\psi(r;R)\chi(R)+\hat{T}_{electron}\psi(r;R)\chi(R)+\hat{V}_{nuc-e}\psi(r;R)\chi(R)+\hat{V}_{nuc-nuc}\psi(r;R)\chi(R)=\xi \psi(r;R)\chi(R).$</p>
+
+Then dividing both sides by $\psi(r;R)\chi(R)$ we have
+
+<p align="center">$\hat{T}_{nuclear}\psi(r;R)\chi(R)+ \hat{T}_{electron}\psi(r;R)+ \hat{V}_{nuc-e} +\hat{V}_{nuc-nuc} =\xi.$</p>
+
 
 
 [Go back to home page](/README.md)
