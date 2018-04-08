@@ -17,7 +17,7 @@ This form is ready for Matlab computation. I used the following code to compute 
 M=Vecs' *diag(x)* Vecs;
 ```
 
-
+https://user-images.githubusercontent.com/35305574/38471249-545b306e-3b3c-11e8-94da-acd1d8d4f9c4.jpg
 
 
 [Go back to home page](/README.md)
