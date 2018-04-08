@@ -27,9 +27,16 @@ The same equations can be used to transform from the time domain to the frequenc
 <p align="center"> $f(\omega)=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} \hat{f}(t) e^{-i\omega t}dk$. </p>
 <p align="center"> $\hat{f}(t)=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} f(\omega) e^{i\omega t}dx$. </p>
 
-The most important property of Fourier Transform is what they do to derivatives. Let’s consider the function $f(x)$ that has the property that $ \lim_{x\to\infty}f(x) =0$. The Fourier Transform of the derivative of $f(x)$ is 
+The most important property of Fourier Transform is what they do to derivatives. Let’s consider the function $f(x)$ that has the property that $ \lim_{x\to \pm\infty}f(x) =0$. The Fourier Transform of the derivative of $f(x)$ is 
 
 <p align="center"> $\mathscr{F}(\frac{d}{dx}f(x))=\mathscr{F}(f'(x))$ </p>
 <p align="center"> $=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} f'(x) e^{-ikx}dx$. </p>
+
+This integral can be solved using integration by part. Doing so, the Fourier Transform become 
+
+<p align="center"> $ \frac{1}{\sqrt[]{2\pi}}[f(x)e^{-ikx}|_{-\infty}^{\infty} + ik\int_{-\infty}^{\infty} f(x) e^{-ikx}dx].$ </p>
+But we know that $\lim_{x\to \pm\infty}f(x)=0$. Therefore, the first term in the equation above goes to zero and we obtain
+
+<p align="center"> $ \mathscr{F}(\frac{d}{dx}f(x))= \frac{1}{\sqrt[]{2\pi}} (ik)\int_{-\infty}^{\infty} f(x) e^{-ikx}dx.$ </p>
 
 [Go back to home page](/README.md)
