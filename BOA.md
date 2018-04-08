@@ -32,12 +32,12 @@ So the TISE becomes
 
 such that
 
-<p align="center">$\hat{T}_{nuclear}\psi(r;R)\chi(R)+\hat{T}_{electron}\psi(r;R)\chi(R)+\hat{V}_{nuc-e}\psi(r;R)\chi(R)+\hat{V}_{nuc-nuc}\psi(r;R)\chi(R)$</p>
-  <p align="center">$=\xi \psi(r;R)\chi(R).$</p>
+<p align="center">$\hat{T}_{nuclear}(\psi \chi)+\hat{T}_{electron}(\psi \chi)+\hat{V}_{nuc-e}(\psi \chi)+\hat{V}_{nuc-nuc}(\psi \chi)$</p>
+  <p align="center">$=\xi \psi \chi.$</p>
 
 Then dividing both sides by $\psi(r;R)\chi(R)$ we have
 
-<p align="center">$\frac{\hat{T}_{nuclear}\psi(r;R) \chi(R)}{\psi(r;R) \chi(R)}+ \frac{\hat{T}_{electron}\psi(r;R)}{\psi(r;R)}+ \hat{V}_{nuc-e} +\hat{V}_{nuc-nuc} =\xi.$</p>
+<p align="center">$\frac{\hat{T}_{nuclear}(\psi \chi)}{\psi \chi(R)}+ \frac{\hat{T}_{electron}\psi}{\psi}+ \hat{V}_{nuc-e} +\hat{V}_{nuc-nuc} =\xi.$</p>
 
 
 
