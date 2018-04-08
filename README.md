@@ -33,3 +33,6 @@ Our work is pertinent to both physics and chemistry students equally and is help
 
 ### $7)$ [Perturbation Theory (a Very Brief Introduction)](/perturb.md)
 
+
+### $8)$ [Selection Rules](/selection.md)
+
