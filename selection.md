@@ -11,6 +11,11 @@ To find the probability of a transition from a state $\psi_n$ to $\psi_m$ is giv
 
 As you would expect, I want to change this integral into an inner product. The transition probability is the given by
 <p align="center"> $M_{nm}=<\psi_n,  \mu $\psi_m >$. </p>
+  
+This form is ready for Matlab computation. I used the following code to compute the transition probability.
+```Matlab
+M=Vecs' *diag(x)* Vecs;
+```
 
 
 
