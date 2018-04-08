@@ -20,7 +20,4 @@ M=Vecs' *diag(x)* Vecs;
 
 
 
-<p align="center"> $\hat{P}e^{ikx}= -i \hbar \frac{\partial}{\partial x}e^{ikx}$. </p>
-<p align="center"> $\hat{P}e^{ikx}= k \hbar e^{ikx}$. </p>
-
 [Go back to home page](/README.md)
