@@ -29,6 +29,9 @@ We know that light is an electromagnetic wave (composed of a magnetic and an ele
 
 Notice that in the case of orthogonal beam (Fig.3) there is no net force applied on the dipole. If the light beam is not orthogonal to the dipole, then the forces on the two charges will not be equal and will result in a net force that would move the dipole or will result in torque that will rotates the dipole.
 
+Let’s consider an example to better understand what I have shown so far. We can consider system made of a grounded proton and an electron confined in an infinite square well. The proton-electron system constitutes a dipole. When the electron is a stationary state then the expectation value of its position is fixed, hence the distance between the electron and the proton is fixed. In this case we have a fixed dipole. However, if the state of the electron is a linear combination of two or more stationary states, the expectation values of the position varies with time (as I have shown in the previous pages). In this case we have an oscillating dipole.
+
+
 
 
 [Go back to home page](/README.md)
