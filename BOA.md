@@ -39,6 +39,20 @@ Then dividing both sides by $\psi \chi$ we have
 
 <p align="center">$\frac{\hat{T}_{nuclear}(\psi \chi)}{\psi \chi}+ \frac{\hat{T}_{electron}\psi}{\psi}+ \hat{V}_{nuc-e} +\hat{V}_{nuc-nuc} =\xi.$</p>
 
+We can see that the first term should be the most challenging to deal with, so let’s start with it. We have 
+
+<p align="center"> $\hat{T}_{nuclear}(\psi \chi)= (\frac{-\hbar^2 }{2M_a}\nabla^2_a + \frac{-\hbar^2 }{2M_b}\nabla^2_b) (\psi \chi) .$</p>
+
+<p align="center"> $= \frac{-\hbar^2 }{2M_a}\nabla^2_a(\psi \chi) + \frac{-\hbar^2 }{2M_b}\nabla^2_b(\psi \chi) .$</p>
+
+The two terms in the equation above are similar, so we can solve the first term and determine the second one by anlogy.
+
+
+<p align="center"> $\frac{-\hbar^2 }{2M_a}\nabla^2_a(\psi \chi) = \frac{-\hbar^2 }{2M_a} \frac{\partial}{\partial R_a} (\frac{\chi \partial \psi}{paritial R_a} + \frac{\psi \partial \chi}{paritial R_a}) $</p>
+
+<p align="center"> $= \frac{-\hbar^2 }{2M_a}[(\chi \frac{\partial^2 \psi}{\partial {R_a}^2}+\fra{\partial \psi}{\partial {R_a}}\frac{\partial \chi}{\partial {R_a}}) +  (\psi \frac{\partial^2 \chi}{\partial {R_a}^2}+\fra{\partial \psi}{\partial {R_a}}\frac{\partial \chi}{\partial {R_a}})] $</p>
+
+
 
 
 [Go back to home page](/README.md)
