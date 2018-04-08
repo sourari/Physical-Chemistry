@@ -8,9 +8,8 @@ Perturbation theory is a powerful mathematical tool that allows us to approximat
 Let’s consider a PIB system with a barrier in the middle of the potential well. Consider the barrier to be of finite height and width as shown in Fig.1 bellow.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/38461524-b969859c-3aa0-11e8-85d4-cf257f26b9cc.jpg" width="400">
-
-Fig.1
 </p>
+<p align="center">Fig.2</p>
 
 In this case we can compute the wavefunction of the left well and the right well separately. Then we can use the wavefunction of the two wells as a basis for the total wavefunction. This can be mathematically expressed as $\psi_{tot} \approx c_{left} \psi_{left}+ c_{right} \psi_{right} $.
 
@@ -18,16 +17,15 @@ The wavefunctions of the separate wells are shown in Fig.2. The figure shows thr
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/38461733-faea5e2e-3aa5-11e8-8949-ef3102b6ea2f.jpg" width="500">
-Fig.2
 </p>
+<p align="center">Fig.2</p>
 
 Fig.2 also shows two different linear combinations (for each value on $n$ ) of the right and left wavefunction to construct the total wavefunction. These linear combinations are shown in Fig.3 bellow. The blue rectangles represent the coefficient of the left wavefunction ($c_{left}$) and the yellow rectangles represent the coefficient of the right wavefunction ($c_{right}$). 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/38461826-2268d834-3aa8-11e8-9d2e-3c0b86c882f6.jpg" width="500">
-Fig.3
 </p>
-
+<p align="center">Fig.3</p>
 
 
 [Go back to home page](/README.md)
