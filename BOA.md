@@ -84,5 +84,8 @@ Call the terms in parenthesis $ \hat{V}_{nuclear}$ to obtain
 
 <p align="center"> $\hat{T}_{nuclear} \chi + \hat{V}_{nuclear} \chi =\xi \chi$.</p>
 
+This gives as an equation for the dynamics of the two protons. The potential energy operator $\hat{V}_{nuclear}$ is a combination of the nucleus - nucleus repletion and the electron-nucleus. For large separation between the two nuclei the dominant interaction is the electron-nucleus. On the other hand, for small separation the nucleus - nucleus repletion is the dominant interaction. Therefore, the potential energy will have the form shown in Fig.2 bellow.
+
+
 [Go back to home page](/README.md)
 
