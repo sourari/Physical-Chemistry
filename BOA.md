@@ -66,7 +66,7 @@ Therefore, the TISE become
 
 The TISE can be rewritten as 
 
-<p align="center"> $(\frac{\hat{T}_nuclear \chi}{\chi} + \farc{\chi}{\chi})\hat{V}_{nuc-nuc})+ (\frac{\hat{T}electron \psi}{\psi} + \farc{\psi}{\psi})\hat{V}_{nuc-e})=\xi$.</p>
+<p align="center"> $(\frac{\hat{T}_nuclear \chi}{\chi} + \frac{\chi}{\chi})\hat{V}_{nuc-nuc})+ (\frac{\hat{T}electron \psi}{\psi} + \frac{\psi}{\psi})\hat{V}_{nuc-e})=\xi$.</p>
 
 
 [Go back to home page](/README.md)
