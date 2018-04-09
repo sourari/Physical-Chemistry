@@ -48,15 +48,21 @@ We can see that the first term should be the most challenging to deal with, so l
 The two terms in the equation above are similar, so we can solve the first term and determine the second one by anlogy.
 
 
-<p align="center"> $\frac{-\hbar^2 }{2M_a}\nabla^2_a(\psi \chi) = \frac{-\hbar^2 }{2M_a} \frac{\partial}{\partial R_a} (\frac{\chi \partial \psi}{paritial R_a} + \frac{\psi \partial \chi}{paritial R_a}) $</p>
+<p align="center"> $\frac{-\hbar^2 }{2M_a}\nabla^2_a(\psi \chi) = \frac{-\hbar^2 }{2M_a} \frac{\partial}{\partial R_a} (\frac{\chi \partial \psi}{\paritial R_a} + \frac{\psi \partial \chi}{\paritial R_a}) $</p>
 
 <p align="center"> $= \frac{-\hbar^2 }{2M_a}[(\chi \frac{\partial^2 \psi}{\partial {R_a}^2}+\frac{\partial \psi}{\partial {R_a}}\frac{\partial \chi}{\partial {R_a}}) +  (\psi \frac{\partial^2 \chi}{\partial {R_a}^2}+\frac{\partial \psi}{\partial {R_a}}\frac{\partial \chi}{\partial {R_a}})] $</p>
 
 Now comes the Born-Oppenheimer approximation. We know that the mass of the proton is 1836 times greater than that of the electron. Therefore, as the whole system (electron + two protons) move in space, the electron also moves relative to the center of mass of the system. We can then approximate that the rate of change of $\psi$ with respect to $R_a$ is insignificant. We then obtain
 
-<p align="center"> $\frac{-\hbar^2 }{2M_a}\nabla^2_a(\psi \chi) = \frac{-\hbar^2 }{2M_a}(\psi \frac{\partial^2 \chi}{\partial {R_a}^2}) $</p>
+<p align="center"> $\frac{-\hbar^2 }{2M_a}\nabla^2_a(\psi \chi) = \frac{-\hbar^2 }{2M_a}\psi \frac{\partial^2 \chi}{\partial {R_a}^2} $.</p>
 
+By analogy we also have 
 
+<p align="center"> $\frac{-\hbar^2 }{2M_b}\nabla^2_a(\psi \chi) = \frac{-\hbar^2 }{2M_b}\psi \frac{\partial^2 \chi}{\partial {R_b}^2}$. $</p>
+
+Therefore, the TISE become
+
+<p align="center"> $\frac{\frac{-\hbar^2 }{2M_a}\psi \frac{\partial^2 \chi}{\partial {R_a}^2}}{\chi} + \frac{\frac{-\hbar^2 }{2M_b}\psi \frac{\partial^2 \chi}{\partial {R_b}^2}}{\chi} + \frac{\hat{T}_{electron} \psi}{\psi} + \hat{V}_{nuc-e}+\hat{V}_{nuc-nuc}) =\xi$.</p>
 
 [Go back to home page](/README.md)
 
