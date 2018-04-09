@@ -68,6 +68,9 @@ The TISE can be rewritten as
 
 <p align="center"> $(\frac{\hat{T}_nuclear \chi}{\chi} + \frac{\chi}{\chi})\hat{V}_{nuc-nuc})+ (\frac{\hat{T}electron \psi}{\psi} + \frac{\psi}{\psi})\hat{V}_{nuc-e})=\xi$.</p>
 
+Call the second term $E_e$ and factor out the $\chi$ in the first term to obtain
+
+
 
 [Go back to home page](/README.md)
 
