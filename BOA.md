@@ -87,5 +87,11 @@ Call the terms in parenthesis $ \hat{V}_{nuclear}$ to obtain
 This gives as an equation for the dynamics of the two protons. The potential energy operator $\hat{V}_{nuclear}$ is a combination of the nucleus - nucleus repletion and the electron-nucleus. For large separation between the two nuclei the dominant interaction is the electron-nucleus. On the other hand, for small separation the nucleus - nucleus repletion is the dominant interaction. Therefore, the potential energy will have the form shown in Fig.2 bellow.
 
 
+<p align="center"><img src="https://user-images.githubusercontent.com/35305574/38475600-3b9481da-3b77-11e8-82fa-15e398f38bb4.jpeg" width="500"></p>
+<p align="center">Fig.1</p>
+
+
+
+
 [Go back to home page](/README.md)
 
