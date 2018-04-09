@@ -32,8 +32,8 @@ Inner products are particularly useful in quantum mechanics for normalizing  vec
  
  <p align="center"> $ < \hat{Q} >= < \psi, \hat{Q} \psi > $, </p>
  
- where $\psi$ is an energy eigenvector of the quantum system.
-
+ where $\psi$ is an energy eigenvector of the quantum system. This is analogous to the way we are used to compute expectation values using integrals. An integral is by definition the sum of infinitesimal elements, while the inner product is a sum of discrete elements.
+ 
 ### 1.3 Time Independent Schroedinger Equation (TISE)
 The single most important piece of quantum mechanics is the TISE expressed as an eigenvalue equation
 
