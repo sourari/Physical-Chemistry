@@ -41,12 +41,16 @@ The single most important piece of quantum mechanics is the TISE expressed as an
 where $\psi$ is the eigenfunction of the system, $E$ is the value of the energy of the system and $\hat{H}=\hat{T}+\hat{V}$ is the Hamiltonian operator. $\hat{T}=-\frac{\hbar^2}{2m}\frac{d^2}{dx^2}$ for a one-dimensional system and $\hat{V}$, the potential energy operator, is described by the particular quantum system studied.
 
 ### 1.4 Quantum Operators
-Quantum operators such as position, angular and linear momentum and the Hamiltonian, the total energy opertor, are all represented by matrices. These are square n by n matrices, where n depends on the quantization of the space and can be infinite.
+Quantum operators such as position, angular and linear momentum and the Hamiltonian, the total energy opertor, are all represented by square matrices. 
 
 So, let’s see one example of an operator matrix.
 
 ### 1.5 Constructing the Potential Energy Matrix
-From the TISE, we know that the potential energy operator, $\hat{V}$ should be a matrix operating on the wavefunction represented by a vector $\psi$ of size n. So, $\hat{V}$ should be an $n \times n$ square matrix. Then, we need to determine the entries of this square matrix. We know that applying the potential energy operator on a position eigenvector yields the value of the potential energy (eigenvalue) at the position represented by the vector. This means that when operating the potential energy matrix on the independent vectors $|1>, |2>, |3>...|n>$ we obtain $v_{11}|1>, v_{22}|2>, v_{33}|3>...v_{nn}|n>$, respectively.
+From the TISE, we know that the potential energy operator, $\hat{V}$ should be a matrix operating on the wavefunction represented by a vector $\psi$ of size n. So, $\hat{V}$ should be an $n \times n$ square matrix. Then, we need to determine the entries of this square matrix. We know that applying the potential energy operator on a position eigenvector yields the value of the potential energy (eigenvalue) at the position represented by the vector:
+
+<p align="center"> $\hat{V}|r>=V(r)|r> $. </p>
+
+This means that when operating the potential energy matrix on the independent vectors $|1>, |2>, |3>...|n>$ we obtain $v_{11}|1>, v_{22}|2>, v_{33}|3>...v_{nn}|n>$, respectively.
 Therefore, $\hat{V}$ must be a diagonal matrix of the form
 
 <p align="center"> $\begin{bmatrix}
