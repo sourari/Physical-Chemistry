@@ -80,9 +80,9 @@ This can be rewritten as
 
 <p align="center"> $\hat{T}_{nuclear} \chi + (\hat{V}_{nuc-nuc}+E_e) \chi =\xi \chi$.</p>
 
-Define the operator $\hat{V}_{nuclear}$ as 
+Define the operator $\hat{V}_{nuclear}$ as $\hat{V}_{nuclear}$
 
-$\hat{V}_{nuclear}=\hat{V}_{nuc-nuc}+E_e$ to oabtain
+$=\hat{V}_{nuc-nuc}+E_e$ to obtain
 
 <p align="center"> $\hat{T}_{nuclear} \chi + \hat{V}_{nuclear} \chi =\xi \chi$.</p>
 
