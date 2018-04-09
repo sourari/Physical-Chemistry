@@ -48,7 +48,7 @@ We can see that the first term should be the most challenging to deal with, so l
 The two terms in the equation above are similar, so we can solve the first term and determine the second one by anlogy.
 
 
-<p align="center"> $\frac{-\hbar^2 }{2M_a}\nabla^2_a(\psi \chi) = \frac{-\hbar^2 }{2M_a} \frac{\partial}{\partial R_a} (\frac{\chi \partial \psi}{\paritial R_a} + \frac{\psi \partial \chi}{\paritial R_a}) $</p>
+<p align="center"> $\frac{-\hbar^2 }{2M_a}\nabla^2_a(\psi \chi) = \frac{-\hbar^2 }{2M_a} \frac{\partial}{\partial R_a} (\frac{\chi \partial \psi}{\partial R_a} + \frac{\psi \partial \chi}{\partial R_a}) $</p>
 
 <p align="center"> $= \frac{-\hbar^2 }{2M_a}[(\chi \frac{\partial^2 \psi}{\partial {R_a}^2}+\frac{\partial \psi}{\partial {R_a}}\frac{\partial \chi}{\partial {R_a}}) +  (\psi \frac{\partial^2 \chi}{\partial {R_a}^2}+\frac{\partial \psi}{\partial {R_a}}\frac{\partial \chi}{\partial {R_a}})] $</p>
 
@@ -63,6 +63,11 @@ By analogy we also have
 Therefore, the TISE become
 
 <p align="center"> $\frac{\frac{-\hbar^2 }{2M_a}\psi \frac{\partial^2 \chi}{\partial {R_a}^2}}{\chi} + \frac{\frac{-\hbar^2 }{2M_b}\psi \frac{\partial^2 \chi}{\partial {R_b}^2}}{\chi} + \frac{\hat{T}_{electron} \psi}{\psi} + \hat{V}_{nuc-e}+\hat{V}_{nuc-nuc}) =\xi$.</p>
+
+The TISE can be rewritten as 
+
+<p align="center"> $(\frac{\hat{T}_nuclear \chi}{\chi} + \farc{\chi}{\chi})\hat{V}_{nuc-nuc})+ (\frac{\hat{T}electron \psi}{\psi} + \farc{\psi}{\psi})\hat{V}_{nuc-e})=\xi$.</p>
+
 
 [Go back to home page](/README.md)
 
