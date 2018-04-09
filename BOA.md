@@ -88,7 +88,7 @@ This gives as an equation for the dynamics of the two protons. The potential ene
 
 
 <p align="center"><img src="https://user-images.githubusercontent.com/35305574/38475692-cbbcc0c4-3b77-11e8-98a8-204215c2aed1.jpeg" width="500"></p>
-<p align="center">Fig.1</p>
+<p align="center">Fig.2</p>
 
 
 
