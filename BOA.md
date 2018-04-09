@@ -80,7 +80,7 @@ This can be rewritten as
 
 <p align="center"> $\hat{T}_{nuclear} \chi + (\hat{V}_{nuc-nuc}+E_e) \chi =\xi \chi$.</p>
 
-Call the terms in the $ \hat{V}_{nuclear}$ to obtain
+Call the terms in parenthesis $ \hat{V}_{nuclear}$ to obtain
 
 <p align="center"> $\hat{T}_{nuclear} \chi + \hat{V}_{nuclear} \chi =\xi \chi$.</p>
 
