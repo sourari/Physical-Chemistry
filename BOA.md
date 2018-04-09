@@ -74,7 +74,7 @@ Call the second term $E_e$ and factor out the $\chi$ in the first term to obtain
 
 Then multiply both sides by $\chi$ to obtain
 
-<p align="center"> $((\hat{T}_{nuclear} + \hat{V}_{nuc-nuc})\chi + E_e \chi =\xi \chi$.</p>
+<p align="center"> $(\hat{T}_{nuclear} + \hat{V}_{nuc-nuc})\chi + E_e \chi =\xi \chi$.</p>
 
 [Go back to home page](/README.md)
 
