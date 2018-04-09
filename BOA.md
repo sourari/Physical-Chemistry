@@ -90,6 +90,11 @@ This gives as an equation for the dynamics of the two protons. The potential ene
 <p align="center"><img src="https://user-images.githubusercontent.com/35305574/38476034-bac110fc-3b79-11e8-8f23-d9108b18a1d9.jpeg" width="500"></p>
 <p align="center">Fig.2</p>
 
+We can use this model to study the interactions between three atoms such that 
+<p align="center"> A + B-C $\rightarrow$ A-B + C</p>
+
+This will be the focus of the[next page](/ABC.md).
+
 
 
 
