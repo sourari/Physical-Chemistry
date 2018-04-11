@@ -17,7 +17,7 @@ This can be rewritten as
 <p align="center"> $\frac{\Delta t}{i \hbar} H \Psi(x,t) +\Psi(x,t) =\Psi(x,t+\Delta t). $ </p>
 Recall that the Hamiltonian $H$ is the sum of the kinetic and potential energy operators. The potential energy operator is just a multiplication (or matrix multiplication) and the kinetic energy operator mainly consists of a second derivative operator. Both operators allow us to factor out the wavefunction as follow
 <p align="center"> $(\frac{\Delta t}{i \hbar} H +I)\Psi(x,t)=\Psi(x,t+\Delta t), $ </p>
-where $I$ is the identity matrix such as $I\Psi(x,t)=\Psi(x,t).$
+where $I$ is the identity matrix such that $I\Psi(x,t)=\Psi(x,t).$
 
 We can consider $(\frac{\Delta t}{i \hbar} H +I)$ as an operator, which is computationally easy to build, that operates on the wavefunction at a certain time $t$ to give us the subsequent wavefunction after a time duration $\Delta t$. 
 
