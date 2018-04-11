@@ -15,7 +15,7 @@ So the TDSE becomes
 <p align="center"> $H \Psi(x,t)= i \hbar \frac{\Psi(x,t+\Delta t)-\Psi(x,t)}{\Delta t} .$ </p>
 This can be rewritten as
 <p align="center"> $\frac{\Delta t}{i \hbar} H \Psi(x,t) +\Psi(x,t) =\Psi(x,t+\Delta t). $ </p>
-Recall that the Hamiltonian H is the sum of the kinetic and potential energy operators. The potential energy operator is just a multiplication (or matrix multiplication) and the kinetic energy operator mainly consists of a second derivative operator. Both operators allow us to factor out the wavefunction as follow
+Recall that the Hamiltonian $H$ is the sum of the kinetic and potential energy operators. The potential energy operator is just a multiplication (or matrix multiplication) and the kinetic energy operator mainly consists of a second derivative operator. Both operators allow us to factor out the wavefunction as follow
 <p align="center"> $(\frac{\Delta t}{i \hbar} H +I)\Psi(x,t)=\Psi(x,t+\Delta t), $ </p>
 where $I$ is the identity matrix given by $I\Psi(x,t)=\Psi(x,t).$
 
