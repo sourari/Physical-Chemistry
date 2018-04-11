@@ -7,7 +7,7 @@ The difference method is a powerful tool of evaluating the TDSE, or any other di
 
 Recall that the time-dependent Schrödinger equation is 
 <p align="center"> $H \Psi(x,t)= i \hbar \frac{\partial}{\partial t} \Psi(x,t)$. </p>
-Now let’s transition from the time differential to time difference $\Delta t$ so that 
+Now let’s transition from the time differential $\partial t$ to time difference $\Delta t$ so that 
 <p align="center"> $H \Psi(x,t)= i \hbar \frac{\Delta \Psi(x,t)}{\Delta t} $, </p>
 where $\Delta \Psi(x,t)=\Psi(x,t+\Delta t)-\Psi(x,t). $
 
