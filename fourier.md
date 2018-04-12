@@ -5,12 +5,12 @@ So far in my analysis of quantum systems, I have been mainly using the position 
 
 The Fourier Transform decomposes a function into a sum of complex exponential function (or sinusoidal functions). Each of these functions has a different frequency and together they form a basis. The idea on Fourier Transform is to express our original function in this new basis (a familiar approach to what we discussed [here](/ChangeofBasis.md)).
 
-Let’s explore the example of transforming a function from position space to momentum space. In momentum space, we use the wavenumber $k=\frac{2\pi}{\lambda}$ as our variable. To see why we use $k$ for the momentum space let’s apply the momentum operator on an arbitrary function $f(x)=e^{ikx}$. We obtain
+Let’s explore the example of transforming a function from position space to momentum space. In momentum space, we use the wavenumber $k=\frac{2\pi}{\lambda}$ as our variable. To see why we use $k$ for the momentum space let’s apply the momentum operator on an arbitrary function $f(x)=e^{ikx}$ as follow
 
 <p align="center"> $\hat{P}e^{ikx}= -i \hbar \frac{\partial}{\partial x}e^{ikx}$. </p>
 so 
 <p align="center"> $\hat{P}e^{ikx}= k \hbar e^{ikx}$. </p>
-Therefore, the momentum is the wavenumber $k$ multiplied by $\hbar$.
+Therefore, the momentum eigenvalue is the wavenumber $k$ multiplied by $\hbar$.
 
 Here, I want to show how the Fourier Transform take as an input as function in position space $f(x)$ and gives us a new function in $k$-space $\hat{f}(k)$. As we defined above, the Fourier Transform specifies how much a complex exponential function $e^{ikx}$ with wavenumber $k$ contributes to the function $f(x)$.  As we would expect, each $e^{ikx}$ will contribute to $f(x)$ by a coefficient that is dependent on the value of $k$. We define this coefficient by $\hat{f}(k)$. The function $f(x)$ is, therefore, the sum of all these contributions and can be written as
 <p align="center"> $f(x)=\sum_{k} \hat{f}(k) e^{ikx}$. </p>
