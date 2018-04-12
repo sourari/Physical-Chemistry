@@ -22,6 +22,8 @@ Now let’s run a simulation that will show as how the system behaves as atom A 
 We see that the molecule B-C initially vibrates at its natural frequency, then as the atom A gets closer it perturbs the system and ends up breaking B-C and forming a new molecule A-B. This reaction is an exothermic reaction and is given by the exchange reaction
 
 <p align="center"> A + B-C $\rightarrow$ A-B + C</p>
+The figure also shows how the energy of the system evolves. Notice a saddle point in the energy surface where the transition from B-C to A-B occurs. Whether the exchange reaction
+Will occur or not depends on whether or not the system has enough energy to cross the saddle point. 
 
 Now if we decrease the initial velocity of atom A, the reaction does not occur as shown in the animation of Fig.4.
 
