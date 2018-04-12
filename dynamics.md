@@ -17,8 +17,16 @@ In the figure above the vertical axis represents the potential energy and the tw
 Now let’s run a simulation that will show as how the system behaves as atom A approaches the molecule B-C. Let’s start with an early barrier. Fig.3 bellow shows the relative position of the three atoms as well as the evolution of the energy of the system. I start the system with a high velocity for the atom A moving towards the molecule B-C.
 
 ![Four3](/ep.gif) 
+<p align="center">Fig.3</p>
 
+We see that the molecule B-C initially vibrates at its natural frequency, then as the atom A gets closer it perturbs the system and ends up breaking B-C and forming a new molecule A-B. This reaction is an exothermic reaction and is given by the exchange reaction
 
+<p align="center"> A + B-C $\rightarrow$ A-B + C</p>
+
+Now if we decrease the initial velocity of atom A, the reaction does not occur as shown in the animation of Fig.4.
+
+![Four3](/eno.gif) 
+<p align="center">Fig.4</p>
 
 
 
