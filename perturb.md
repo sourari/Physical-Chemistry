@@ -32,8 +32,8 @@ Fig.2 also shows two different linear combinations (for each value on $n$ ) of t
 </p>
 <p align="center">Fig.3</p>
 
-We see that when both $C_{left}$ and $C_{right}$ are positive the total energy of the system is higher than when $C_{left}$ is negative and $C_{right}$ is positive, this is shown in the offset of the total wavefunctions in Fig.2. Recall that a system with lower energy is more stable than a system with higher energy. This shows that the linear combinations with $C_{left}<0$ and $C_{left}>0$ are most stable and thinking about chemical bonding the represent a bond, while  $C_{left}>0$ and $C_{left}>0$ represents an antibond. 
-The last two graphs of Fig.3 can be used to represent the bonding and antibonding (last and second to last graphs, respectively) of two 1s orbitals as shown in Fig.4. The figure shows how the electric field compresses and stretches the dipole. This is expected since when the electric field is positive it attracts the positive charge upward and pushes the negative charge downward, resulting in a stretched dipole. When the electric field is negative it pushes the positive charge downward and attracts the negative charge upwards, resulting in a compressed dipole. This results in an oscillation of the electric dipole moment.
+We see that when both $C_{left}$ and $C_{right}$ are positive the total energy of the system is higher than when $C_{left}$ is negative and $C_{right}$ is positive, this is shown in the offset of the total wavefunctions in Fig.2. Recall that a system with lower energy is more stable than a system with higher energy. This shows that the linear combinations with $C_{left}<0$ and $C_{left}>0$ are most stable, and thinking about chemical bonding they represent a bond, while  $C_{left}>0$ and $C_{left}>0$ represents an antibond. 
+The last two graphs in the bottom of Fig.3 can be used to represent the bonding and antibonding (last and second to last graphs, respectively) of two 1s orbitals as shown in Fig.4. 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/38461976-02621902-3aac-11e8-8150-fca251b7a6e7.gif" width="500">
