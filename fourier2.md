@@ -13,13 +13,13 @@ Let’s see some examples of the Fourier Transform of wavefunction (from positio
 Then using the FFT function of Matlab, we obtain the Fourier Transform of the function in momentum domain as
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/35305574/38459731-88d192d2-3a7b-11e8-9f3d-62c7d3fcd495.jpg" width="500">
+  <img src="https://user-images.githubusercontent.com/35305574/38653299-14975db0-3dd8-11e8-9e05-aa1f054df849.jpg" width="500">
 </p>
 
 As expected we see a peak at $k=250 m^{-1}$. We can also do the same for a function with two sin components $f(x)= \sin(2 \pi \cdot 250 \cdot t)+ \sin(2 \pi \cdot 150 \cdot t)$ and we see the function in momentum domain with two peaks, one at each $k$ value:
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/35305574/38459793-6a6d5b86-3a7c-11e8-869b-3cbf1b364562.jpg" width="500">
+  <img src="https://user-images.githubusercontent.com/35305574/38653303-17b9d36a-3dd8-11e8-97fc-a00b6749e54a.jpg" width="500">
 </p>
 The fact that the Fourier Transform of a sinusoidal wave is a delta function should make sense. Since a sinusoidal function in the position domain means that the uncertainty of position value is very large, consequently, the uncertainty in momentum domain should be very small.
 
