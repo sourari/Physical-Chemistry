@@ -10,9 +10,9 @@ Let’s explore the example of transforming a function from position space to mo
 <p align="center"> $\hat{P}e^{ikx}= -i \hbar \frac{\partial}{\partial x}e^{ikx}$. </p>
 so 
 <p align="center"> $\hat{P}e^{ikx}= k \hbar e^{ikx}$. </p>
-Therefore, the momentum eigenvalue is the wavenumber $k$ multiplied by $\hbar$.
+Therefore, the momentum eigenvalue is the wavenumber $k$ multiplied by $\hbar$. This is why we use $k$ as our variable in expressing the wavefunction in momentum space.
 
-Here, I want to show how the Fourier Transform take as an input as function in position space $f(x)$ and gives us a new function in $k$-space $\hat{f}(k)$. As we defined above, the Fourier Transform specifies how much a complex exponential function $e^{ikx}$ with wavenumber $k$ contributes to the function $f(x)$.  As we would expect, each $e^{ikx}$ will contribute to $f(x)$ by a coefficient that is dependent on the value of $k$. We define this coefficient by $\hat{f}(k)$. The function $f(x)$ is, therefore, the sum of all these contributions and can be written as
+Now, I want to show how the Fourier Transform takes as an input a function in position space $f(x)$ and gives us a new function in $k$-space $\hat{f}(k)$ as an output. As we defined above, the Fourier Transform specifies how much a complex exponential function $e^{ikx}$ with wavenumber $k$ contributes to the function $f(x)$.  As we would expect, each $e^{ikx}$ will contribute to $f(x)$ by a coefficient that is dependent on the value of $k$. We define this coefficient by $\hat{f}(k)$. The function $f(x)$ is, therefore, the sum of all these contributions and can be written as
 <p align="center"> $f(x)=\sum_{k} \hat{f}(k) e^{ikx}$. </p>
 
 The expression above is for a finite sum for discrete values of $k$. To express $f(x)$ in function of continuous and infinite values of $k$, we have to change the sum into an integral to obtain
