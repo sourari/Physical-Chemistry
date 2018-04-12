@@ -27,7 +27,7 @@ The same equations can be used to transform from the time domain to the frequenc
 <p align="center"> $f(\omega)=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} \hat{f}(t) e^{-i\omega t}dt$. </p>
 <p align="center"> $\hat{f}(t)=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} f(\omega) e^{i\omega t}d\omega$. </p>
 
-The most important property of Fourier Transform is what they do to derivatives. Let’s consider the function $f(x)$ that has the property that $ \lim_{x\to \pm\infty}f(x) =0$. The Fourier Transform of the derivative of $f(x)$ is 
+The most important property of Fourier Transform is how they transform derivatives. Let’s consider the function $f(x)$ that has the property that $ {\lim}_{x\to \pm\infty}f(x) =0$. The Fourier Transform of the derivative of $f(x)$ is 
 
 <p align="center"> $\mathscr{F}(\frac{d}{dx}f(x))=\mathscr{F}(f'(x))$ </p>
 <p align="center"> $=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} f'(x) e^{-ikx}dx$. </p>
