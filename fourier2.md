@@ -23,7 +23,7 @@ As expected we see a peak at $\frac{k}{2\pi}=250 m^{-1}$ (notice that I used $\f
 </p>
 The fact that the Fourier Transform of a sinusoidal wave is a delta function should make sense. A sinusoidal function in the position domain means that the uncertainty of position value is very large, consequently, the uncertainty in momentum domain should be very small.
 
-Let’s consider a function that would have minimal uncertainty in both position and momentum values. The type of function that satisfy this condition is the Gaussian function. The general form of a Gaussian is given by $f(x)= A e^{-c(x-b)^2}$, where $A$ scales the amplitude of the function, $c$ defines the linewidth and $b$ $ defines the center of the Gaussian.
+Let’s consider a function that would have minimal uncertainty in both position and momentum values. The type of function that satisfy this condition is the Gaussian function. The general form of a Gaussian is given by $f(x)= A e^{-c(x-b)^2}$, where $A$ scales the amplitude of the function, $c$ defines the width and $b$ defines the center of the Gaussian.
 
 In Matlab I create the Gaussian function using this code:
 ```Matlab
