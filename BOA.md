@@ -97,8 +97,7 @@ This gives as an equation for the dynamics of the two protons. The potential ene
 The figure above gives as the energy of the electron when it is in the two-nuclei system for each separation between the two nuclei. We can use this model to study the interactions between three atoms such as the exchange reaction
 <p align="center"> A + B-C $\rightarrow$ A-B + C</p>
 
-This will be the focus of the [next page](/ABC.md).
-
+This will be the focus of the [next page](/dynamics.md).
 
 
 
