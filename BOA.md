@@ -66,7 +66,7 @@ By analogy we also have
 
 Therefore, the TISE become
 
-<p align="center"> $\frac{\frac{-\hbar^2 }{2M_a}\psi \frac{\partial^2 \chi}{\partial {R_a}^2}}{\chi} + \frac{\frac{-\hbar^2 }{2M_b}\psi \frac{\partial^2 \chi}{\partial {R_b}^2}}{\chi} + \frac{\hat{T}_{electron} \psi}{\psi} + \hat{V}_{nuc-e}+\hat{V}_{nuc-nuc} =\xi$.</p>
+<p align="center"> $\frac{\frac{-\hbar^2 }{2M_a} \frac{\partial^2 \chi}{\partial {R_a}^2}}{\chi} + \frac{\frac{-\hbar^2 }{2M_b} \frac{\partial^2 \chi}{\partial {R_b}^2}}{\chi} + \frac{\hat{T}_{electron} \psi}{\psi} + \hat{V}_{nuc-e}+\hat{V}_{nuc-nuc} =\xi$.</p>
 
 The TISE can be rewritten as 
 
