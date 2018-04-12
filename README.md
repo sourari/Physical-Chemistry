@@ -38,10 +38,8 @@ Our work is pertinent to both physics and chemistry students equally and is help
 #### 8.1[Electric Dipoles](/dipoles.md)
 #### 8.2[Lennard-Jones Potential](/LJP.md)
 
-### $8)$ [Born-Oppenheimer Approximation ($H_2^+$)](/BOA.md)
-### $9)$ [Potential Energy Surfaces](/ABC.md)
-### $8)$ [Born-Oppenheimer Approximation ($H_2^+$)](/BOA.md)
-### $9)$ [Molecular Dynamics](/dynamics.md)
+### $9)$ [Born-Oppenheimer Approximation ($H_2^+$)](/BOA.md)
+### $10)$ [Molecular Dynamics](/dynamics.md)
 
  
 
