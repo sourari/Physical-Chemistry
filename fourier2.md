@@ -30,17 +30,17 @@ In Matlab I create the Gaussian function using this code:
 Psi_x=exp(-a*(x'-b).^2);
 
 ```
-Then I compute the function in the momentum domain using the fft and fftshift shift finctions of matlab as follow:
+Then I compute the function in the momentum domain using the fft and fftshift shift functions of matlab as follow:
 ```Matlab
 psi_k = fft(psi_x);
 psi_k = fftshift(psi_k);
 ```
-Using this code I computed the Fourier transform of different Gaussian wavefunction that have different linewidths (higher uncertainty in the position) as shown in the figure bollow.
+Using this code I computed the Fourier transform of different Gaussian wavefunctions that have different widths (higher uncertainty in the position) as shown in the figure bollow.
 
 For high uncertainty in position:
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/35305574/38460807-8b2beb90-3a8f-11e8-98ef-756d82a8ebc2.jpg" width="300">
-  <img src="https://user-images.githubusercontent.com/35305574/38460812-a1dd6b8e-3a8f-11e8-9d08-f576b3cf7c19.jpg" width="300">
+  <img src="https://user-images.githubusercontent.com/35305574/38460807-8b2beb90-3a8f-11e8-98ef-756d82a8ebc2.jpg" width="400">
+  <img src="https://user-images.githubusercontent.com/35305574/38460812-a1dd6b8e-3a8f-11e8-9d08-f576b3cf7c19.jpg" width="400">
 </p>
 
 For high less in position:
