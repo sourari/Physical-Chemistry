@@ -28,7 +28,7 @@ The wavefunctions of the separate wells are shown in Fig.2. The figure shows thr
 Fig.2 also shows two different linear combinations (for each value on $n$ ) of the right and left wavefunction to construct the total wavefunction. These linear combinations are shown in Fig.3 bellow. The blue rectangles represent the coefficient of the left wavefunction ($c_{left}$) and the yellow rectangles represent the coefficient of the right wavefunction ($c_{right}$). 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/35305574/38461826-2268d834-3aa8-11e8-9d2e-3c0b86c882f6.jpg" width="500">
+  <img src="https://user-images.githubusercontent.com/35305574/38461826-2268d834-3aa8-11e8-9d2e-3c0b86c882f6.jpg" width="700">
 </p>
 <p align="center">Fig.3</p>
 
@@ -36,7 +36,7 @@ We see that when both $C_{left}$ and $C_{right}$ are positive the total energy o
 The last two graphs of Fig.3 can be used to represent the bonding and antibonding (last and second to last graphs, respectively) of two 1s orbitals as shown in Fig.4. The figure shows how the electric field compresses and stretches the dipole. This is expected since when the electric field is positive it attracts the positive charge upward and pushes the negative charge downward, resulting in a stretched dipole. When the electric field is negative it pushes the positive charge downward and attracts the negative charge upwards, resulting in a compressed dipole. This results in an oscillation of the electric dipole moment.
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/35305574/38461976-02621902-3aac-11e8-8150-fca251b7a6e7.gif" width="300">
+  <img src="https://user-images.githubusercontent.com/35305574/38461976-02621902-3aac-11e8-8150-fca251b7a6e7.gif" width="500">
 </p>
 <p align="center">Fig.4 (sparknote)</p>
 
