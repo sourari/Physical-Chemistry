@@ -39,6 +39,9 @@ But we know that $\lim_{x\to \pm\infty}f(x)=0$. Therefore, the first term in the
 
 <p align="center"> $ \mathscr{F}(\frac{d}{dx}f(x))= \frac{1}{\sqrt[]{2\pi}} (ik)\int_{-\infty}^{\infty} f(x) e^{-ikx}dx.$ </p>
 
-Therefore, we can see that Fourier Transform converts the derivative to a multiplication (by $ik$). Note that taking higher derivatives will result in higher factors of $ik$. This can be of tremendous help in evaluating the Hamiltonian of complex systems. Since $\hat{H}=\hat{T} +\hat{V} $ and $\hat{T}$ is mainly a second derivative with respect to position, then it is beneficial to take the Fourier Transform of this operation and evaluate $\hat{T}$ in the momentum domain then recombine it with $\hat{V}$ (which is easier to leave in the position domain).
+Therefore, we can see that Fourier Transform converts the derivative to a multiplication by $ik$. Note that taking higher derivatives will result in higher factors of $ik$. This can be of a tremendous help in evaluating the Hamiltonian of complex systems. Since $\hat{H}=\hat{T} +\hat{V} $ and $\hat{T}$ is mainly a second derivative with respect to position, then it is beneficial to take the Fourier Transform of this operation and evaluate $\hat{T}$ in the momentum domain then recombine it with $\hat{V}$ (which is easier to leave in the position domain).
+
+For a better understanding of how Fourier transform please visit my page on Fourier Transform visualization [here](/fourier2.md).
+
 
 [Go back to home page](/README.md)
