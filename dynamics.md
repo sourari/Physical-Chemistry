@@ -38,6 +38,10 @@ Now for a late barrier we need more energy in atom A for the reaction to occur. 
 <p align="center"><img src="https://user-images.githubusercontent.com/35305574/38706576-ad0f0914-3e7b-11e8-8b6d-082edac35a08.png" width="500"></p>
 <p align="center">Fig.6</p>
 
+The examples above are based on the Morse potential, so how about the Lennard-Jones (L-J) potential? Recall the shape of the L-J potential we saw before, it has a much deeper well than the Morse potential. Therefore, we should expect to see a lower rate of reaction than what we observed above. Fig.7 bellow shows the potential energy surface for L-J.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/35305574/38707059-b6ac0448-3e7d-11e8-8847-c75989ce6ef5.png" width="500"></p>
+<p align="center">Fig.7</p>
 
 
 
