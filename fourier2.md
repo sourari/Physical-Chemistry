@@ -16,7 +16,7 @@ Then using the FFT function of Matlab, we obtain the Fourier Transform of the fu
   <img src="https://user-images.githubusercontent.com/35305574/38653299-14975db0-3dd8-11e8-9e05-aa1f054df849.jpg" width="500">
 </p>
 
-As expected we see a peak at $\frac{k}{2\pi}=250 m^{-1}$ (notice that I used \frac{k}{2\pi} not $k$ because $k= 2\pi \frac{1}{\lambda}$ and $\lambda = \frac{1}{250} m$). We can also do the same for a function with two sin components $f(x)= \sin(2 \pi \cdot 250 \cdot t)+ \sin(2 \pi \cdot 150 \cdot t)$ and we see the function in momentum domain with two peaks, one at each $k$ value:
+As expected we see a peak at $\frac{k}{2\pi}=250 m^{-1}$ (notice that I used $\frac{k}{2\pi}$ not $k$ because $k= 2\pi \frac{1}{\lambda}$ and $\lambda = \frac{1}{250} m$). We can also do the same for a function with two sin components $f(x)= \sin(2 \pi \cdot 250 \cdot t)+ \sin(2 \pi \cdot 150 \cdot t)$ and we see the function in momentum domain with two peaks, one at each $k$ value:
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/38653303-17b9d36a-3dd8-11e8-97fc-a00b6749e54a.jpg" width="500">
