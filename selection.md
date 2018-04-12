@@ -16,7 +16,8 @@ This form is ready for Matlab computation. I used the following code to compute 
 ```Matlab
 M=Vecs' *diag(x)* Vecs;
 ```
-I used the old SHO code with this above code to determine the selection rules for the SHO system. The selection rules for this system are shown in Fig.1. The horizontal axis shows final state $m$ and the vertical axis shows the initial state $n$. From the figure, we can see that transitions only occur for $m=n \pm 1$. In other words, the transition rule is $\Delta v=\pm1$, taking into account that for the SHO is we use the quantum number $v$ not $n$. 
+I used the old SHO code with the above code to determine the selection rules for the SHO system. The selection rules for this system are shown in Fig.1. The horizontal axis shows the final state $m$ and the vertical axis shows the initial state $n$. From the figure, we can see that transitions only occur for $m=n \pm 1$. In other words, the transition rule is $\Delta \nu=\pm1$, following the convention that for SHO we use the quantum number $\nu$ and not $n$.
+
 
 <p align="center"><img src="https://user-images.githubusercontent.com/35305574/38471395-98f4fa00-3b3e-11e8-9b67-01ad0d952ac1.jpg" width="500"></p>
 
