@@ -16,6 +16,8 @@ In the figure above the vertical axis represents the potential energy and the tw
 
 Now let’s run a simulation that will show as how the system behaves as atom A approaches the molecule B-C. Let’s start with an early barrier. Fig.3 bellow shows the relative position of the three atoms as well as the evolution of the energy of the system. I start the system with a high velocity for the atom A moving towards the molecule B-C.
 
+![Four1](/early pass (1).gif) 
+
 
 
 
