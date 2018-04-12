@@ -15,7 +15,7 @@ Therefore, the momentum eigenvalue is the wavenumber $k$ multiplied by $\hbar$. 
 Now, I want to show how the Fourier Transform takes as an input a function in position space $f(x)$ and gives us a new function in $k$-space $\hat{f}(k)$ as an output. As we defined above, the Fourier Transform specifies how much a complex exponential function $e^{ikx}$ with wavenumber $k$ contributes to the function $f(x)$.  As we would expect, each $e^{ikx}$ will contribute to $f(x)$ by a coefficient that is dependent on the value of $k$. We define this coefficient by $\hat{f}(k)$. The function $f(x)$ is, therefore, the sum of all these contributions and can be written as
 <p align="center"> $f(x)=\sum_{k} \hat{f}(k) e^{ikx}$. </p>
 
-The expression above is for discrete values of $k$. To express $f(x)$ in function of continuous and infinite values of $k$, we have to change the sum into an integral to obtain
+The expression above is for discrete values of $k$. To express $f(x)$ in function of continuous and infinite values of $k$, we have to change the sum into an integral as follow
 
 <p align="center"> $f(x)=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} \hat{f}(k) e^{ikx}dk$. </p>
 
@@ -24,8 +24,8 @@ The above equation is known as the inverse Fourier Transform. The Fourier Transf
 
 
 The same equations can be used to transform from the time domain to the frequency domain or vise-versa as follow
-<p align="center"> $f(\omega)=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} \hat{f}(t) e^{-i\omega t}dk$. </p>
-<p align="center"> $\hat{f}(t)=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} f(\omega) e^{i\omega t}dx$. </p>
+<p align="center"> $f(\omega)=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} \hat{f}(t) e^{-i\omega t}dt$. </p>
+<p align="center"> $\hat{f}(t)=\frac{1}{\sqrt[]{2\pi}}\int_{-\infty}^{\infty} f(\omega) e^{i\omega t}d\omega$. </p>
 
 The most important property of Fourier Transform is what they do to derivatives. Let’s consider the function $f(x)$ that has the property that $ \lim_{x\to \pm\infty}f(x) =0$. The Fourier Transform of the derivative of $f(x)$ is 
 
