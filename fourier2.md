@@ -55,13 +55,14 @@ For lowest uncertainty in position:
   <img src="https://user-images.githubusercontent.com/35305574/38460822-da304f4c-3a8f-11e8-871d-3c8a37ff9caf.jpg" width="300">
 </p>
 
-The figures above show how decreasing the width of the Gaussian in position domain (meaning decreasing the uncertainty in position) increases the width of the Gaussian in momentum domain (increasing the uncertainty in momentum). 
+The figures above show how decreasing the width of the Gaussian in position domain (meaning decreasing the uncertainty in position) increases the width of the Gaussian in the momentum domain (increasing the uncertainty in momentum). 
 
 Now with a better understanding of the position-momentum relation, let’s study a simulation of the time evolution of the values of position and momentum as follow. 
 
 ![Four1](/Untitled.gif) 
 
-The figure above shows the evolution of the position (left) and momentum the momentum (right) in the comlex plane. The figure above shows the evolution of the position (left) and momentum the momentum (right) in the complex plane. The vertical planes show the x=o (red) and the k=0 (blue) points. First thing we can see from the figure is that as the position distribution becomes wider the momentum distribution becomes narrower, in agreement with what I have shown the figures above. Notice that when the momentum distribution is centered at $k=0$ the position function is always along the real (no imaginary part). The more the center of the momentum distribution goes way from the center, the kinkier the position distribution becomes. Similarly, the higher the position the kinkier the momentum is.
+The figure above shows the evolution of the position (left) and the momentum (right) in the comlex plane. The vertical planes show the x=o (red) and the k=0 (blue) planes. the first thing we can see from the figure is that as the position distribution becomes wider the momentum distribution becomes narrower, in agreement with what I have shown the figures above. Notice that when the momentum distribution is centered at $k=0$ the position function is always along the real (no imaginary part). The more the center of the momentum distribution goes way from the center, the kinkier the position distribution becomes. Similarly, the higher the position the kinkier the momentum is. Also, as the value of $k$ increases (increasing momentum) the wavelength of the wavefunction in position basis decreases. This results in a steeper wavefunction. 
+
 
 
 
