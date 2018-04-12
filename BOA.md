@@ -45,14 +45,18 @@ We can see that the first term should be the most challenging to deal with, so l
 
 <p align="center"> $= \frac{-\hbar^2 }{2M_a}\nabla^2_a(\psi \chi) + \frac{-\hbar^2 }{2M_b}\nabla^2_b(\psi \chi) .$</p>
 
-The two terms in the equation above are similar, so we can solve the first term and determine the second one by anlogy.
+The two terms in the equation above are similar, so we can solve the first term and determine the second one by analogy.
 
 
 <p align="center"> $\frac{-\hbar^2 }{2M_a}\nabla^2_a(\psi \chi) = \frac{-\hbar^2 }{2M_a} \frac{\partial}{\partial R_a} (\frac{\chi \partial \psi}{\partial R_a} + \frac{\psi \partial \chi}{\partial R_a}) $</p>
 
 <p align="center"> $= \frac{-\hbar^2 }{2M_a}[(\chi \frac{\partial^2 \psi}{\partial {R_a}^2}+\frac{\partial \psi}{\partial {R_a}}\frac{\partial \chi}{\partial {R_a}}) +  (\psi \frac{\partial^2 \chi}{\partial {R_a}^2}+\frac{\partial \psi}{\partial {R_a}}\frac{\partial \chi}{\partial {R_a}})] $</p>
 
-Now comes the Born-Oppenheimer approximation. We know that the mass of the proton is 1836 times greater than that of the electron. Therefore, as the whole system (electron + two protons) move in space, the electron also moves relative to the center of mass of the system. We can then approximate that the rate of change of $\psi$ with respect to $R_a$ is insignificant. We then obtain
+Now comes the Born-Oppenheimer approximation. We know that the mass of the proton is 1836 times greater than that of the electron. Therefore, as the whole system (electron + two protons) move in space, the electron also moves relative to the center of mass of the system. We can then approximate that the rate of change of $\psi$ with respect to $R_a$ is insignificant. So that
+
+<p align="center"> $\frac{\partial^2 \psi}{\partial {R_a}^2}= \frac{\partial \psi}{\partial {R_a}}=0 $.</p>
+
+We then obtain
 
 <p align="center"> $\frac{-\hbar^2 }{2M_a}\nabla^2_a(\psi \chi) = \frac{-\hbar^2 }{2M_a}\psi \frac{\partial^2 \chi}{\partial {R_a}^2} $.</p>
 
