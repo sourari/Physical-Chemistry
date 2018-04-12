@@ -21,7 +21,9 @@ I used the old SHO code with the above code to determine the selection rules for
 
 <p align="center"><img src="https://user-images.githubusercontent.com/35305574/38471395-98f4fa00-3b3e-11e8-9b67-01ad0d952ac1.jpg" width="500"></p>
 
-The SHO model is very useful to understand the selection rules, however, to a more realistic model of molecular vibration is given by the Lennard-Jones potential. This potential is shown in the next page.
+The SHO model is very useful to understand the selection rules, however, to a more realistic model of molecular vibration is given by the Lennard-Jones potential. This potential is shown in the [next page](/LJP.md).
+
+
 
 
 [Go back to home page](/README.md)
