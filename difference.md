@@ -21,7 +21,7 @@ where $I$ is the identity matrix such that $I\Psi(x,t)=\Psi(x,t).$
 
 We can consider the whole entity $(\frac{\Delta t}{i \hbar} H +I)$ as one operator, which is computationally easy to build, that operates on the wavefunction at a certain time $t$ to give us the subsequent wavefunction after a time duration $\Delta t$. 
 
-This is all that is needed to compute the wavefunction of the system at any time we want. We can start with a predefined wavefunction at ($t=0$) $\Psi(x, 0)$ and from there we can track the time evolution at any time $t$. But this is exactly where the error accumulation come in. Say we start with an error $\epsilon$ associated with $\Psi(x, 0)$, every time we advance in time by $\Delta t$, we pick up an extra factor of $\ epsilon $ and at some point the calculated value would diverge significantly from the real value that our method does not hold anymore.
+This is all that is needed to compute the wavefunction of the system at any time we want. We can start with a predefined wavefunction at ($t=0$) $\Psi(x, 0)$ and from there we can track the time evolution at any time $t$. But this is exactly where the error accumulation come in. Say we start with an error $\epsilon$ associated with $\Psi(x, 0)$, every time we advance in time by $\Delta t$ we pick up an extra factor of $\ epsilon $ and at some point the calculated value would diverge significantly from the real value that our method does not hold anymore.
 
 
 
