@@ -11,7 +11,8 @@ Let’s consider a PIB system with a barrier in the middle of the potential well
 </p>
 <p align="center">Fig.1</p>
 
-In this case we can compute the wavefunction of the left well and the right well separately. Then we can use the separate wavefunctions of the two wells as a basis for the total wavefunction. This can be mathematically expressed as $\psi_{tot} \approx c_{left} \cdot \psi_{left}+ c_{right} \cdot \psi_{right} $.
+In this case we can compute the wavefunction of the left well and the right well separately. Then we can use the separate wavefunctions of the two wells as a basis for the total wavefunction. This can be mathematically expressed as $\psi_{tot} \approx c_{left} \cdot \psi_{left}+ c_{right} \cdot \psi_{right} $, where $c_{left}$ and $c_{right}$ are Constant and represent the coefficients for the two functions $\psi_{left}$ and $\psi_{right}$ respectively. 
+
 
 The wavefunctions of the separate wells are shown in Fig.2. The figure shows three eigenstates for $n=1$, $n=2$ and $n=3$ (from lowest to highest in the figure).  
 
