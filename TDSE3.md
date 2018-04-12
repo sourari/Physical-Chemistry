@@ -14,7 +14,8 @@ The behavior of the particle is shown in the video bellow
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/35305574/36706076-338a610a-1b36-11e8-8ae3-6a15358414b3.gif" width="800"> </p>
 
-The wavepacket travels towards the finite barrier then a part of the packet tunnels through the barrier, while some other part is reflected back. The ratio between the transmitted and the reflected parts of the wavepacket is mainly determined by the width and height of the barrier and also the mass of the particle.
+The wavepacket travels towards the finite barrier then a part of the packet tunnels through the barrier, while some other part is reflected back. The ratio between the transmitted and the reflected parts of the wavepacket is mainly determined by the width and height of the barrier and also the mass of the particle. The upper left graph of the figure shows the wavefunction in energy space. We can see different rotating peaks (corresponding to different energy states), with each peak rotating at a different frequency that is dependent on the energy value. If the system was in a stationary state, we would only see one single peak in the graph. 
+
 
 The method I used so far in calculating the wavefunction was to directly evaluate the eigenvalues and eigenvectors of the Hamiltonian and then finding the time dependent wavefunction at the desired time ($t$) using the formula 
 $$\Psi(x,t)_n=\psi(x)_n e^{\frac{-iE_n}{h}t}$$.
