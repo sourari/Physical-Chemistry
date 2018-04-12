@@ -6,8 +6,8 @@ So far in my study I have explored the PIB system fairly deeply. I showed how th
 
 What makes a quantum system transition from one energy level to another? This ties back to light-matter interactions. To understand these interactions, we have to revisit the idea of electric dipoles ([see this link](/dipoles.md)). An electric dipole can represent the electron (negative part of the dipole) and the nucleus (positive part of the dipole) of an atom or can represent a molecule. Each dipole has a natural frequency often referred to as $\omega_0$. If the frequency of an incident electromagnetic field ($\omega$) is resonant with the natural frequency of the dipole, $\omega=\omega_0$, then the light would be absorbed and this would trigger a vibration of the dipole. The further the frequency of light is from $\omega_0$ the less probable it is for light to be absorbed. Sounds like we are getting closer to some rules of transitions isn’t it?
 
-To find the probability of a transition from a state $\psi_n$ to $\psi_m$, given $\omega 	\approx \omega_0$, we needto evaluate the transition integral given by
-<p align="center"> $M_{nm}=\int \psi_n \vec{\mu} \psi_m $. </p>
+To find the probability of a transition from a state $\psi_n$ to $\psi_m$, given $\omega 	\approx \omega_0$, we need to evaluate the transition integral given by
+<p align="center"> $M_{nm}=\int \psi_n \cdot \vec{\mu} \cdot \psi_m $. </p>
 
 As you would expect, I want to change this integral into an inner product. The transition probability is the given by
 <p align="center"> $M_{nm}=<\psi_n,  \vec{\mu} \psi_m >$. </p>
