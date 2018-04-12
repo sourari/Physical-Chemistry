@@ -88,13 +88,13 @@ Call the terms in parenthesis $ \hat{V}_{nuclear}$ to obtain
 
 <p align="center"> $\hat{T}_{nuclear} \chi + \hat{V}_{nuclear} \chi =\xi \chi$.</p>
 
-This gives as an equation for the dynamics of the two protons. The potential energy operator $\hat{V}_{nuclear}$ is a combination of the nucleus - nucleus repletion and the electron-nucleus. For large separation between the two nuclei the dominant interaction is the electron-nucleus. On the other hand, for small separation the nucleus - nucleus repletion is the dominant interaction. Therefore, the potential energy will have the form shown in Fig.2 bellow.
+This gives as an equation for the dynamics of the two protons. The potential energy operator $\hat{V}_{nuclear}$ is a combination of the nucleus-nucleus repulsion and the electron-nucleus attraction. For large separation between the two nuclei the dominant interaction is the electron-nucleus. On the other hand, for small separation between the nuclei, the nucleus-nucleus repulsion is the dominant interaction. Therefore, the potential energy will have the form shown in Fig.2 bellow.
 
 
 <p align="center"><img src="https://user-images.githubusercontent.com/35305574/38476034-bac110fc-3b79-11e8-8f23-d9108b18a1d9.jpeg" width="500"></p>
 <p align="center">Fig.2</p>
 
-We can use this model to study the interactions between three atoms such as the exchange reaction
+The figure above gives as the energy of the electron when it is in the two-nuclei system for each separation between the two nuclei. We can use this model to study the interactions between three atoms such as the exchange reaction
 <p align="center"> A + B-C $\rightarrow$ A-B + C</p>
 
 This will be the focus of the [next page](/ABC.md).
