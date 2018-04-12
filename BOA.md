@@ -74,7 +74,7 @@ The TISE can be rewritten as
 
 Call the second term $E_e$ and factor out the $\chi$ in the first term to obtain
 
-<p align="center"> $((\frac{\hat{T}_{nuclear}}{\chi} + \frac{1}{\chi} \hat{V}_{nuc-nuc})\chi+ E_e=\xi$.</p>
+<p align="center"> $(\frac{\hat{T}_{nuclear}}{\chi} + \frac{1}{\chi} \hat{V}_{nuc-nuc})\chi+ E_e=\xi$.</p>
 
 Then multiply both sides by $\chi$ to obtain
 
