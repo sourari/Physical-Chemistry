@@ -91,7 +91,7 @@ Call the terms in parenthesis $ \hat{V}_{nuclear}$ to obtain
 This gives as an equation for the dynamics of the two protons. The potential energy operator $\hat{V}_{nuclear}$ is a combination of the nucleus-nucleus repulsion and the electron-nucleus attraction. For large separation between the two nuclei the dominant interaction is the electron-nucleus. On the other hand, for small separation between the nuclei, the nucleus-nucleus repulsion is the dominant interaction. Therefore, the potential energy will have the form shown in Fig.2 bellow.
 
 
-<p align="center"><img src="https://user-images.githubusercontent.com/35305574/38476034-bac110fc-3b79-11e8-8f23-d9108b18a1d9.jpeg" width="500"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/35305574/38694484-c42e5ec0-3e57-11e8-847b-d4b788c52cfc.jpg" width="500"></p>
 <p align="center">Fig.2</p>
 
 The figure above gives as the energy of the electron when it is in the two-nuclei system for each separation between the two nuclei. We can use this model to study the interactions between three atoms such as the exchange reaction
