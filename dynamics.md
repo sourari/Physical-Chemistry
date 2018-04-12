@@ -30,6 +30,15 @@ Now if we decrease the initial velocity of atom A, the reaction does not occur a
 ![Four3](/eno.gif) 
 <p align="center">Fig.4</p>
 
+Now for a late barrier we need more energy in atom A for the reaction to occur. The figures bellow show the example of a reaction and an example of a system that did not have enough energy to break the B-C bond.  
+
+<p align="center"><img src="https://user-images.githubusercontent.com/35305574/38706575-aba155a0-3e7b-11e8-851b-5e114937c54a.png" width="500"></p>
+<p align="center">Fig.5</p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/35305574/38706576-ad0f0914-3e7b-11e8-8b6d-082edac35a08.png" width="500"></p>
+<p align="center">Fig.6</p>
+
+
 
 
 
