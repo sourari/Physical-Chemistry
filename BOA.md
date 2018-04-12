@@ -62,7 +62,7 @@ We then obtain
 
 By analogy we also have 
 
-<p align="center"> $\frac{-\hbar^2 }{2M_b}\nabla^2_a(\psi \chi) = \frac{-\hbar^2 }{2M_b}\psi \frac{\partial^2 \chi}{\partial {R_b}^2}$. $</p>
+<p align="center"> $\frac{-\hbar^2 }{2M_b}\nabla^2_b(\psi \chi) = \frac{-\hbar^2 }{2M_b}\psi \frac{\partial^2 \chi}{\partial {R_b}^2}$. $</p>
 
 Therefore, the TISE become
 
