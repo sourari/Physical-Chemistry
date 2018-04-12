@@ -4,7 +4,7 @@
 
 In the previous [page](/fourier.md) I introduced mathematically what Fourier Transforms are. Here I will build from that some visualizations that will help us construct an intuition of how Fourier Transforms work.
 
-Let’s see some examples of Fourier Transform of wavefunction from position space to momentum space, keeping in mind the uncertainty principle. If the wavefunction in position space is well defined we should expect a flat wavefunction in momentum space. If we consider a sinusoidal function in the position space $f(x)=sin(2 pi 250 t)$ with a frequency of $250 \frac{m}{s}$:
+Let’s see some examples of the Fourier Transform of wavefunction (from position space to momentum space), keeping in mind the uncertainty principle. If the wavefunction in position space is well defined we should expect a flat wavefunction in momentum space. Consider a sinusoidal function in the position space given by $f(x)= \sin (2 \pi 250 t)$ with a frequency of $250 \frac{m}{s}$:
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/35305574/38459698-2694ba9a-3a7b-11e8-8cef-4bad82d5a505.jpg" width="300">
